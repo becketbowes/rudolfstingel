@@ -1,0 +1,1 @@
+# rudolf stingel exhibition history
