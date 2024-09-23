@@ -8,4 +8,7 @@ body {
     min-height: 100vh;
   }
   
+  * {
+    font-family: 'Outfit', sans-serif;
+  }
   /* Add any other global styles here */

@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header() {
   const [titleState, setTitleState] = useState('initial');
-  const { selectedYear, selectedExhibition } = useAppContext();
+  const { selectedExhibition } = useAppContext();
 
   useEffect(() => {
     setTitleState('start')
@@ -17,29 +17,14 @@ function Header() {
 
   useEffect(() => {
     if (selectedExhibition) {
-      setTitleState('menu-selected');
-    } else if (selectedYear) {
-      setTitleState('year-selected');
+      setTitleState('exhibition-selected');
+    } else {
+      setTitleState('animated');
     }
-  }, [selectedYear, selectedExhibition]);
+  }, [selectedExhibition]);
 
   return (
-    <h1 
-      className={`title ${titleState}`}
-      style={{ 
-        color: 'white', 
-        fontFamily: "'Outfit', sans-serif", 
-        fontWeight: 700,
-        fontSize: '3rem',
-        margin: 0,
-        padding: '20px',
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        textAlign: 'center',
-      }}
-    >
+    <h1 className={`title ${titleState}`}>
       Rudolf Stingel
     </h1>
   );
