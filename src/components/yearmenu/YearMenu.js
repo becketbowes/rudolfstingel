@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import './YearMenu.css'
 
@@ -9,6 +9,17 @@ const YearMenu = () => {
 
   const years = Object.keys(exhibitions).sort((a, b) => b - a);
 
+  const centerSelectedYear = useCallback(() => {
+    if (yearsContainerRef.current && selectedYear) {
+      const container = yearsContainerRef.current;
+      const selectedYearElement = container.querySelector(`.year-button.selected`);
+      if (selectedYearElement) {
+        const scrollLeft = selectedYearElement.offsetLeft - (container.clientWidth / 2) + (selectedYearElement.offsetWidth);
+        container.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+      }
+    }
+  }, [selectedYear]);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
@@ -18,10 +29,18 @@ const YearMenu = () => {
   }, []);
 
   useEffect(() => {
-    if (isHorizontal && selectedYear) {
+    if (isHorizontal) {
       centerSelectedYear();
     }
-  }, [isHorizontal, selectedYear]);
+  }, [isHorizontal, selectedYear, centerSelectedYear]);
+
+  useEffect(() => {
+    if (isHorizontal && selectedYear) {
+      setTimeout(() => { 
+        centerSelectedYear();
+      }, 1000);
+    }
+  }, [isHorizontal, selectedYear, centerSelectedYear]);
 
   useEffect(() => {
     if (isHorizontal) {
@@ -30,17 +49,6 @@ const YearMenu = () => {
       document.body.classList.remove('exhibition-selected');
     }
   }, [isHorizontal]);
-
-  const centerSelectedYear = () => {
-    if (yearsContainerRef.current) {
-      const container = yearsContainerRef.current;
-      const selectedYearElement = container.querySelector(`.year-button.selected`);
-      if (selectedYearElement) {
-        const scrollLeft = selectedYearElement.offsetLeft - (container.clientWidth / 2) + (selectedYearElement.offsetWidth);
-        container.scrollTo({ left: scrollLeft, behavior: 'smooth' });
-      }
-    }
-  };
 
   const handleYearClick = (year) => {
     if (year === selectedYear && !selectedExhibition) {
@@ -53,7 +61,14 @@ const YearMenu = () => {
 
   const handleExhibitionClick = (exhibition) => {
     setSelectedExhibition(exhibition);
-    setIsHorizontal(true);
+    if (!isHorizontal) {
+      setTimeout(() => {
+        setIsHorizontal(true);
+        centerSelectedYear();
+      }, 1005);
+    } else {
+      setIsHorizontal(true);
+    }
   };
 
   return (

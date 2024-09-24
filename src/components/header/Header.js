@@ -23,7 +23,7 @@ function Header() {
     }
   }, [isHorizontal]);
 
-  const handleTitleClick = () => {
+  const handleReset = () => {
     setSelectedYear(null);
     setSelectedExhibition(null);
     setIsHorizontal(false);
@@ -31,11 +31,14 @@ function Header() {
   };
 
   return (
-    <button className={`title-button ${titleState}`} onClick={handleTitleClick}>  
+    <>
+      <button className="reset-button" onClick={handleReset} aria-label="Reset">
+        <span className="sr-only">Reset</span>
+      </button>
       <h1 className={`title ${titleState}`}>
         Rudolf Stingel
       </h1>
-    </button>
+    </>
   );
 }
 
