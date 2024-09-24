@@ -3,10 +3,8 @@ import { useAppContext } from '../../context/AppContext';
 import './YearMenu.css'
 
 const YearMenu = () => {
-  const { exhibitions, selectedYear, setSelectedYear } = useAppContext();
-  const [isHorizontal, setIsHorizontal] = useState(false);
+  const { exhibitions, selectedYear, setSelectedYear, selectedExhibition, setSelectedExhibition, isHorizontal, setIsHorizontal} = useAppContext();
   const [isVisible, setIsVisible] = useState(false);
-  const [selectedExhibition, setSelectedExhibition] = useState(null);
   const yearsContainerRef = useRef(null);
 
   const years = Object.keys(exhibitions).sort((a, b) => b - a);
@@ -25,12 +23,20 @@ const YearMenu = () => {
     }
   }, [isHorizontal, selectedYear]);
 
+  useEffect(() => {
+    if (isHorizontal) {
+      document.body.classList.add('exhibition-selected');
+    } else {
+      document.body.classList.remove('exhibition-selected');
+    }
+  }, [isHorizontal]);
+
   const centerSelectedYear = () => {
     if (yearsContainerRef.current) {
       const container = yearsContainerRef.current;
       const selectedYearElement = container.querySelector(`.year-button.selected`);
       if (selectedYearElement) {
-        const scrollLeft = selectedYearElement.offsetLeft - (container.clientWidth / 2) + (selectedYearElement.offsetWidth / 2);
+        const scrollLeft = selectedYearElement.offsetLeft - (container.clientWidth / 2) + (selectedYearElement.offsetWidth);
         container.scrollTo({ left: scrollLeft, behavior: 'smooth' });
       }
     }

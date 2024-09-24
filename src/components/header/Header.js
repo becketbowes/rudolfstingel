@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header() {
   const [titleState, setTitleState] = useState('initial');
-  const { selectedExhibition } = useAppContext();
+  const { setSelectedYear, setSelectedExhibition, isHorizontal, setIsHorizontal } = useAppContext();
 
   useEffect(() => {
     setTitleState('start')
@@ -16,17 +16,26 @@ function Header() {
   }, []);
 
   useEffect(() => {
-    if (selectedExhibition) {
-      setTitleState('exhibition-selected');
+    if (isHorizontal) {
+      setTitleState('horizontal-menu');
     } else {
       setTitleState('animated');
     }
-  }, [selectedExhibition]);
+  }, [isHorizontal]);
+
+  const handleTitleClick = () => {
+    setSelectedYear(null);
+    setSelectedExhibition(null);
+    setIsHorizontal(false);
+    setTitleState('animated');
+  };
 
   return (
-    <h1 className={`title ${titleState}`}>
-      Rudolf Stingel
-    </h1>
+    <button className={`title-button ${titleState}`} onClick={handleTitleClick}>  
+      <h1 className={`title ${titleState}`}>
+        Rudolf Stingel
+      </h1>
+    </button>
   );
 }
 

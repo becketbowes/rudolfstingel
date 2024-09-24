@@ -13,6 +13,7 @@ const images = [image1, image2, image3];
 export const AppProvider = ({ children }) => {
   const [selectedYear, setSelectedYear] = useState(null);
   const [selectedExhibition, setSelectedExhibition] = useState(null);
+  const [isHorizontal, setIsHorizontal] = useState(false);
   const [backgroundImage] = useState(() => {
     const randomIndex = Math.floor(Math.random() * images.length);
     return images[randomIndex];
@@ -25,6 +26,8 @@ export const AppProvider = ({ children }) => {
       setSelectedYear,
       selectedExhibition,
       setSelectedExhibition,
+      isHorizontal,
+      setIsHorizontal,
       backgroundImage,
     }}>
       {children}

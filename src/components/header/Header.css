@@ -1,3 +1,13 @@
+.title-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
 .title {
   color: white;
   font-family: 'Outfit', sans-serif;
@@ -10,20 +20,22 @@
   left: 0;
   right: 0;
   text-align: center;
-  transition: all 3s ease-out, font-size 1s ease-out;
+  transition: all 3s ease-out, font-size 1s ease-out, color 1s ease-out;
   transform: translateY(calc(50vh - 100%));
+  z-index: 1001;
 }
-
 .title.start {
   transform: translateY(calc(50vh - 100%));
 }
 
 .title.animated {
-  transform: translateY(0);
+  transform: translateY(3vh);
 }
 
-.title.exhibition-selected {
-  font-size: 1rem;
+.title.horizontal-menu {
+  color: black;
+  font-size: 2rem;
+  transform: translateY(1vh);
 }
 
 body {

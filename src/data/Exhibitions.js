@@ -1,4 +1,5 @@
 export const exhibitions = {
+    1999: [],
     2000: [],
     2001: [],
     2002: [],
