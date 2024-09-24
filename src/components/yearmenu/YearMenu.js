@@ -43,7 +43,6 @@ const YearMenu = () => {
       setSelectedYear(year);
       setSelectedExhibition(null);
     }
-    setIsHorizontal(false);
   };
 
   const handleExhibitionClick = (exhibition) => {

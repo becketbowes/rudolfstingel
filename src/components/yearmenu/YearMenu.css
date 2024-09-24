@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     max-height: calc(100vh - 120px);
-    max-width: calc(100vw - 80px);
+    max-width: calc(100vw);
     overflow: auto;
     padding-top: 100px;
     transition: all 1s ease-out, opacity 1s ease-in-out;
@@ -21,11 +21,12 @@
   
   .year-menu.horizontal {
     flex-direction: column;
-    top: 40px;
+    top: 60px;
     left: 0;
     right: 0;
     transform: none;
     padding-top: 0;
+    padding-bottom: 0;
     max-height: none;
     overflow-x: visible;
     overflow-y: visible;
@@ -58,7 +59,7 @@
   }
   
   .year-section {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,6 +93,11 @@
     opacity: 1.0;
   }
   
+.exhibition-button.selected {
+    transform: translateY(-20px);
+    font-weight: bold
+}
+
   .exhibitions-container {
     display: flex;
     flex-direction: column;
@@ -112,11 +118,11 @@
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    margin-top: 10px;
   }
   
   .horizontal .selected-exhibition {
+    font-size: 20px;
+    font-weight: bold;
     position: static;
     transform: none;
-    margin-top: 20px;
   }
