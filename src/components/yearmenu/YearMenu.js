@@ -16,7 +16,7 @@ const YearMenu = () => {
       const container = yearsContainerRef.current;
       const selectedYearElement = container.querySelector(`.year-button.selected`);
       if (selectedYearElement) {
-        const scrollLeft = selectedYearElement.offsetLeft - (container.clientWidth / 2) + (selectedYearElement.offsetWidth);
+        const scrollLeft = selectedYearElement.offsetLeft - (container.clientWidth / 2) + (selectedYearElement.offsetWidth / 2);
         container.scrollTo({ left: scrollLeft, behavior: 'smooth' });
       }
     }
