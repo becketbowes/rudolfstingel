@@ -1,8 +1,8 @@
 import React, { createContext, useContext, useState } from 'react';
 import { exhibitions } from '../data/Exhibitions';
-import image1 from '../images/background/background1.png';
-import image2 from '../images/background/background2.png';
-import image3 from '../images/background/background3.png';
+import image1 from '../assets/images/background/background1.png';
+import image2 from '../assets/images/background/background2.png';
+import image3 from '../assets/images/background/background3.png';
 
 const AppContext = createContext();
 

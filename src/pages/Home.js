@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header.js';
 import YearMenu from '../components/yearmenu/YearMenu.js';
+import Carousel from '../components/carousel/Carousel.js';
 import { useAppContext } from '../context/AppContext';
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
     <div style={appStyle}>
       <Header />
       <YearMenu />
+      <Carousel />
       {/* YearMenu and ExhibitionList components will be added here later */}
     </div>
   );
