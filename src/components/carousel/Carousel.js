@@ -53,6 +53,26 @@ const Carousel = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? prevIndex : prevIndex - 1));
   };
 
+  const renderIndicators = () => {
+    if (!selectedExhibition) return null;
+    const totalDots = selectedExhibition.images.length + 1; // +1 for the info page
+    return (
+      <div className="carousel-container">
+        <div className="carousel-indicators">
+          {[...Array(totalDots)].map((_, index) => (
+            <span
+              key={index}
+              className={`indicator-dot ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => setCurrentIndex(index)}
+            />
+          ))}
+        </div>
+      </div>
+    );
+  };
+
+  if (!selectedExhibition) return null;
+
   return (
     <div 
       className="carousel-container"
@@ -82,6 +102,8 @@ const Carousel = () => {
           </div>
         </div>
       )}
+
+      {renderIndicators()}
 
       {!isMobile && (
         <>
