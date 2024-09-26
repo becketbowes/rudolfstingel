@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useAppContext } from '../../context/AppContext'; // Update this path
+import { useAppContext } from '../../context/AppContext';
 import './Carousel.css';
 
-const ExhibitionCarousel = () => {
+const Carousel = () => {
   const { selectedExhibition } = useAppContext();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStart, setTouchStart] = useState(0);
@@ -20,7 +20,6 @@ const ExhibitionCarousel = () => {
   }, []);
 
   useEffect(() => {
-    // Reset current index when a new exhibition is selected
     setCurrentIndex(0);
   }, [selectedExhibition]);
 
@@ -68,7 +67,7 @@ const ExhibitionCarousel = () => {
           className={`carousel-slide ${index === currentIndex ? 'active' : ''}`}
           style={{transform: `translateX(${100 * (index - currentIndex)}%)`}}
         >
-          <img src={image} alt={`Exhibition View ${index + 1}`} />
+          <img src={require(`../../${image}`)} alt={`Exhibition view ${index + 1}`} />
         </div>
       ))}
       
@@ -102,4 +101,4 @@ const ExhibitionCarousel = () => {
   );
 };
 
-export default ExhibitionCarousel;
+export default Carousel;

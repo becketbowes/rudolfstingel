@@ -1,10 +1,28 @@
 .carousel-container {
     position: fixed;
-    top: 200px;
     bottom: 50px;
     left: 0;
     right: 0;
     overflow: hidden;
+    z-index: 1100;
+  }
+  
+  .carousel-container.visible {
+    opacity: 1;
+  }
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .carousel-container {
+      top: 150px;
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 769px) {
+    .carousel-container {
+      top: 200px;
+    }
   }
   
   .carousel-slide {
@@ -32,6 +50,7 @@
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
+    text-align: center;
   }
   
   .show-page h2 {
@@ -78,8 +97,7 @@
   }
   
   @media (max-width: 768px) {
-    .carousel-container {
-      left: 0;
-      right: 0;
+    .carousel-button {
+      display: none;
     }
   }
