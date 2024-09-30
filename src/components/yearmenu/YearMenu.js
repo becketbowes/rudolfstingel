@@ -40,7 +40,7 @@ const YearMenu = () => {
     if (isHorizontal && selectedYear) {
       setTimeout(() => { 
         centerSelectedYear();
-      }, 1500);
+      }, 1000);
     }
   }, [isHorizontal, selectedYear, centerSelectedYear]);
 

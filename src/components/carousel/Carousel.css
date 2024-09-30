@@ -2,7 +2,7 @@
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 70px;
+  bottom: 50px;
   overflow: hidden;
   z-index: 1100;
 }
@@ -165,5 +165,12 @@
 @media (max-width: 768px) {
   .carousel-button {
     display: none;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 768px) {
+  .carousel-outer-container {
+    top: 100px;
+    bottom: 30px;
   }
 }

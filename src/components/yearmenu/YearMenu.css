@@ -171,3 +171,23 @@ body.exhibition-selected::before {
 .year-menu {
   z-index: 1000;
 }
+
+@media only screen and (orientation: landscape) and (max-width: 768px) {
+  .year-menu.horizontal {
+    top: 9vh;
+  }
+  
+  .horizontal .selected-exhibition {
+    margin-top: 10px;
+  }
+
+  body.exhibition-selected::before {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.8) 80px,
+      rgba(255, 255, 255, 1) 90px,
+      rgba(255, 255, 255, 1) 100%
+    )
+  }
+}
