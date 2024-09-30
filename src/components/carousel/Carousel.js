@@ -98,9 +98,7 @@ const Carousel = () => {
               <h2>{selectedExhibition.title}</h2>
               <p>{selectedExhibition.description}</p>
               <div className="links">
-                <a href={selectedExhibition.pressRelease} target="_blank" rel="noopener noreferrer">Press Release</a>
-                <a href={selectedExhibition.workList} target="_blank" rel="noopener noreferrer">Work List</a>
-                <a href={selectedExhibition.externalLink} target="_blank" rel="noopener noreferrer">External Link</a>
+                <a href={selectedExhibition.externalLink} target="_blank" rel="noopener noreferrer">Venue Website</a>
               </div>
             </div>
           )}

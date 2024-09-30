@@ -25,7 +25,7 @@ const YearMenu = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 3000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -40,7 +40,7 @@ const YearMenu = () => {
     if (isHorizontal && selectedYear) {
       setTimeout(() => { 
         centerSelectedYear();
-      }, 1000);
+      }, 1500);
     }
   }, [isHorizontal, selectedYear, centerSelectedYear]);
 
@@ -62,14 +62,15 @@ const YearMenu = () => {
   };
 
   const handleExhibitionClick = (exhibition) => {
-    setSelectedExhibition(exhibition);
     if (!isHorizontal) {
+      centerSelectedYear()
       setTimeout(() => {
         setIsHorizontal(true);
-        centerSelectedYear();
-      }, 1005);
+        setSelectedExhibition(exhibition);
+      }, 500);
     } else {
       setIsHorizontal(true);
+      setSelectedExhibition(exhibition)
     }
   };
 

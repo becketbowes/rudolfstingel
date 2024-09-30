@@ -15,105 +15,153 @@ export const exhibitions = {
     2012: [],
     2013: [],
 "2014": [
-  {
-    "id": "2014-1",
-    "title": "Gagosian NY 21st Street",
-    "description": "A remarkable exhibition showcasing contemporary art at Gagosian Gallery, New York.",
-    "images": [
-      {
-        "path": "assets/images/shows/2014GagosianNYe1.jpg",
-        "text": null
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNYe2.jpg",
-        "text": null
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNYe3.jpg",
-        "text": null
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNYe4.jpg",
-        "text": null
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNYe5.jpg",
-        "text": null
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNYe6.jpg",
-        "text": null
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNYe7.jpg",
-        "text": null
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNY664_JL.jpg",
-        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNY666_JL.jpg",
-        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNY667_JL.jpg",
-        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNY668_JL.jpg",
-        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNY669_JL.jpg",
-        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
-      },
-      {
-        "path": "assets/images/shows/2014GagosianNY1672_RI_JL.jpg",
-        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
-      }
-    ],
-    "pressRelease": "/assets/pdfs/2014GagosianNYpress.pdf",
-    "workList": "/assets/pdfs/2014GagosianNYworkList.pdf",
-    "externalLink": "https://example.com/external-link/gagosianNY"
-  },
     {
-      "id": "2014-2",
-      "title": "Massimo De Carlo Milan via Ventura",
-      "description": "A major exhibition hosted by Massimo De Carlo in Milan, showcasing modern Italian art.",
-      "images": [
-        "assets/images/shows/2014MDeCarloMLe1.jpg",
-        "assets/images/shows/2014MDeCarloMLe2.jpg",
-        "assets/images/shows/2014MDeCarloMLe3.jpg",
-        "assets/images/shows/2014MDeCarloMLe4.jpg",
-        "assets/images/shows/2014MDeCarloMLe5.jpg",
-        "assets/images/shows/2014MDeCarloMLe6.jpg",
-        "assets/images/shows/2014MDeCarloMLe7.jpg",
-        "assets/images/shows/2014MDeCarloMLe8.jpg",
-        "assets/images/shows/2014MDeCarloMLe9.jpg",
-        "assets/images/shows/2014MDeCarloML1537.jpg",
-        "assets/images/shows/2014MDeCarloML1705_RI_JL.jpg",
-        "assets/images/shows/2014MDeCarloML1706_RI_JL.jpg",
-        "assets/images/shows/2014MDeCarloML1732.jpg",
-        "assets/images/shows/2014MDeCarloML1734.jpg",
-        "assets/images/shows/2014MDeCarloML1757_RI_JL.jpg"
-      ],
-      "pressRelease": "/assets/pdfs/2014MDeCarloMLpress.pdf",
-      "workList": "/assets/pdfs/2014MDeCarloMLworkList.pdf",
-      "externalLink": "https://example.com/external-link/massimoDeCarlo"
+        "id": "2014-1",
+        "title": "Gagosian NY 21st Street",
+        "description": "A remarkable exhibition showcasing contemporary art at Gagosian Gallery, New York.",
+        "images": [
+        {
+            "path": "assets/images/shows/2014GagosianNYe1.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNYe2.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNYe3.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNYe4.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNYe5.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNYe6.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNYe7.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNY664_JL.jpg",
+            "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNY666_JL.jpg",
+            "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNY667_JL.jpg",
+            "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNY668_JL.jpg",
+            "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNY669_JL.jpg",
+            "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+        },
+        {
+            "path": "assets/images/shows/2014GagosianNY1672_RI_JL.jpg",
+            "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+        }
+        ],
+        "externalLink": "https://gagosian.com/exhibitions/2014/rudolf-stingel/"
     },
     {
-      "id": "2014-3",
-      "title": "Paula Cooper NY",
-      "description": "A captivating exhibition held at Paula Cooper Gallery, highlighting abstract works.",
-      "images": [
-        "assets/images/shows/2014PCooperNYe1.jpg",
-        "assets/images/shows/2014PCooperNYe2.jpg",
-        "assets/images/shows/2014PCooperNY1804_RI_JL.jpg"
-      ],
-      "pressRelease": "/assets/pdfs/2014PCooperNYpress.pdf",
-      "workList": "/assets/pdfs/2014PCooperNYworkList.pdf",
-      "externalLink": "https://example.com/external-link/paulaCooperNY"
+        "id": "2014-2",
+        "title": "Massimo De Carlo Milan via Ventura",
+        "description": "A major exhibition hosted by Massimo De Carlo in Milan, showcasing modern Italian art.",
+        "images": [
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe1.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe2.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe3.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe4.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe5.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe6.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe7.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe8.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloMLe9.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloML1537.jpg",
+            "text": "Untitled, 2014, Electroformed copper, plated nickel, stainless steel frame, 240 x 480 x 4 cm, 8 panels"
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloML1705_RI_JL.jpg",
+            "text": "Untitled, 2014, Oil and enamel on canvas, 241.3 x 193 cm"
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloML1706_RI_JL.jpg",
+            "text": "Untitled, 2014, Oil and enamel on canvas, 241.3 x 193 cm"
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloML1732.jpg",
+            "text": "Untitled, 2014, Electroformed copper, plated nickel, stainless steel, 120 x 120 x 4 cm"
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloML1734.jpg",
+            "text": "Untitled, 2014, Electroformed copper, plated nickel, stainless steel, 120 x 120 x 4 cm"
+        },
+        {
+            "path": "assets/images/shows/2014MDeCarloML1757_RI_JL.jpg",
+            "text": "Untitled, 2014, Oil and enamel on canvas, 241.3 x 193 cm"
+        }
+        ],
+        "externalLink": "https://massimodecarlo.com/exhibitions/rudolf-stingel-2"
+    },
+    {
+        "id": "2014-3",
+        "title": "Paula Cooper NY",
+        "description": "A captivating exhibition held at Paula Cooper Gallery, highlighting abstract works.",
+        "images": [
+        {
+            "path": "assets/images/shows/2014PCooperNYe1.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014PCooperNYe2.jpg",
+            "text": null
+        },
+        {
+            "path": "assets/images/shows/2014PCooperNY1804_RI_JL.jpg",
+            "text": "Untitled, 2014, Oil on canvas, 176 x 120 in"
+        } 
+        ],
+        "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel"
     }
   ],
   "2015": [
