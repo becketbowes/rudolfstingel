@@ -15,29 +15,68 @@ export const exhibitions = {
     2012: [],
     2013: [],
 "2014": [
-    {
-      "id": "2014-1",
-      "title": "Gagosian NY 21st Street",
-      "description": "A remarkable exhibition showcasing contemporary art at Gagosian Gallery, New York.",
-      "images": [
-        "assets/images/shows/2014GagosianNYe1.jpg",
-        "assets/images/shows/2014GagosianNYe2.jpg",
-        "assets/images/shows/2014GagosianNYe3.jpg",
-        "assets/images/shows/2014GagosianNYe4.jpg",
-        "assets/images/shows/2014GagosianNYe5.jpg",
-        "assets/images/shows/2014GagosianNYe6.jpg",
-        "assets/images/shows/2014GagosianNYe7.jpg",
-        "assets/images/shows/2014GagosianNY664_JL.jpg",
-        "assets/images/shows/2014GagosianNY666_JL.jpg",
-        "assets/images/shows/2014GagosianNY667_JL.jpg",
-        "assets/images/shows/2014GagosianNY668_JL.jpg",
-        "assets/images/shows/2014GagosianNY669_JL.jpg",
-        "assets/images/shows/2014GagosianNY1672_RI_JL.jpg"
-      ],
-      "pressRelease": "/assets/pdfs/2014GagosianNYpress.pdf",
-      "workList": "/assets/pdfs/2014GagosianNYworkList.pdf",
-      "externalLink": "https://example.com/external-link/gagosianNY"
-    },
+  {
+    "id": "2014-1",
+    "title": "Gagosian NY 21st Street",
+    "description": "A remarkable exhibition showcasing contemporary art at Gagosian Gallery, New York.",
+    "images": [
+      {
+        "path": "assets/images/shows/2014GagosianNYe1.jpg",
+        "text": null
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNYe2.jpg",
+        "text": null
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNYe3.jpg",
+        "text": null
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNYe4.jpg",
+        "text": null
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNYe5.jpg",
+        "text": null
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNYe6.jpg",
+        "text": null
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNYe7.jpg",
+        "text": null
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNY664_JL.jpg",
+        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNY666_JL.jpg",
+        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNY667_JL.jpg",
+        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNY668_JL.jpg",
+        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNY669_JL.jpg",
+        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+      },
+      {
+        "path": "assets/images/shows/2014GagosianNY1672_RI_JL.jpg",
+        "text": "Untitled, 2009, oil on canvas, 131.5 x 180.5 in"
+      }
+    ],
+    "pressRelease": "/assets/pdfs/2014GagosianNYpress.pdf",
+    "workList": "/assets/pdfs/2014GagosianNYworkList.pdf",
+    "externalLink": "https://example.com/external-link/gagosianNY"
+  },
     {
       "id": "2014-2",
       "title": "Massimo De Carlo Milan via Ventura",
