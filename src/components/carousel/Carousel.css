@@ -44,13 +44,15 @@
   background-color: rgba(128, 128, 128, 0.8);
   color: white;
   padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-size: 14px;
   text-align: center;
   z-index: 1011;
 }
 
 /* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .carousel-outer-container {
     top: 150px;
   }
@@ -65,7 +67,7 @@
 }
 
 /* Desktop styles */
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
   .carousel-outer-container {
     top: 200px;
   }
@@ -163,13 +165,13 @@
   background-color: #000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .carousel-button {
     display: none;
   }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 768px) {
+@media only screen and (orientation: landscape) and (max-width: 1200px) {
   .carousel-outer-container {
     top: 100px;
     bottom: 30px;

@@ -59,7 +59,7 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
-@media only screen and (orientation: landscape) and (max-width: 768px) {
+@media only screen and (orientation: landscape) and (max-width: 1200px) {
   .title.title.horizontal-menu {
     font-size: 1.5rem;
   }
