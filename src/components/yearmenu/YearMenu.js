@@ -9,7 +9,12 @@ const YearMenu = () => {
   const [isVisible, setIsVisible] = useState(false);
   const yearsContainerRef = useRef(null);
 
-  const years = Object.keys(exhibitions).sort((a, b) => b - a);
+  const getSortedYears = useCallback(() => {
+    const years = Object.keys(exhibitions);
+    return isHorizontal ? years.sort((a, b) => a - b) : years.sort((a, b) => b - a);
+  }, [exhibitions, isHorizontal]);
+
+  const years = getSortedYears();
 
   const centerSelectedYear = useCallback(() => {
     if (yearsContainerRef.current && selectedYear) {

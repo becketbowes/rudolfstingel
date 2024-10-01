@@ -166,78 +166,202 @@ export const exhibitions = {
   ],
   "2015": [
     {
-      "id": "2015-1",
-      "title": "Gagosian Hong Kong",
-      "description": "A striking exhibition hosted by Gagosian Gallery in Hong Kong, featuring contemporary works.",
-      "images": [
-        "assets/images/shows/2015GagosianHKe1.jpg",
-        "assets/images/shows/2015GagosianHKe2.jpg",
-        "assets/images/shows/2015GagosianHKe3.jpg",
-        "assets/images/shows/2015GagosianHKe4.jpg",
-        "assets/images/shows/2015GagosianHKe5.jpg",
-        "assets/images/shows/2015GagosianHKe6.jpg",
-        "assets/images/shows/2015GagosianHKe7.jpg",
-        "assets/images/shows/2015GagosianHKe8.jpg",
-        "assets/images/shows/2015GagosianHK1825_0019.jpg",
-        "assets/images/shows/2015GagosianHK1827_0003.jpg",
-        "assets/images/shows/2015GagosianHK1828_0003.jpg",
-        "assets/images/shows/2015GagosianHK1832_0007.jpg",
-        "assets/images/shows/2015GagosianHK1833_0011_D.jpg",
-        "assets/images/shows/2015GagosianHK1834_0003.jpg",
-        "assets/images/shows/2015GagosianHK1839_0003.jpg",
-        "assets/images/shows/2015GagosianHK1841_0003.jpg"
-      ],
-      "pressRelease": "/assets/pdfs/2015GagosianHKpress.pdf",
-      "workList": "/assets/pdfs/2015GagosianHKworkList.pdf",
-      "externalLink": "https://example.com/external-link/gagosianHK"
-    },
-    {
-      "id": "2015-2",
-      "title": "Gagosian NY Park & 75th - Part I",
-      "description": "An exciting exhibition held at Gagosian Gallery in New York, Park & 75th.",
-      "images": [
-        "assets/images/shows/2015GagosianNYe1.jpg",
-        "assets/images/shows/2015GagosianNYe2.jpg",
-        "assets/images/shows/2015GagosianNYe3.jpg",
-        "assets/images/shows/2015GagosianNYe4.jpg",
-        "assets/images/shows/2015GagosianNYe5.jpg",
-        "assets/images/shows/2015GagosianNYe6.jpg",
-        "assets/images/shows/2015GagosianNY1301_JL.jpg",
-        "assets/images/shows/2015GagosianNY1469_JL.jpg",
-        "assets/images/shows/2015GagosianNY1470_JL.jpg",
-        "assets/images/shows/2015GagosianNY1471_RI_JL.jpg"
-      ],
-      "pressRelease": "/assets/pdfs/2015GagosianNYpress.pdf",
-      "workList": "/assets/pdfs/2015GagosianNYworkList.pdf",
-      "externalLink": "https://example.com/external-link/gagosianNY"
-    },
-    {
-      "id": "2015-3",
-      "title": "Sadie Coles London Davies St & Kingly St",
-      "description": "A unique exhibition at Sadie Coles HQ in London, Davies Street and Kingly Street locations.",
-      "images": [
-        "assets/images/shows/2015SColesLOe1.jpg",
-        "assets/images/shows/2015SColesLOe2.jpg",
-        "assets/images/shows/2015SColesLOe3.jpg",
-        "assets/images/shows/2015SColesLOe4.jpg",
-        "assets/images/shows/2015SColesLOe5.jpg",
-        "assets/images/shows/2015SColesLOe6.jpg",
-        "assets/images/shows/2015SColesLOe7.jpg",
-        "assets/images/shows/2015SColesLOe8.jpg",
-        "assets/images/shows/2015SColesLOe9.jpg",
-        "assets/images/shows/2015SColesLOe10.jpg",
-        "assets/images/shows/2015SColesLO1818_RI_JL.jpg",
-        "assets/images/shows/2015SColesLO1823_JL.jpg",
-        "assets/images/shows/2015SColesLO1913.jpg",
-        "assets/images/shows/2015SColesLO1914_JL.jpg",
-        "assets/images/shows/2015SColesLO1957_JL.jpg",
-        "assets/images/shows/2015SColesLO1958_JL.jpg",
-        "assets/images/shows/2015SColesLO1980_JL.jpg"
-      ],
-      "pressRelease": "/assets/pdfs/2015SColesLOpress.pdf",
-      "workList": "/assets/pdfs/2015SColesLOworkList.pdf",
-      "externalLink": "https://example.com/external-link/sadieColesLO"
-    }
+        "id": "2015-1",
+        "title": "Gagosian Hong Kong",
+        "description": "A striking exhibition hosted by Gagosian Gallery in Hong Kong, featuring contemporary works.",
+        "images": [
+          {
+            "path": "assets/images/shows/2015GagosianHKe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHKe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHKe3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHKe4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHKe5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHKe6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHKe7.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHKe8.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHK1825_0019.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel, 240 x 240 x 4 cm; 4 panels"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHK1827_0003.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel, 240 x 240 x 4 cm; 4 panels"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHK1828_0003.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel, 240 x 240 x 4 cm; 4 panels"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHK1832_0007.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel, 120 x 120 x 4 cm"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHK1833_0011_D.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel, 120 x 120 x 4 cm"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHK1834_0003.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel, 120 x 120 x 4 cm"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHK1839_0003.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel, 120 x 120 x 4 cm"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianHK1841_0003.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel, 120 x 109.6 x 4 cm"
+          }
+        ],
+        "externalLink": "https://gagosian.com/exhibitions/2015/rudolf-stingel/"
+      },
+      {
+        "id": "2015-2",
+        "title": "Gagosian NY Park & 75th - Part I",
+        "description": "An exciting exhibition held at Gagosian Gallery in New York, Park & 75th.",
+        "images": [
+          {
+            "path": "assets/images/shows/2015GagosianNYe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNYe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNYe3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNYe4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNYe5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNYe6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNY1301_JL.jpg",
+            "text": "Untitled (Franz West), 2010, Ink, oil and enamel on paper, 30 x 22 1/4 in"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNY1469_JL.jpg",
+            "text": "Untitled, 2012, Oil and enamel on canvas, 95 x 76 in"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNY1470_JL.jpg",
+            "text": "Untitled, 2012, Oil and enamel on canvas, 95 x 76 in"
+          },
+          {
+            "path": "assets/images/shows/2015GagosianNY1471_RI_JL.jpg",
+            "text": "Untitled, 2012, Oil and enamel on canvas, 95 x 76 in"
+          }
+        ],
+        "externalLink": "https://gagosian.com/exhibitions/2015/rudolf-stingel-part-i/"
+      },
+      {
+        "id": "2015-3",
+        "title": "Sadie Coles London Davies St & Kingly St",
+        "description": "A unique exhibition at Sadie Coles HQ in London, Davies Street and Kingly Street locations.",
+        "images": [
+          {
+            "path": "assets/images/shows/2015SColesLOe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe7.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe8.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe9.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLOe10.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2015SColesLO1818_RI_JL.jpg",
+            "text": "Untitled, 2014, Oil on canvas, 127 x 127 cm"
+          },
+          {
+            "path": "assets/images/shows/2015SColesLO1823_JL.jpg",
+            "text": "Untitled, 2014, Oil on canvas, 243.8 x 243.8 cm"
+          },
+          {
+            "path": "assets/images/shows/2015SColesLO1913.jpg",
+            "text": "Untitled, 2015, Oil on canvas, 243.8 x 243.8 cm"
+          },
+          {
+            "path": "assets/images/shows/2015SColesLO1914_JL.jpg",
+            "text": "Untitled, 2015, Oil on canvas, 243.8 x 243.8 cm"
+          },
+          {
+            "path": "assets/images/shows/2015SColesLO1957_JL.jpg",
+            "text": "Untitled, 2015, Oil on canvas, 243.8 x 243.8 cm"
+          },
+          {
+            "path": "assets/images/shows/2015SColesLO1958_JL.jpg",
+            "text": "Untitled, 2015, Oil on canvas, 243.8 x 243.8 cm"
+          },
+          {
+            "path": "assets/images/shows/2015SColesLO1980_JL.jpg",
+            "text": "Untitled, 2015, Oil on canvas, 127 x 127cm"
+          }
+        ],
+        "externalLink": "sadiecoles.com/exhibitions/175-rudolf-stingel/installation_shots/"
+      }
+      
   ],
     2016: [],
     2017: [],
