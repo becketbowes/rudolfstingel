@@ -814,8 +814,7 @@ export const exhibitions = {
           ],
           "externalLink": "https://gagosian.com/exhibitions/2017/rudolf-stingel/"
       }
-    ],  
-    2018: [],
+    ],
     2019: [
       {
         "id": "2019-1",
@@ -998,10 +997,337 @@ export const exhibitions = {
         "externalLink": "https://www.fondationbeyeler.ch/en/exhibitions/past-exhibitions/rudolf-stingel"
       }
     ],
-    2020: [],
-    2021: [],
-    2022: [],
-    2023: [],
-    2024: []
+    2021: [
+      {
+        "id": "2021-1",
+        "title": "Sadie Coles HQ",
+        "description": "Exhibition at Sadie Coles HQ in 2021.",
+        "images": [
+          {
+            "path": "assets/images/shows/2021/2021_01SadieColesHQe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_01SadieColesHQe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_01SadieColesHQe3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_01SadieColesHQ2292.jpg",
+            "text": "Kirchner Wald im Winter 1925, 2019, Oil on canvas, 95 x 80 x 2 in (241.3 x 203.2 x 5 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/sadie-coles-hq"
+      },
+      {
+        "id": "2021-2",
+        "title": "Massimo De Carlo Piece Unique Paris",
+        "description": "Exhibition at Massimo De Carlo, Piece Unique Paris in 2021.",
+        "images": [
+          {
+            "path": "assets/images/shows/2021/2021_02MDeCarloPieceUniqueParise1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_02MDeCarloPieceUniqueParise2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_02MDeCarloPieceUniqueParise3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_02MDeCarloPieceUniqueParis2309.jpg",
+            "text": "Kirchner Waldlandschaft mit Bach 1925, 2019, Oil on canvas, 95 x 79 in (241.3 x 200.6 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/massimo-de-carlo-piece-unique"
+      },
+      {
+        "id": "2021-3",
+        "title": "Gagosian New York",
+        "description": "Exhibition at Gagosian New York in 2021.",
+        "images": [
+          {
+            "path": "assets/images/shows/2021/2021_03GagosianNYe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_03GagosianNYe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_03GagosianNYe3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_03GagosianNY2314.jpg",
+            "text": "Kirchner Amselfluh 1922, 2020, Oil on canvas, 95 x 134 1/4 in (241.3 x 341 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/gagosian-ny"
+      },
+      {
+        "id": "2021-4",
+        "title": "Max Hetzler Berlin",
+        "description": "Exhibition at Max Hetzler Berlin in 2021.",
+        "images": [
+          {
+            "path": "assets/images/shows/2021/2021_04MaxHetzlerBerline1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_04MaxHetzlerBerline2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_04MaxHetzlerBerline3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2021/2021_04MaxHetzlerBerlin2216.jpg",
+            "text": "Schöneitssalon Omm, 2017, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/max-hetzler-berlin"
+      }
+    ],
+    2022: [
+      {
+        "id": "2022-1",
+        "title": "Sadie Coles London Kingly Street",
+        "description": "Exhibition at Sadie Coles in London, Kingly Street in 2022.",
+        "images": [
+          {
+            "path": "assets/images/shows/2022/2022-01SadieColesLondonKingly_Streete1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2022/2022-01SadieColesLondonKingly_Streete2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2022/2022-01SadieColesLondonKingly_Street1777.jpg",
+            "text": "Untitled, 2015, Oil on canvas, 95 x 65 1/4 in (241.3 x 165.7 cm)"
+          },
+          {
+            "path": "assets/images/shows/2022/2022-01SadieColesLondonKingly_Street1778.jpg",
+            "text": "Untitled, 2015, Oil on canvas, 95 x 65 1/4 in (241.3 x 165.7 cm)"
+          },
+          {
+            "path": "assets/images/shows/2022/2022-01SadieColesLondonKingly_Street1779.jpg",
+            "text": "Untitled, 2015, Oil on canvas, 95 x 65 1/4 in (241.3 x 165.7 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/sadie-coles-london-kingly-street"
+      },
+      {
+        "id": "2022-2",
+        "title": "Paula Cooper",
+        "description": "Exhibition at Paula Cooper Gallery in 2022.",
+        "images": [
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCoopere1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCoopere2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCoopere3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCoopere4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCoopere5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCoopere6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCooper2383.jpg",
+            "text": "Untitled, 2022, Oil on canvas, 95 x 72 1/2 in (241.3 x 184.1 cm)"
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCooper2384.jpg",
+            "text": "Untitled, 2022, Oil on canvas, 95 x 72 1/2 in (241.3 x 184.1 cm)"
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCooper2385.jpg",
+            "text": "Untitled, 2022, Oil on canvas, 95 x 72 1/2 in (241.3 x 184.1 cm)"
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCooper2386.jpg",
+            "text": "Untitled, 2022, Oil on canvas, 95 x 72 1/2 in (241.3 x 184.1 cm)"
+          },
+          {
+            "path": "assets/images/shows/2022/2022_02PaulaCooper2387.jpg",
+            "text": "Untitled, 2022, Oil on canvas, 95 x 72 1/2 in (241.3 x 184.1 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/paula-cooper"
+      }
+    ],
+    2023: [
+      {
+        "id": "2023-1",
+        "title": "Gagosian Paris",
+        "description": "Exhibition at Gagosian Paris in 2023.",
+        "images": [
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise7.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise8.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise9.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise10.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParise11.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2354.jpg",
+            "text": "Untitled, 2022, Oil and enamel on canvas, 108 x 76 1/2 in (274.3 x 194.3 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2355.jpg",
+            "text": "Untitled, 2022, Oil and enamel on canvas, 108 x 76 1/2 in (274.3 x 194.3 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2356.jpg",
+            "text": "Untitled, 2022, Oil and enamel on canvas, 108 x 76 1/2 in (274.3 x 194.3 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2357.jpg",
+            "text": "Untitled, 2022, Oil and enamel on canvas, 108 x 76 1/2 in (274.3 x 194.3 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2358.jpg",
+            "text": "Untitled, 2022, Oil and enamel on canvas, 108 x 76 1/2 in (274.3 x 194.3 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2366.jpg",
+            "text": "Untitled, 2022, Oil and enamel on canvas, 108 x 76 1/2 in (274.3 x 194.3 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2367.jpg",
+            "text": "Untitled, 2022, Oil and enamel on canvas, 108 x 76 1/2 in (274.3 x 194.3 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2393.jpg",
+            "text": "Untitled, 2023, Oil and enamel on canvas, 60 x 43 in (152.4 x 109.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2394.jpg",
+            "text": "Untitled, 2023, Oil and enamel on canvas, 60 x 43 in (152.4 x 109.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2395.jpg",
+            "text": "Untitled, 2023, Oil, enamel and graphite on canvas, 60 x 43 in (152.4 x 109.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2396.jpg",
+            "text": "Untitled, 2023, Oil and enamel on canvas, 60 x 43 in (152.4 x 109.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2397.jpg",
+            "text": "Untitled, 2023, Oil, enamel and graphite on canvas, 60 x 43 in (152.4 x 109.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2023/2023_GagosianParis2398.jpg",
+            "text": "Untitled, 2023, Oil, enamel and graphite on canvas, 60 x 43 in (152.4 x 109.2 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/gagosian-paris"
+      }
+    ],
+    2024: [
+      {
+        "id": "2024-1",
+        "title": "Gagosian NY Madison Avenue",
+        "description": "Exhibition at Gagosian New York, Madison Avenue in 2024.",
+        "images": [
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMaAve1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMaAve2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMaAve3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMaAve4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMaAve5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMaAve6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMadAv2326.jpg",
+            "text": "Untitled, 2020, Oil on canvas, 50 x 50 in (127 x 127 cm)"
+          },
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMadAv2327.jpg",
+            "text": "Untitled, 2020, Oil on canvas, 50 x 50 in (127 x 127 cm)"
+          },
+          {
+            "path": "assets/images/shows/2024/2024_GagosianNYMadAv2328.jpg",
+            "text": "Untitled, 2020, Oil on canvas, 50 x 50 in (127 x 127 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/gagosian-ny-madison-ave"
+      }
+    ]
   };
   
