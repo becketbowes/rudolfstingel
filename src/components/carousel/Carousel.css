@@ -1,0 +1,188 @@
+.carousel-outer-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  overflow: hidden;
+  z-index: 1100;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(128, 128, 128, 0.8);
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 14px;
+  text-align: center;
+  z-index: 1011;
+}
+
+/* Mobile styles */
+@media (max-width: 1200px) {
+  .carousel-outer-container {
+    top: 150px;
+  }
+  .carousel-slide-container {
+    padding: 0;
+  }
+  .image-text {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    color: black;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1200px) {
+  .carousel-outer-container {
+    top: 200px;
+  }
+  .carousel-slide-container {
+    padding: 0 50px;
+  }
+}
+
+.show-page {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.show-page h2 {
+  margin-top: 0;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.carousel-button {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  border: none;
+  padding: 35px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+  border-radius: 10%; /* This makes the buttons circular */
+  width: 50px; /* Set a fixed width */
+  height: 50px; /* Set a fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1; /* Ensures vertical centering of text */
+}
+
+.carousel-button:hover {
+  opacity: 0.8;
+}
+
+.carousel-button.prev {
+  left: 20px;
+}
+
+.carousel-button.next {
+  right: 20px;
+}
+
+.carousel-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.carousel-indicators {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.indicator-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #cbcbcb;
+  margin: 0 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 400px) {
+  .indicator-dot {
+    width: 4px;
+    height: 4px;
+    margin: 0 2px;
+  }
+
+}
+
+.indicator-dot.active {
+  background-color: #000;
+}
+
+@media (max-width: 1200px) {
+  .carousel-button {
+    display: none;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1200px) {
+  .carousel-outer-container {
+    top: 100px;
+    bottom: 30px;
+  }
+}

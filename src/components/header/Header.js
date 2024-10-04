@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header() {
   const [titleState, setTitleState] = useState('initial');
-  const { selectedYear, selectedExhibition } = useAppContext();
+  const { setSelectedYear, setSelectedExhibition, isHorizontal, setIsHorizontal } = useAppContext();
 
   useEffect(() => {
     setTitleState('start')
@@ -16,32 +16,29 @@ function Header() {
   }, []);
 
   useEffect(() => {
-    if (selectedExhibition) {
-      setTitleState('menu-selected');
-    } else if (selectedYear) {
-      setTitleState('year-selected');
+    if (isHorizontal) {
+      setTitleState('horizontal-menu');
+    } else {
+      setTitleState('animated');
     }
-  }, [selectedYear, selectedExhibition]);
+  }, [isHorizontal]);
+
+  const handleReset = () => {
+    setSelectedYear(null);
+    setSelectedExhibition(null);
+    setIsHorizontal(false);
+    setTitleState('animated');
+  };
 
   return (
-    <h1 
-      className={`title ${titleState}`}
-      style={{ 
-        color: 'white', 
-        fontFamily: "'Outfit', sans-serif", 
-        fontWeight: 700,
-        fontSize: '3rem',
-        margin: 0,
-        padding: '20px',
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        textAlign: 'center',
-      }}
-    >
-      Rudolf Stingel
-    </h1>
+    <>
+      <button className="reset-button" onClick={handleReset} aria-label="Reset">
+        <span className="sr-only">Reset</span>
+      </button>
+      <h1 className={`title ${titleState}`}>
+        Rudolf Stingel
+      </h1>
+    </>
   );
 }
 

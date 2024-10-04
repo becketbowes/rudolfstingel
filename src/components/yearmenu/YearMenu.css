@@ -1,0 +1,193 @@
+.year-menu {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 120px);
+  max-width: calc(100vw);
+  overflow: auto;
+  padding-top: 100px;
+  transition: all 1s ease-out, opacity 1s ease-in-out;
+  opacity: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1000;
+}
+
+.year-menu.visible {
+  opacity: 1;
+}
+
+.year-menu.horizontal {
+  flex-direction: column;
+  top: 8vh;
+  left: 0;
+  right: 0;
+  transform: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-height: none;
+  overflow-x: visible;
+  overflow-y: visible;
+  align-items: center;
+}
+
+.year-menu.horizontal .years-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+  overflow-x: auto;
+  padding: 10 10;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  .year-menu.horizontal .years-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.year-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.year-menu {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.year-section {
+  margin-bottom: 0pxpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.horizontal .year-section {
+  margin:  5 5px;
+  flex-shrink: 0;
+}
+
+.year-button, .exhibition-button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 0.8;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  color: white;
+}
+
+.year-button:hover, .year-button.selected,
+.exhibition-button:hover, .exhibition-button.selected {
+  opacity: 1.0;
+}
+
+.exhibition-button {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.exhibition-button.selected {
+  transform: translateY(-30px);
+  font-weight: bold;
+}
+
+.horizontal .year-button,
+.horizontal .exhibition-button {
+  color: rgba(0,0,0,0.5);
+}
+
+.horizontal .year-button:hover,
+.horizontal .year-button.selected, 
+.horizontal .exhibition-button:hover,
+.horizontal .exhibition-button.selected {
+  color: rgba(0,0,0,1);
+  opacity: 1;
+}
+
+.exhibitions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.horizontal .exhibitions-container {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.selected-exhibition {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.horizontal .selected-exhibition {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  transform: none;
+  margin-top: 20px;
+  left: auto;
+  width: 100%;
+}
+
+body.exhibition-selected::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.8) 130px,
+    rgba(255, 255, 255, 1) 140px,
+    rgba(255, 255, 255, 1) 100%
+  );
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+body.exhibition-selected::before {
+  opacity: 1;
+}
+
+.year-menu {
+  z-index: 1000;
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1200px) {
+  .year-menu.horizontal {
+    top: 9vh;
+  }
+  
+  .horizontal .selected-exhibition {
+    margin-top: 10px;
+  }
+
+  body.exhibition-selected::before {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.8) 80px,
+      rgba(255, 255, 255, 1) 90px,
+      rgba(255, 255, 255, 1) 100%
+    )
+  }
+}
