@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rudolfstingel/static/css/main.464ec6ff.css",
-    "main.js": "/rudolfstingel/static/js/main.f6812ac8.js",
+    "main.js": "/rudolfstingel/static/js/main.f76bdacd.js",
     "static/js/453.a2b98bda.chunk.js": "/rudolfstingel/static/js/453.a2b98bda.chunk.js",
     "static/media/background3.png": "/rudolfstingel/static/media/background3.5734fb8d02d00dc9e2df.png",
     "static/media/2017_Gagosian_MalaparteCapri2177_JL.jpg": "/rudolfstingel/static/media/2017_Gagosian_MalaparteCapri2177_JL.2061cf11c752ed7692c4.jpg",
@@ -302,11 +302,11 @@
     "static/media/logo.svg": "/rudolfstingel/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/rudolfstingel/index.html",
     "main.464ec6ff.css.map": "/rudolfstingel/static/css/main.464ec6ff.css.map",
-    "main.f6812ac8.js.map": "/rudolfstingel/static/js/main.f6812ac8.js.map",
+    "main.f76bdacd.js.map": "/rudolfstingel/static/js/main.f76bdacd.js.map",
     "453.a2b98bda.chunk.js.map": "/rudolfstingel/static/js/453.a2b98bda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.464ec6ff.css",
-    "static/js/main.f6812ac8.js"
+    "static/js/main.f76bdacd.js"
   ]
 }
