@@ -10,11 +10,587 @@ export const exhibitions = {
     2007: [],
     2008: [],
     2009: [],
-    2010: [],
-    2011: [],
-    2012: [],
-    2013: [],
-"2014": [
+    2010: [
+      {
+        "id": "2010-1",
+        "title": "Neue National Galerie Exhibition",
+        "description": "Exhibition at Neue National Galerie featuring various works from 2009-2010.",
+        "images": [
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e7.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e8.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e9.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e10.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_e11.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_663.jpg",
+            "text": "Untitled (nach Ernst Ludwig K.), 2009, Oil on canvas, 132 x 181 in (335.5 x 460 cm)"
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_664.jpg",
+            "text": "Untitled, 2009, Oil on canvas, 131 1/2 x 180 1/2 in (334 x 458.4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_665.jpg",
+            "text": "Untitled, 2009, Oil on canvas, 132 1/4 x 178 1/2 in (335.9 x 453.4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_666.jpg",
+            "text": "Untitled, 2009, Oil on canvas, 132 x 181 3/4 in (335.5 x 456.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2010/2010NeueNationalGalerie_1564.jpg",
+            "text": "Untitled, 2010, Floor printed carpet installation, Dimensions variable"
+          }
+        ],
+        "externalLink": null
+      }
+    ],
+    2011: [
+      {
+        "id": "2011-1",
+        "title": "Gagosian NY Exhibition",
+        "description": "Exhibition at Gagosian New York featuring works from 2010.",
+        "images": [
+          {
+            "path": "assets/images/shows/2011/2011GagosianNYe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNYe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNYe3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNYe4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNYe5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNYe6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNYe7.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY615.jpg",
+            "text": "Untitled, 2010, Oil and enamel on canvas, 130 x 185 in (330.2 x 470 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY616.jpg",
+            "text": "Untitled, 2010, Oil and enamel on canvas, 130 x 185 in (330.2 x 470 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY617.jpg",
+            "text": "Untitled, 2010, Oil and enamel on canvas, 130 x 185 in (330.2 x 470 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY618.jpg",
+            "text": "Untitled, 2010, Oil and enamel on canvas, 130 x 185 in (330.2 x 470 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY619.jpg",
+            "text": "Untitled, 2010, Oil and enamel on canvas, 130 x 185 in (330.2 x 470 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY709.jpg",
+            "text": "Untitled, 2010, Oil on canvas, 131 x 102 1/4 in (332.5 x 259 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY710.jpg",
+            "text": "Untitled, 2010, Oil on canvas, 131 x 102 in (332.5 x 259 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY711.jpg",
+            "text": "Untitled, 2010, Oil on canvas, 131 x 102 in (332.7 x 259 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY712.jpg",
+            "text": "Untitled, 2010, Oil on canvas, 131 x 102 in (332.5 x 259 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY670.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY671.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY672.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY676.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY677.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY678.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY679.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY687.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY688.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2011/2011GagosianNY689.jpg",
+            "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/gagosian-ny-exhibition"
+      }
+    ],
+    2012: [
+      {
+        "id": "2012-1",
+        "title": "Gagosian Paris Exhibition",
+        "description": "Exhibition at Gagosian Paris featuring works from 2011-2012.",
+        "images": [
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise7.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise8.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise9.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise10.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParise11.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_0911.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1315.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1317.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 94 1/2 x 94 1/2 x 1 1/2 in (240 x 240 cm); 4 panels, each 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1318.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 94 1/2 x 94 1/2 x 1 1/2 in (240 x 240 cm); 4 panels, each 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1319.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 94 1/2 x 94 1/2 x 1 1/2 in (240 x 240 cm); 4 panels, each 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1330.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 94 1/2 x 94 1/2 x 1 1/2 in (240 x 240 cm); 4 panels, each 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1331.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 94 1/2 x 189 x 1 1/2 in (240 x 480 x 4 cm); 8 panels, each 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1332.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 36 3/8 x 44 1/2 x 1 1/2 in (92.5 x 113.2 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1334.jpg",
+            "text": "Untitled, 2011, Oil and enamel on canvas, 78 3/4 x 63 in (200 x 160 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1335.jpg",
+            "text": "Untitled, 2011, Oil and enamel on canvas, 78 3/4 x 63 in (200 x 160 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1337.jpg",
+            "text": "Untitled, 2011, Oil and enamel on canvas, 39 3/8 x 39 3/8 in (100 x 100 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1338.jpg",
+            "text": "Untitled, 2011, Oil and enamel on canvas, 39 3/8 x 39 3/8 in (100 x 100 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1442.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 94 1/2 x 94 1/2 x 1 1/2 in (240 x 240 cm); 4 panels, each 47 1/4 x 47 1/4 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1443.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 94 1/2 x 94 1/2 x 1 1/2 in (240 x 240 cm); 4 panels, each 47 1/4 x 47 1/4 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1444.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 94 1/2 x 94 1/2 x 1 1/2 in (240 x 240 cm); 4 panels, each 47 1/4 x 47 1/4 in (120 x 120 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1446.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 47 3/8 x 47 3/8 x 1 1/2 in (120.3 x 120.5 x 4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012GagosianParis_1449.jpg",
+            "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 47 3/8 x 39 5/8 x 1 5/8 in (120.5 x 100.2 x 4 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/gagosian-paris-exhibition"
+      },
+      {
+        "id": "2012-2",
+        "title": "Sadie Coles Offsite Exhibition",
+        "description": "Exhibition at Sadie Coles Offsite featuring works from 2012.",
+        "images": [
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsite1466.jpg",
+            "text": "Untitled, 2012, Oil on canvas, 96 x 80 5/8 in (243.8 x 204.9 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsite1565.jpg",
+            "text": "Untitled, 2012, Floor printed carpet installation, Dimensions variable"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/sadie-coles-offsite"
+      },
+      {
+        "id": "2012-3",
+        "title": "Secession Wien Exhibition",
+        "description": "Exhibition at Secession Wien featuring works from 2006 and 2008.",
+        "images": [
+          {
+            "path": "assets/images/shows/2012/2012SecessionWiene1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWiene2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_NoCode.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_426.jpg",
+            "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.28 x 457.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_3401_84x30_fertig.jpg",
+            "text": "Untitled (1631), 2008, Pigmented plaster, aluminum, steel, 154 3/8 x 214 1/2 x 6 5/8 in (392 x 545 x 17 cm) (20 panels)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_3406.jpg",
+            "text": "Untitled (1631), 2008, Pigmented plaster, aluminum, steel, 154 3/8 x 214 1/2 x 6 5/8 in (392 x 545 x 17 cm) (20 panels)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_3414.jpg",
+            "text": "Untitled (1631), 2008, Pigmented plaster, aluminum, steel, 154 3/8 x 214 1/2 x 6 5/8 in (392 x 545 x 17 cm) (20 panels)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/secession-wien-exhibition"
+      }
+    ],
+2013: [
+    {
+      "id": "2013-1",
+      "title": "Palazzo Grassi Exhibition",
+      "description": "Exhibition at Palazzo Grassi in Venice featuring works from 2003 to 2013.",
+      "images": [
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie7.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie8.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie9.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie10.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie11.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie12.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie13.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie14.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassie16.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi451.jpg",
+          "text": "Untitled, 1990, Oil and enamel on canvas, 44 x 30 in (111.7 x 76.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi489.jpg",
+          "text": "Untitled (St. John the Baptist), 2009, Oil on canvas, 60 1/2 x 39 1/8 in (153.7 x 99.4 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi501.jpg",
+          "text": "Untitled (Madonna), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi502.jpg",
+          "text": "Untitled (St. Florian), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi503.jpg",
+          "text": "Untitled (St. Elizabeth), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi580.jpg",
+          "text": "Untitled, 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi594.jpg",
+          "text": "Untitled (Mary Magdalene), 2009, Oil on linen, 60 1/2 x 39 1/8 (153.7 x 99.4 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi600.jpg",
+          "text": "Untitled, 2010, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi603.jpg",
+          "text": "Untitled, 2010, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi604.jpg",
+          "text": "Untitled, 2010, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi607.jpg",
+          "text": "Untitled, 2010, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi610.jpg",
+          "text": "Untitled, 2010, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi611.jpg",
+          "text": "Untitled, 2010, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1324.jpg",
+          "text": "Untitled, 2011, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1576.jpg",
+          "text": "Untitled, 2012, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1577.jpg",
+          "text": "Untitled, 2012, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi506.jpg",
+          "text": "Untitled (St. John), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi518.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi545.jpg",
+          "text": "Untitled (St. John), 2009, Oil and enamel on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi578.jpg",
+          "text": "Untitled, 2009, Oil and enamel on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi579.jpg",
+          "text": "Untitled, 2009, Oil and enamel on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1179.jpg",
+          "text": "Untitled (St. John), 2009, Oil and enamel on linen, 16 x 13 in (40.6 x 33 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1484.jpg",
+          "text": "Untitled, 2012, Oil on canvas, 120 x 100 1/2 in (304.8 x 255.3 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1584.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 118 1/8 x 95 1/4 in (300 x 736 cm); 3 panels, each 118 1/8 x 95 1/4 in (300 x 242 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1592.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 118 1/8 x 95 1/4 in (300 x 242 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1593.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 118 1/8 x 95 1/4 in (300 x 242 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1585.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 118 1/8 x 95 1/4 in (300 x 242 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1586.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 118 1/8 x 95 1/4 in (300 x 242 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1587.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 118 1/8 x 95 1/4 in (300 x 242 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1589.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 106 1/4 x 86 in (270 x 218.4 cm)"
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi1605.jpg",
+          "text": "Untitled, 2013, Oil on canvas, 96 x 66 1/4 in (243.8 x 168.3 cm)"
+        }
+      ],
+      "externalLink": "https://example.com/external-link/palazzo-grassi-exhibition"
+    }
+  ],
+2014: [
     {
         "id": "2014-1",
         "title": "Gagosian NY 21st Street",
@@ -164,7 +740,7 @@ export const exhibitions = {
         "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel"
     }
   ],
-  "2015": [
+  2015: [
     {
         "id": "2015-1",
         "title": "Gagosian Hong Kong",
@@ -385,20 +961,32 @@ export const exhibitions = {
             "text": null
           },
           {
-            "path": "assets/images/shows/2016/2016GagPark&75_II_1352_RI_JL.jpg",
+            "path": "assets/images/shows/2016/2016GagPark&75_II_e3.jpg",
             "text": null
+          },
+          {
+            "path": "assets/images/shows/2016/2016GagPark&75_II_e4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2016/2016GagPark&75_II_e5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2016/2016GagPark&75_II_1352_RI_JL.jpg",
+            "text": "Untitled (Ernst Ludwig Kirchner), 2011, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_II_1423_RI_JL.jpg",
-            "text": null
+            "text": "Untitled, 2012, Oil and enamel on canvas 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_II_1426_RI_JL.jpg",
-            "text": null
+            "text": "Untitled, 2012, Oil and enamel on canvas 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_II_1427_RI_JL.jpg",
-            "text": null
+            "text": "Untitled, 2012, Oil and enamel on canvas 95 x 76 in (241.3 x 193 cm)"
           }
         ],
         "externalLink": "https://example.com/external-link/gagosian-ny-part-ii"
@@ -430,15 +1018,19 @@ export const exhibitions = {
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_III_1807_JL.jpg",
-            "text": null
+            "text": "Untitled, 2015, Oil and enamel on canvas 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_III_1856_JL.jpg",
-            "text": null
+            "text": "Untitled, 2015, Oil and enamel on canvas 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_III_1857_JL.jpg",
-            "text": null
+            "text": "Untitled, 2015, Oil and enamel on canvas 95 x 76 in (241.3 x 193 cm)"
+          },
+          {
+            "path": "assets/images/shows/2016/2016GagPark&75_III_1495_JL.jpg",
+            "text": "Untitled, 2011, Ink, oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
           }
         ],
         "externalLink": "https://gagosian.com/exhibitions/2016/rudolf-stingel-part-iii/"
@@ -466,7 +1058,7 @@ export const exhibitions = {
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_IV_1907_JL.jpg",
-            "text": null
+            "text": "Untitled, 2015, Oil and enamel on canvas, 83 x 204 in (210.8 x 518.1 cm)"
           }
         ],
         "externalLink": "https://gagosian.com/exhibitions/2016/rudolf-stingel-part-iv/"
@@ -498,19 +1090,19 @@ export const exhibitions = {
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_V_1519.jpg",
-            "text": null
+            "text": "Untitled (Franz Pichler), 2012, Ink, oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_V_2082.jpg",
-            "text": null
+            "text": "Untitled, 2016, Oil and enamel on linen, 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_V_2083.jpg",
-            "text": null
+            "text": "Untitled, 2016, Oil and enamel on linen, 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_V_2084.jpg",
-            "text": null
+            "text": "Untitled, 2016, Oil and enamel on linen, 95 x 76 in (241.3 x 193 cm)"
           }
         ],
         "externalLink": "https://gagosian.com/exhibitions/2016/rudolf-stingel-part-v/"
@@ -546,23 +1138,23 @@ export const exhibitions = {
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VI_2042.jpg",
-            "text": null
+            "text": "Untitled, 2016, Electroformed copper, plated nickel, stainless steel frame, 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VI_2043.jpg",
-            "text": null
+            "text": "Untitled, 2016, Electroformed copper, plated nickel, stainless steel frame, 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VI_2045.jpg",
-            "text": null
+            "text": "Untitled, 2016, Electroformed copper, plated nickel, stainless steel frame, 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VI_2046.jpg",
-            "text": null
+            "text": "Untitled, 2016, Electroformed copper, plated nickel, stainless steel frame, 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VI_2047.jpg",
-            "text": null
+            "text": "Untitled, 2016, Electroformed copper, plated nickel, stainless steel frame, 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
           }
         ],
         "externalLink": "https://gagosian.com/exhibitions/2016/rudolf-stingel-part-vi/"
@@ -594,19 +1186,19 @@ export const exhibitions = {
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VII_2127.jpg",
-            "text": null
+            "text": "Untitled (Bemelmans), 2016, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VII_2128.jpg",
-            "text": null
+            "text": "Untitled (Bemelmans), 2016, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VII_2129.jpg",
-            "text": null
+            "text": "Untitled (Bemelmans), 2016, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VII_2130_JL.jpg",
-            "text": null
+            "text": "Untitled (Bemelmans), 2016, Oil on canvas, 16 x 13 in (40.6 x 33 cm)"
           }
         ],
         "externalLink": "https://gagosian.com/exhibitions/2016/rudolf-stingel-part-vii/"
@@ -638,19 +1230,19 @@ export const exhibitions = {
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VIII_228_JL.jpg",
-            "text": null
+            "text": "Untitled, 2007, Oil on linen, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VIII_2140_JL.jpg",
-            "text": null
+            "text": "Untitled (Bemelmans), 2016, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VIII_2141_JL.jpg",
-            "text": null
+            "text": "Untitled (Bemelmans), 2016, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016GagPark&75_VIII_2142_JL.jpg",
-            "text": null
+            "text": "Untitled (Bemelmans), 2016, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
           }
         ],
         "externalLink": "https://gagosian.com/exhibitions/2016/rudolf-stingel-part-viii/"
@@ -682,11 +1274,11 @@ export const exhibitions = {
           },
           {
             "path": "assets/images/shows/2016/2016_MDeCarloPalazzoBelgioioso_1729_JL.jpg",
-            "text": null
+            "text": "Untitled, 2014, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
           },
           {
             "path": "assets/images/shows/2016/2016_MDeCarloPalazzoBelgioioso_2119.jpg",
-            "text": null
+            "text": "Untitled, 2016, Floor carpet installation, Dimensions variable"
           }
         ],
         "externalLink": "https://massimodecarlo.com/exhibitions/rudolf-stingel-3"
@@ -1184,6 +1776,10 @@ export const exhibitions = {
         "description": "Exhibition at Gagosian Paris in 2023.",
         "images": [
           {
+            "path": "assets/images/shows/2023/2023_GagosianParise0.jpg",
+            "text": null
+          },
+          {
             "path": "assets/images/shows/2023/2023_GagosianParise1.jpg",
             "text": null
           },
@@ -1327,6 +1923,82 @@ export const exhibitions = {
           }
         ],
         "externalLink": "https://example.com/external-link/gagosian-ny-madison-ave"
+      },
+      {
+        "id": "2012-2",
+        "title": "Sadie Coles Offsite Exhibition",
+        "description": "Exhibition at Sadie Coles Offsite featuring works from 2012.",
+        "images": [
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsitee6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsite1466.jpg",
+            "text": "Untitled, 2012, Oil on canvas, 96 x 80 5/8 in (243.8 x 204.9 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012SadieColesOffsite1565.jpg",
+            "text": "Untitled, 2012, Floor printed carpet installation, Dimensions variable"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/sadie-coles-offsite"
+      },
+      {
+        "id": "2012-3",
+        "title": "Secession Wien Exhibition",
+        "description": "Exhibition at Secession Wien featuring works from 2006 and 2008.",
+        "images": [
+          {
+            "path": "assets/images/shows/2012/2012SecessionWiene1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWiene2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_NoCode.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_426.jpg",
+            "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.28 x 457.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_3401_84x30_fertig.jpg",
+            "text": "Untitled (1631), 2008, Pigmented plaster, aluminum, steel, 154 3/8 x 214 1/2 x 6 5/8 in (392 x 545 x 17 cm) (20 panels)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_3406.jpg",
+            "text": "Untitled (1631), 2008, Pigmented plaster, aluminum, steel, 154 3/8 x 214 1/2 x 6 5/8 in (392 x 545 x 17 cm) (20 panels)"
+          },
+          {
+            "path": "assets/images/shows/2012/2012SecessionWien_3414.jpg",
+            "text": "Untitled (1631), 2008, Pigmented plaster, aluminum, steel, 154 3/8 x 214 1/2 x 6 5/8 in (392 x 545 x 17 cm) (20 panels)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/secession-wien-exhibition"
       }
     ]
   };
