@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rudolfstingel/static/css/main.733c0a6e.css",
-    "main.js": "/rudolfstingel/static/js/main.8f308a89.js",
+    "main.css": "/rudolfstingel/static/css/main.485818c1.css",
+    "main.js": "/rudolfstingel/static/js/main.7bca2dd1.js",
     "static/js/453.a2b98bda.chunk.js": "/rudolfstingel/static/js/453.a2b98bda.chunk.js",
     "static/media/2013PalazzoGrassie13.jpg": "/rudolfstingel/static/media/2013PalazzoGrassie13.ab82356290a9f3fcd9d9.jpg",
     "static/media/2013PalazzoGrassie7.jpg": "/rudolfstingel/static/media/2013PalazzoGrassie7.ebbfb84b3f25d0cc5fd2.jpg",
@@ -447,12 +447,12 @@
     "static/media/index.cjs": "/rudolfstingel/static/media/index.1282334337c6cac7deca.cjs",
     "static/media/logo.svg": "/rudolfstingel/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/rudolfstingel/index.html",
-    "main.733c0a6e.css.map": "/rudolfstingel/static/css/main.733c0a6e.css.map",
-    "main.8f308a89.js.map": "/rudolfstingel/static/js/main.8f308a89.js.map",
+    "main.485818c1.css.map": "/rudolfstingel/static/css/main.485818c1.css.map",
+    "main.7bca2dd1.js.map": "/rudolfstingel/static/js/main.7bca2dd1.js.map",
     "453.a2b98bda.chunk.js.map": "/rudolfstingel/static/js/453.a2b98bda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.733c0a6e.css",
-    "static/js/main.8f308a89.js"
+    "static/css/main.485818c1.css",
+    "static/js/main.7bca2dd1.js"
   ]
 }
