@@ -25,7 +25,6 @@ function Home() {
       <Header />
       <YearMenu />
       <Carousel />
-      {/* YearMenu and ExhibitionList components will be added here later */}
     </div>
   );
 }

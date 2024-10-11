@@ -7,9 +7,372 @@ export const exhibitions = {
     2004: [],
     2005: [],
     2006: [],
-    2007: [],
-    2008: [],
-    2009: [],
+    2007: [
+      {
+        "id": "2007-1",
+        "title": "Whitney NY Exhibition",
+        "description": "Exhibition at Whitney Museum of American Art, New York, featuring works from 1987 to 2007.",
+        "images": [
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_7.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_8.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_9.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_10.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_11.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_12.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_13.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_14.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_15.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_16.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_17.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_18.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_19.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_20.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/Whitney_2007_21.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY005_Alt_JL.jpg",
+            "text": "Untitled, 1987,Oil and enamel on canvas, 78 x 186 in (198.1 x 472.44 cm); 3 panels"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY011MCAscan_JL.jpg",
+            "text": "Untitled, 1994, Oil and enamel on canvas, 144 x 120 in (365.8 x 304.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY012MCAscan_JL.jpg",
+            "text": "Untitled, 1994,Oil and enamel on canvas, 144 x 144 in (365.8 x 365.8 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY014MCAscan_JL.jpg",
+            "text": "Untitled, 1994, Oil and enamel on canvas, 144 x 112 in (365.8 x 284.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY089_RI_JL.jpg",
+            "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY092_RI_JL.jpg",
+            "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY095_RI_JL.jpg",
+            "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY100_RI_JL.jpg",
+            "text": "Untitled (Alpino 1976), 2006, Oil on canvas, 132 1/4 x 128 1/2 in (335.9 x 326.4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY106_JL.jpg",
+            "text": "Untitled, 2007, Celotex insulation board, chandelier, Dimensions variable"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY108_JL.jpg",
+            "text": "Untitled, 2007, Wall carpet installation, Dimensions variable"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY110_new_JL.jpg",
+            "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY113_JL.jpg",
+            "text": "Untitled, 2003, Styrofoam and silicone on canvas, 78 3/8 x 102 3/8 in (198 x 260 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY052_RI_JL.jpg",
+            "text": "Untitled, 2000, Styrofoam, 120 1/2 x 191 3/4 x 2 in (306 x 487 x 5 cm); 10 panels"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY114_RI_JL.jpg",
+            "text": "Untitled, 2000, Styrofoam, 120 x 96 x 2 in (304 x 243.8 x 5.1 cm); 5 panels"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY124_RI_JL.jpg",
+            "text": "Untitled, 2007, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY125_Ri_JL.jpg",
+            "text": "Untitled, 2007, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY129_JL.jpg",
+            "text": "Untitled, 2007, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY141_RI_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY142_RI_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY143_RI_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY261_RI.jpg",
+            "text": "Untitled, 1991, Cast polycarbonate and acrylic, 19 x 42 x 9 in (48.3 x 106.7 x 22.9 cm)"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY725_JL.jpg",
+            "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 panels"
+          },
+          {
+            "path": "assets/images/shows/2007/2007WhitneyNY1875.jpg",
+            "text": "Untitled, 2004, Floor mirror installation, Dimensions variable"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/whitney-ny-exhibition"
+      }
+    ],
+    2008: [
+      {
+        "id": "2008-1",
+        "title": "Paula Cooper NY Exhibition",
+        "description": "Exhibition at Paula Cooper Gallery, New York, featuring works from 1989 to 2008.",
+        "images": [
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNYe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNYe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY309_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY311_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY312_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY313_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY314_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY315_JL.jpg",
+            "text": "Untitled, 2007, Oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY461_JL.jpg",
+            "text": "Untitled, 2008, Oil and enamel on Rives BFK paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY462_JL.jpg",
+            "text": "Untitled, 2008, Oil and enamel on Rives BFK paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY463_JL.jpg",
+            "text": "Untitled, 2008, Oil and enamel on Rives BFK paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY1297_framed_JL.jpg",
+            "text": "Untitled, 2008, Oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY317_JL.jpg",
+            "text": "Untitled (#3), 1989, Oil and enamel on black and white photograph, Paper size: 7 5/8 x 9 5/8 in (19.4 x 24.4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY318_JL.jpg",
+            "text": "Untitled (#5), 1989, Oil and enamel on black and white photograph, Paper size: 7 5/8 x 9 5/8 in (19.4 x 24.4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY320_JL.jpg",
+            "text": "Untitled (#6), 1989, Oil and enamel on black and white photograph, Paper size: 7 5/8 x 9 5/8 in (19.4 x 24.4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY322_JL.jpg",
+            "text": "Untitled, 1989, Oil and enamel on black and white photograph, Paper size: 7 5/8 x 9 5/8 in (19.4 x 24.4 cm)"
+          },
+          {
+            "path": "assets/images/shows/2008/2008PaulaCooperNY323_JL.jpg",
+            "text": "Untitled, 1989, Oil and enamel on black and white photograph, Paper size: 7 5/8 x 9 5/8 in (19.4 x 24.4 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/paula-cooper-ny-exhibition"
+      }
+    ],
+    2009: [
+      {
+        "id": "2009-1",
+        "title": "Paula Cooper NY Exhibition",
+        "description": "Exhibition at Paula Cooper Gallery, New York, featuring works from 2009.",
+        "images": [
+          {
+            "path": "assets/images/shows/2009/2009PaulaCooperNYe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009PaulaCooperNYe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009PaulaCooperNYe3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009PaulaCooperNYe4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009PaulaCooperNY501_RI_JL.jpg",
+            "text": "Untitled (Madonna), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+          },
+          {
+            "path": "assets/images/shows/2009/2009PaulaCooperNY502_RI_JL.jpg",
+            "text": "Untitled (St. Florian), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+          },
+          {
+            "path": "assets/images/shows/2009/2009PaulaCooperNY503_RI_JL.jpg",
+            "text": "Untitled (St. Elizabeth), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+          },
+          {
+            "path": "assets/images/shows/2009/2009PaulaCooperNY504_RI_JL.jpg",
+            "text": "Untitled (St. Leonard), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/paula-cooper-ny-exhibition"
+      },
+      {
+        "id": "2009-2",
+        "title": "Sadie Coles London Exhibition",
+        "description": "Exhibition at Sadie Coles HQ, London, featuring works from 2009.",
+        "images": [
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLOe1.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLOe2.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLOe3.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLOe4.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLOe5.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLOe6.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLOe7.jpg",
+            "text": null
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLO560_RI_JL.jpg",
+            "text": "Untitled, 2009, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLO561_RI_JL.jpg",
+            "text": "Untitled, 2009, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLO562_RI_JL.jpg",
+            "text": "Untitled, 2009, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLO563_RI_JL.jpg",
+            "text": "Untitled, 2009, Oil and enamel on canvas, 87 x 63 x 2 in (221 x 160 x 5.1 cm)"
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLO564_RI_JL.jpg",
+            "text": "Untitled, 2009, Oil and enamel on canvas, 87 x 63 x 2 in (221 x 160 x 5.1 cm)"
+          },
+          {
+            "path": "assets/images/shows/2009/2009SadieColesLO577_RI_JL.jpg",
+            "text": "Untitled, 2009, Oil on linen, 60 x 39 in (152.4 x 99.1 cm)"
+          }
+        ],
+        "externalLink": "https://example.com/external-link/sadie-coles-london-exhibition"
+      }
+    ],
     2010: [
       {
         "id": "2010-1",
