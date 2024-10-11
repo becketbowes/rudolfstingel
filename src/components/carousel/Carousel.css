@@ -114,13 +114,13 @@
   font-weight: bold;
   cursor: pointer;
   transition: opacity 0.3s ease, background-color 0.3s ease;
-  border-radius: 10%; /* This makes the buttons circular */
-  width: 50px; /* Set a fixed width */
-  height: 50px; /* Set a fixed height */
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 1; /* Ensures vertical centering of text */
+  line-height: 1;
 }
 
 .carousel-button:hover {

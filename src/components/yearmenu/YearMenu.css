@@ -116,7 +116,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
 }
 
 .horizontal .exhibitions-container {
@@ -124,6 +123,7 @@
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 30px;
 }
 
 .selected-exhibition {
@@ -184,8 +184,8 @@ body.exhibition-selected::before {
   body.exhibition-selected::before {
     background: linear-gradient(
       to bottom,
-      rgba(225, 225, 255, 0.8) 0%,
-      rgba(225, 225, 255, 0.8) 80px,
+      rgba(230, 230, 255, 0.8) 0%,
+      rgba(230, 230, 255, 0.8) 80px,
       rgba(255, 255, 255, 1) 90px,
       rgba(255, 255, 255, 1) 100%
     )
