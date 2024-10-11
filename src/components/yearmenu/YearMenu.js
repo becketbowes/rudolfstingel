@@ -29,7 +29,7 @@ const YearMenu = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 1000);
+    }, 100);
 
     return () => clearTimeout(timer);
   }, []);
@@ -44,7 +44,7 @@ const YearMenu = () => {
     if (isHorizontal && selectedYear) {
       setTimeout(() => { 
         centerSelectedYear();
-      }, 1000);
+      }, 100);
     }
   }, [isHorizontal, selectedYear, centerSelectedYear]);
 
