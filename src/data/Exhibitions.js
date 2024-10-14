@@ -10,8 +10,8 @@ export const exhibitions = {
     2007: [
       {
         "id": "2007-1",
-        "title": "Whitney NY Exhibition",
-        "description": "Exhibition at Whitney Museum of American Art, New York, featuring works from 1987 to 2007.",
+        "title": "Whitney Museum of American Art, New York",
+        "description": "Rudolf Stingel at Whitney Museum of American Art, New York, June 28 - October 14, 2007.",
         "images": [
           {
             "path": "assets/images/shows/2007/Whitney_2007_1.jpg",
@@ -190,14 +190,14 @@ export const exhibitions = {
             "text": "Untitled, 2004, Floor mirror installation, Dimensions variable"
           }
         ],
-        "externalLink": "https://example.com/external-link/whitney-ny-exhibition"
+        "externalLink": "https://whitney.org/exhibitions/rudolf-stingel"
       }
     ],
     2008: [
       {
         "id": "2008-1",
-        "title": "Paula Cooper NY Exhibition",
-        "description": "Exhibition at Paula Cooper Gallery, New York, featuring works from 1989 to 2008.",
+        "title": "Paula Cooper Gallery, New York",
+        "description": "Works on Paper, Paula Cooper Gallery, New York, May 3 - June 7, 2009",
         "images": [
           {
             "path": "assets/images/shows/2008/2008PaulaCooperNYe1.jpg",
@@ -268,14 +268,14 @@ export const exhibitions = {
             "text": "Untitled, 1989, Oil and enamel on black and white photograph, Paper size: 7 5/8 x 9 5/8 in (19.4 x 24.4 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/paula-cooper-ny-exhibition"
+        "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel3"
       }
     ],
     2009: [
       {
         "id": "2009-1",
-        "title": "Paula Cooper NY Exhibition",
-        "description": "Exhibition at Paula Cooper Gallery, New York, featuring works from 2009.",
+        "title": "Paula Cooper Gallery, New York",
+        "description": "Paula Cooper Gallery, New York, February 20 - March 21, 2009",
         "images": [
           {
             "path": "assets/images/shows/2009/2009PaulaCooperNYe1.jpg",
@@ -310,12 +310,12 @@ export const exhibitions = {
             "text": "Untitled (St. Leonard), 2009, Oil on linen, 16 x 13 in (40.6 x 33 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/paula-cooper-ny-exhibition"
+        "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel2"
       },
       {
         "id": "2009-2",
-        "title": "Sadie Coles London Exhibition",
-        "description": "Exhibition at Sadie Coles HQ, London, featuring works from 2009.",
+        "title": "Sadie Coles Gallery, London",
+        "description": "Sadie Coles HQ, London, September 9 - October 10, 2009",
         "images": [
           {
             "path": "assets/images/shows/2009/2009SadieColesLOe1.jpg",
@@ -370,14 +370,14 @@ export const exhibitions = {
             "text": "Untitled, 2009, Oil on linen, 60 x 39 in (152.4 x 99.1 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/sadie-coles-london-exhibition"
+        "externalLink": "https://www.sadiecoles.com/artists/42-rudolf-stingel/exhibitions/2009/"
       }
     ],
     2010: [
       {
         "id": "2010-1",
-        "title": "Neue National Galerie Exhibition",
-        "description": "Exhibition at Neue National Galerie featuring various works from 2009-2010.",
+        "title": "Neue National Galerie, Berlin",
+        "description": "Rudolf Stingel, Live, Neue Nationalgalerie, Berlin, February 10 - August 22, 2010",
         "images": [
           {
             "path": "assets/images/shows/2010/2010NeueNationalGalerie_e1.jpg",
@@ -444,14 +444,14 @@ export const exhibitions = {
             "text": "Untitled, 2010, Floor printed carpet installation, Dimensions variable"
           }
         ],
-        "externalLink": null
+        "externalLink": "https://freunde-der-nationalgalerie.de/en/exhibition-archive/rudolf-stingel/"
       }
     ],
     2011: [
       {
         "id": "2011-1",
-        "title": "Gagosian NY Exhibition",
-        "description": "Exhibition at Gagosian New York featuring works from 2010.",
+        "title": "Gagosian Gallery, New York",
+        "description": "Rudolf Stingel at Gagosian Gallery, 555 West 24th Street, New York. March 4 - April 16, 2011.",
         "images": [
           {
             "path": "assets/images/shows/2011/2011GagosianNYe1.jpg",
@@ -558,14 +558,14 @@ export const exhibitions = {
             "text": "Untitled, 2010, Oil and enamel on linen, 120 x 96 in (304.8 x 243.8 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/gagosian-ny-exhibition"
+        "externalLink": "https://gagosian.com/exhibitions/2011/rudolf-stingel/"
       }
     ],
     2012: [
       {
         "id": "2012-1",
-        "title": "Gagosian Paris Exhibition",
-        "description": "Exhibition at Gagosian Paris featuring works from 2011-2012.",
+        "title": "Gagosian Gallery, Paris",
+        "description": "Rudolf Stingel at Gagosian Gallery, rue de Ponthieu, Paris. October 16 - December 22, 2012",
         "images": [
           {
             "path": "assets/images/shows/2012/2012GagosianParise1.jpg",
@@ -680,12 +680,12 @@ export const exhibitions = {
             "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless, 47 3/8 x 39 5/8 x 1 5/8 in (120.5 x 100.2 x 4 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/gagosian-paris-exhibition"
+        "externalLink": "https://gagosian.com/exhibitions/2012/rudolf-stingel/"
       },
       {
         "id": "2012-2",
-        "title": "Sadie Coles Offsite Exhibition",
-        "description": "Exhibition at Sadie Coles Offsite featuring works from 2012.",
+        "title": "Sadie Coles Offsite",
+        "description": "Rudolf Stingel at Sadie Coles, 9 Grosvenor Place SW1, London. June 21 - July 4, 2012.",
         "images": [
           {
             "path": "assets/images/shows/2012/2012SadieColesOffsitee1.jpg",
@@ -720,12 +720,12 @@ export const exhibitions = {
             "text": "Untitled, 2012, Floor printed carpet installation, Dimensions variable"
           }
         ],
-        "externalLink": "https://example.com/external-link/sadie-coles-offsite"
+        "externalLink": "https://www.sadiecoles.com/exhibitions/641-rudolf-stingel/installation_shots/"
       },
       {
         "id": "2012-3",
-        "title": "Secession Wien Exhibition",
-        "description": "Exhibition at Secession Wien featuring works from 2006 and 2008.",
+        "title": "Secession, Vienna",
+        "description": "Rudolf Stingel at Secession, Vienna. February 2 - April 15, 2012.",
         "images": [
           {
             "path": "assets/images/shows/2012/2012SecessionWiene1.jpg",
@@ -756,14 +756,14 @@ export const exhibitions = {
             "text": "Untitled (1631), 2008, Pigmented plaster, aluminum, steel, 154 3/8 x 214 1/2 x 6 5/8 in (392 x 545 x 17 cm) (20 panels)"
           }
         ],
-        "externalLink": "https://example.com/external-link/secession-wien-exhibition"
+        "externalLink": "https://secession.at/ausstellung_rudolf_stingel_en"
       }
     ],
 2013: [
     {
       "id": "2013-1",
-      "title": "Palazzo Grassi Exhibition",
-      "description": "Exhibition at Palazzo Grassi in Venice featuring works from 2003 to 2013.",
+      "title": "Palazzo Grassi, Venice",
+      "description": "Rudolf Stingel at Palazzo Grassi, Venice. July 4, 2013 - June 1, 2014.",
       "images": [
         {
           "path": "assets/images/shows/2013/2013PalazzoGrassie1.jpg",
@@ -950,14 +950,14 @@ export const exhibitions = {
           "text": "Untitled, 2013, Oil on canvas, 96 x 66 1/4 in (243.8 x 168.3 cm)"
         }
       ],
-      "externalLink": "https://example.com/external-link/palazzo-grassi-exhibition"
+      "externalLink": "https://www.pinaultcollection.com/palazzograssi/en/rudolf-stingel"
     }
   ],
 2014: [
     {
         "id": "2014-1",
-        "title": "Gagosian NY 21st Street",
-        "description": "A remarkable exhibition showcasing contemporary art at Gagosian Gallery, New York.",
+        "title": "Gagosian Gallery, New York",
+        "description": "Rudolf Stingel at Gagosian Gallery, West 21st Street, New York. March 4 - April 19, 2014.",
         "images": [
         {
             "path": "assets/images/shows/2014/2014GagosianNYe1.jpg",
@@ -1016,8 +1016,8 @@ export const exhibitions = {
     },
     {
         "id": "2014-2",
-        "title": "Massimo De Carlo Milan via Ventura",
-        "description": "A major exhibition hosted by Massimo De Carlo in Milan, showcasing modern Italian art.",
+        "title": "Massimo De Carlo, Milan",
+        "description": "Rudolf Stingel at Massimo De Carlo, via Ventura, Milan. September 16 - November 8, 2014.",
         "images": [
         {
             "path": "assets/images/shows/2014/2014MDeCarloMLe1.jpg",
@@ -1106,8 +1106,8 @@ export const exhibitions = {
   2015: [
     {
         "id": "2015-1",
-        "title": "Gagosian Hong Kong",
-        "description": "A striking exhibition hosted by Gagosian Gallery in Hong Kong, featuring contemporary works.",
+        "title": "Gagosian Gallery, Hong Kong",
+        "description": "Rudolf Stingel at Gagosian Gallery in Hong Kong. March 12 - May 9, 2015.",
         "images": [
           {
             "path": "assets/images/shows/2015/2015GagosianHKe1.jpg",
@@ -1178,8 +1178,8 @@ export const exhibitions = {
       },
       {
         "id": "2015-4",
-        "title": "Sadie Coles Kingly St",
-        "description": "An exhibition at Sadie Coles HQ in London, that ran concurrently with the Davies Street location",
+        "title": "Sadie Coles, Kingly St",
+        "description": "An exhibition at Sadie Coles HQ in London, that ran concurrently with the Davies Street location. November 4 - December 18, 2015",
         "images": [
           {
             "path": "assets/images/shows/2015/2015SColesLOe5.jpg",
@@ -1392,7 +1392,7 @@ export const exhibitions = {
             "text": "Untitled, 2015, Oil and enamel on canvas 95 x 76 in (241.3 x 193 cm)"
           },
           {
-            "path": "assets/images/shows/2016/2016GagPark&75_III_1495_JL.jpg",
+            "path": "assets/images/shows/2016/2016GagPark&75_III_1495.jpg",
             "text": "Untitled, 2011, Ink, oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
           }
         ],
@@ -1956,7 +1956,7 @@ export const exhibitions = {
       {
         "id": "2021-1",
         "title": "Sadie Coles HQ",
-        "description": "Exhibition at Sadie Coles HQ in 2021.",
+        "description": "Rudolf Stingel at Sadie Coles HQ. March 30 - May 22, 2021",
         "images": [
           {
             "path": "assets/images/shows/2021/2021_01SadieColesHQe1.jpg",
@@ -1975,12 +1975,12 @@ export const exhibitions = {
             "text": "Kirchner Wald im Winter 1925, 2019, Oil on canvas, 95 x 80 x 2 in (241.3 x 203.2 x 5 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/sadie-coles-hq"
+        "externalLink": "https://www.sadiecoles.com/artists/42-rudolf-stingel/"
       },
       {
         "id": "2021-2",
-        "title": "Massimo De Carlo Piece Unique Paris",
-        "description": "Exhibition at Massimo De Carlo, Piece Unique Paris in 2021.",
+        "title": "Massimo De Carlo, Piece Unique, Paris",
+        "description": "Rudolf Stingel at Massimo De Carlo, Piece Unique Paris. March 30 - April 30, 2021.",
         "images": [
           {
             "path": "assets/images/shows/2021/2021_02MDeCarloPieceUniqueParise1.jpg",
@@ -1999,12 +1999,12 @@ export const exhibitions = {
             "text": "Kirchner Waldlandschaft mit Bach 1925, 2019, Oil on canvas, 95 x 79 in (241.3 x 200.6 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/massimo-de-carlo-piece-unique"
+        "externalLink": "https://massimodecarlo.com/exhibitions/kirchner-waldlandschaft-mit-bach-1925"
       },
       {
         "id": "2021-3",
-        "title": "Gagosian New York",
-        "description": "Exhibition at Gagosian New York in 2021.",
+        "title": "Gagosian, New York",
+        "description": "Rudolf Stingel at Gagosian Gallery, 980 Madison Avenue, New York. April 20 - May 22, 2021.",
         "images": [
           {
             "path": "assets/images/shows/2021/2021_03GagosianNYe1.jpg",
@@ -2027,13 +2027,9 @@ export const exhibitions = {
       },
       {
         "id": "2021-4",
-        "title": "Max Hetzler Berlin",
-        "description": "Exhibition at Max Hetzler Berlin in 2021.",
+        "title": "Max Hetzler, Berlin",
+        "description": "Rudolf Stingel at Max Hetzler, Berlin. September 8 - December 11, 2021.",
         "images": [
-          {
-            "path": "assets/images/shows/2021/2021_04MaxHetzlerBerline1.jpg",
-            "text": null
-          },
           {
             "path": "assets/images/shows/2021/2021_04MaxHetzlerBerline2.jpg",
             "text": null
@@ -2047,14 +2043,14 @@ export const exhibitions = {
             "text": "Schöneitssalon Omm, 2017, Oil on canvas, 95 x 76 in (241.3 x 193 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/max-hetzler-berlin"
+        "externalLink": "https://www.maxhetzler.com/exhibitions/rudolf-stingel-schonheitssalon-omm-2021"
       }
     ],
     2022: [
       {
         "id": "2022-1",
-        "title": "Sadie Coles London Kingly Street",
-        "description": "Exhibition at Sadie Coles in London, Kingly Street in 2022.",
+        "title": "Sadie Coles, London",
+        "description": "Rudolf Stingel at Sadie Coles, Kingly Street, London. October 31 - December 17, 2022.",
         "images": [
           {
             "path": "assets/images/shows/2022/2022-01SadieColesLondonKingly_Streete1.jpg",
@@ -2077,12 +2073,12 @@ export const exhibitions = {
             "text": "Untitled, 2015, Oil on canvas, 95 x 65 1/4 in (241.3 x 165.7 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/sadie-coles-london-kingly-street"
+        "externalLink": "https://www.sadiecoles.com/exhibitions/922-rudolf-stingel/installation_shots/"
       },
       {
         "id": "2022-2",
-        "title": "Paula Cooper",
-        "description": "Exhibition at Paula Cooper Gallery in 2022.",
+        "title": "Paula Cooper, New York",
+        "description": "Rudolf Stingel at Paula Cooper Gallery, New York. November 5 - December 22, 2022.",
         "images": [
           {
             "path": "assets/images/shows/2022/2022_02PaulaCoopere1.jpg",
@@ -2129,17 +2125,17 @@ export const exhibitions = {
             "text": "Untitled, 2022, Oil on canvas, 95 x 72 1/2 in (241.3 x 184.1 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/paula-cooper"
+        "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel10"
       }
     ],
     2023: [
       {
         "id": "2023-1",
-        "title": "Gagosian Paris",
-        "description": "Exhibition at Gagosian Paris in 2023.",
+        "title": "Gagosian, Paris",
+        "description": "Rudolf Stingel at Gagosian, rue de Ponthieu, Paris. March 17 - May 27, 2023.",
         "images": [
           {
-            "path": "assets/images/shows/2023/2023_GagosianParise0.jpg",
+            "path": "assets/images/shows/2023/2023GagosianParise0.jpg",
             "text": null
           },
           {
@@ -2239,14 +2235,14 @@ export const exhibitions = {
             "text": "Untitled, 2023, Oil, enamel and graphite on canvas, 60 x 43 in (152.4 x 109.2 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/gagosian-paris"
+        "externalLink": "https://gagosian.com/exhibitions/2023/rudolf-stingel/"
       }
     ],
     2024: [
       {
         "id": "2024-1",
-        "title": "Gagosian NY Madison Avenue",
-        "description": "Exhibition at Gagosian New York, Madison Avenue in 2024.",
+        "title": "Gagosian, New York",
+        "description": "Rudolf Stingel at Gagosian, Madison Avenue, New York. March 14 - April 30, 2024.",
         "images": [
           {
             "path": "assets/images/shows/2024/2024_GagosianNYMaAve1.jpg",
@@ -2285,7 +2281,7 @@ export const exhibitions = {
             "text": "Untitled, 2020, Oil on canvas, 50 x 50 in (127 x 127 cm)"
           }
         ],
-        "externalLink": "https://example.com/external-link/gagosian-ny-madison-ave"
+        "externalLink": "https://gagosian.com/exhibitions/2024/rudolf-stingel/"
       }
     ]
   };
