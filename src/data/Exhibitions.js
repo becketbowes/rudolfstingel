@@ -1392,7 +1392,7 @@ export const exhibitions = {
             "text": "Untitled, 2015, Oil and enamel on canvas 95 x 76 in (241.3 x 193 cm)"
           },
           {
-            "path": "assets/images/shows/2016/2016GagPark&75_III_1495_JL.jpg",
+            "path": "assets/images/shows/2016/2016GagPark&75_III_1495.jpg",
             "text": "Untitled, 2011, Ink, oil and enamel on paper, 30 x 22 1/4 in (76.2 x 56.5 cm)"
           }
         ],
@@ -2135,7 +2135,7 @@ export const exhibitions = {
         "description": "Rudolf Stingel at Gagosian, rue de Ponthieu, Paris. March 17 - May 27, 2023.",
         "images": [
           {
-            "path": "assets/images/shows/2023/2023_GagosianParise0.jpg",
+            "path": "assets/images/shows/2023/2023GagosianParise0.jpg",
             "text": null
           },
           {
