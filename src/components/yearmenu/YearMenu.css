@@ -92,11 +92,20 @@
 .exhibition-button {
   font-size: 16px;
   font-weight: normal;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .exhibition-button.selected {
   transform: translateY(-30px);
   font-weight: bold;
+  text-align: center;
 }
 
 .horizontal .year-button,
@@ -189,5 +198,71 @@ body.exhibition-selected::before {
       rgba(255, 255, 255, 1) 90px,
       rgba(255, 255, 255, 1) 100%
     )
+  }
+}
+
+.exhibition-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.exhibition-button.selected .exhibition-preview {
+  width: 0;
+  height: 0;
+  margin-right: 0;
+  opacity: 0;
+}
+
+.exhibition-button.selected {
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .exhibition-preview {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.selected-exhibition-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 100%;
+  text-align: center;
+}
+
+.selected-exhibition {
+  display: inline-block;
+}
+
+.exhibition-button.selected {
+  font-weight: bold;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.exhibition-button.selected:hover {
+  opacity: 0.8;
+}
+
+.horizontal .selected-exhibition-container {
+  top: auto;
+  bottom: 20%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1000px) {
+  .exhibition-button.selected {
+    font-size: 20px;
   }
 }

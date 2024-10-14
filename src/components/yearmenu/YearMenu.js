@@ -113,7 +113,12 @@ const YearMenu = () => {
                     role="listitem"
                     aria-label={`Exhibition: ${exhibition.title}`}
                   >
-                    {exhibition.title}
+                    <img 
+                      src={require(`../../${exhibition.images[0].path}`)} 
+                      alt={`Exhibition view ${1}`} 
+                      className="exhibition-preview"
+                    />
+                    <span>{exhibition.title}</span>
                   </button>
                 ))}
               </div>
@@ -122,14 +127,16 @@ const YearMenu = () => {
         ))}
       </div>
       {selectedExhibition && (
-        <div className="selected-exhibition" aria-live="polite">
-          <button 
-            className="exhibition-button selected"
-            onClick={() => setSelectedExhibition(null)}
-            aria-label={`Selected exhibition: ${selectedExhibition.title}. Click to deselect.`}
-          >
-            {selectedExhibition.title}
-          </button>
+        <div className="selected-exhibition-container">
+          <div className="selected-exhibition" aria-live="polite">
+            <button 
+              className="exhibition-button selected"
+              onClick={() => setSelectedExhibition(null)}
+              aria-label={`Selected exhibition: ${selectedExhibition.title}. Click to deselect.`}
+            >
+              <span>{selectedExhibition.title}</span>
+            </button>
+          </div>
         </div>
       )}
     </nav>
