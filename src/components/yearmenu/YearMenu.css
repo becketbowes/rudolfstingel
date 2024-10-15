@@ -202,12 +202,17 @@ body.exhibition-selected::before {
 }
 
 .exhibition-preview {
-  width: 180px;
-  height: 100px;
+  width: 360px;
+  height: 200px;
   object-fit: cover;
   margin-right: 10px;
   transition: all 0.3s ease;
   border-radius: 5px;
+}
+
+.horizontal .exhibition-preview {
+  width: 180px;
+  height: 100px;
 }
 
 .exhibition-button.selected .exhibition-preview {
@@ -223,8 +228,17 @@ body.exhibition-selected::before {
 
 @media (max-width: 1200px) {
   .exhibition-preview {
-    width: 80px;
-    height: 50px;
+    width: 150px;
+    height: 90px;
+  }
+
+  .horizontal .exhibition-preview {
+    width: 70px;
+    height: 45px;
+  }
+
+  .exhibition-button {
+    font-size: 12px;
   }
 }
 
@@ -246,7 +260,7 @@ body.exhibition-selected::before {
 
 .exhibition-button.selected {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   background: none;
   border: none;
   cursor: pointer;
@@ -264,6 +278,6 @@ body.exhibition-selected::before {
 
 @media (max-width: 1000px) {
   .exhibition-button.selected {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
