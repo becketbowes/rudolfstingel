@@ -92,11 +92,20 @@
 .exhibition-button {
   font-size: 16px;
   font-weight: normal;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .exhibition-button.selected {
   transform: translateY(-30px);
   font-weight: bold;
+  text-align: center;
 }
 
 .horizontal .year-button,
@@ -189,5 +198,72 @@ body.exhibition-selected::before {
       rgba(255, 255, 255, 1) 90px,
       rgba(255, 255, 255, 1) 100%
     )
+  }
+}
+
+.exhibition-preview {
+  width: 180px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.exhibition-button.selected .exhibition-preview {
+  width: 0;
+  height: 0;
+  margin-right: 0;
+  opacity: 0;
+}
+
+.exhibition-button.selected {
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .exhibition-preview {
+    width: 80px;
+    height: 50px;
+  }
+}
+
+.selected-exhibition-container {
+  width: fit-content;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.selected-exhibition {
+  pointer-events: auto;
+}
+
+.exhibition-button.selected {
+  font-weight: bold;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90vw;
+}
+
+.exhibition-button.selected:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1000px) {
+  .exhibition-button.selected {
+    font-size: 20px;
   }
 }

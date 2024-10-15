@@ -10,7 +10,7 @@ export const exhibitions = {
     2007: [
       {
         "id": "2007-1",
-        "title": "Whitney Museum of American Art, New York",
+        "title": "Whitney Museum, New York",
         "description": "Rudolf Stingel at Whitney Museum of American Art, New York, June 28 - October 14, 2007.",
         "images": [
           {
@@ -684,8 +684,8 @@ export const exhibitions = {
       },
       {
         "id": "2012-2",
-        "title": "Sadie Coles Offsite",
-        "description": "Rudolf Stingel at Sadie Coles, 9 Grosvenor Place SW1, London. June 21 - July 4, 2012.",
+        "title": "Sadie Coles, London",
+        "description": "Rudolf Stingel at Sadie Coles, Offsite, 9 Grosvenor Place SW1, London. June 21 - July 4, 2012.",
         "images": [
           {
             "path": "assets/images/shows/2012/2012SadieColesOffsitee1.jpg",
@@ -1612,7 +1612,7 @@ export const exhibitions = {
       },
       {
         "id": "2016-8",
-        "title": "Massimo De Carlo Palazzo Belgioioso",
+        "title": "Massimo De Carlo, Palazzo Belgioioso",
         "description": "An exhibition at Palazzo Belgioioso in Milan hosted by Massimo De Carlo in June of 2016.",
         "images": [
           {
@@ -1650,7 +1650,7 @@ export const exhibitions = {
     2017: [
       {
           "id": "2017-1",
-          "title": "Gagosian Malaparte Capri",
+          "title": "Gagosian, Malaparte Capri",
           "description": "An exhibition at Malaparte, Capri hosted by Gagosian in July of 2017.",
           "images": [
               {
@@ -1727,7 +1727,7 @@ export const exhibitions = {
       ,
       {
           "id": "2017-2",
-          "title": "Gagosian New York",
+          "title": "Gagosian, New York",
           "description": "An exhibition at Gagosian's 980 Madison Avenue location from November 10 - December 16th in 2017.",
           "images": [
               {
@@ -1773,8 +1773,8 @@ export const exhibitions = {
     2019: [
       {
         "id": "2019-1",
-        "title": "Fondation Beyeler",
-        "description": "An extensive retrospective hosted at the Fondation Beyeler from May 26 - October 6, 2019",
+        "title": "Fondation Beyeler, Basel",
+        "description": "An extensive retrospective hosted at the Fondation Beyeler, Basel, Switzerland, from May 26 - October 6, 2019",
         "images": [
           {
             "path": "assets/images/shows/2019/2019_FondationBeyeler_e0_FB_190523_0227_NN.jpg",
@@ -1955,7 +1955,7 @@ export const exhibitions = {
     2021: [
       {
         "id": "2021-1",
-        "title": "Sadie Coles HQ",
+        "title": "Sadie Coles HQ, London",
         "description": "Rudolf Stingel at Sadie Coles HQ. March 30 - May 22, 2021",
         "images": [
           {
@@ -1979,7 +1979,7 @@ export const exhibitions = {
       },
       {
         "id": "2021-2",
-        "title": "Massimo De Carlo, Piece Unique, Paris",
+        "title": "Massimo De Carlo, Paris",
         "description": "Rudolf Stingel at Massimo De Carlo, Piece Unique Paris. March 30 - April 30, 2021.",
         "images": [
           {
@@ -2049,7 +2049,7 @@ export const exhibitions = {
     2022: [
       {
         "id": "2022-1",
-        "title": "Sadie Coles, London",
+      "title": "Sadie Coles HQ, London",
         "description": "Rudolf Stingel at Sadie Coles, Kingly Street, London. October 31 - December 17, 2022.",
         "images": [
           {
