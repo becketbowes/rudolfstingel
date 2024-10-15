@@ -10,7 +10,7 @@ export const exhibitions = {
     2007: [
       {
         "id": "2007-1",
-        "title": "Whitney Museum of American Art, New York",
+        "title": "Whitney Museum, New York",
         "description": "Rudolf Stingel at Whitney Museum of American Art, New York, June 28 - October 14, 2007.",
         "images": [
           {
@@ -684,8 +684,8 @@ export const exhibitions = {
       },
       {
         "id": "2012-2",
-        "title": "Sadie Coles Offsite",
-        "description": "Rudolf Stingel at Sadie Coles, 9 Grosvenor Place SW1, London. June 21 - July 4, 2012.",
+        "title": "Sadie Coles, London",
+        "description": "Rudolf Stingel at Sadie Coles, Offsite, 9 Grosvenor Place SW1, London. June 21 - July 4, 2012.",
         "images": [
           {
             "path": "assets/images/shows/2012/2012SadieColesOffsitee1.jpg",
@@ -1979,7 +1979,7 @@ export const exhibitions = {
       },
       {
         "id": "2021-2",
-        "title": "Massimo De Carlo, Piece Unique, Paris",
+        "title": "Massimo De Carlo, Paris",
         "description": "Rudolf Stingel at Massimo De Carlo, Piece Unique Paris. March 30 - April 30, 2021.",
         "images": [
           {

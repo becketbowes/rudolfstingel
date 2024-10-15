@@ -115,7 +115,7 @@ const YearMenu = () => {
                   >
                     <img 
                       src={require(`../../${exhibition.images[0].path}`)} 
-                      alt={`Exhibition view ${1}`} 
+                      alt={`Exhibition view ${ 1}`} 
                       className="exhibition-preview"
                     />
                     <span>{exhibition.title}</span>
@@ -126,19 +126,25 @@ const YearMenu = () => {
           </div>
         ))}
       </div>
-      {selectedExhibition && (
-        <div className="selected-exhibition-container">
+      <div className="selected-exhibition-container">
+        {selectedExhibition && (
           <div className="selected-exhibition" aria-live="polite">
             <button 
               className="exhibition-button selected"
               onClick={() => setSelectedExhibition(null)}
               aria-label={`Selected exhibition: ${selectedExhibition.title}. Click to deselect.`}
             >
+              <img 
+                src={selectedExhibition.images[0].src} 
+                alt="" 
+                className="exhibition-preview"
+              />
               <span>{selectedExhibition.title}</span>
             </button>
           </div>
-        </div>
-      )}
+        )}
+      </div>
+
     </nav>
   );
 };
