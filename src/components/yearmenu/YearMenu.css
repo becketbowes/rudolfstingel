@@ -278,6 +278,6 @@ body.exhibition-selected::before {
 
 @media (max-width: 1000px) {
   .exhibition-button.selected {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
