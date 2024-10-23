@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import './YearMenu.css'
@@ -67,14 +66,15 @@ const YearMenu = () => {
 
   const handleExhibitionClick = (exhibition) => {
     if (!isHorizontal) {
-      centerSelectedYear()
+      setSelectedYear(exhibition.year);
       setTimeout(() => {
         setIsHorizontal(true);
-        setSelectedExhibition(exhibition);
-      }, 100);
+        setTimeout(() => {
+          setSelectedExhibition(exhibition);
+        }, 100);
+      }, 50);
     } else {
-      setIsHorizontal(true);
-      setSelectedExhibition(exhibition)
+      setSelectedExhibition(exhibition);
     }
   };
 
