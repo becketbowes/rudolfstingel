@@ -7,7 +7,10 @@ function Header() {
   const { setSelectedYear, setSelectedExhibition, isHorizontal, setIsHorizontal } = useAppContext();
 
   useEffect(() => {
-    setTitleState('start')
+    // Start with 'initial' state
+    setTitleState('initial');
+    
+    // Move to 'animated' state after a short delay
     const timer = setTimeout(() => {
       setTitleState('animated');
     }, 100);

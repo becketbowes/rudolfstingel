@@ -1,14 +1,435 @@
 export const exhibitions = {
   // 1999: [],
-  // 2000: [],
-  // 2001: [],
-  // 2002: [],
-  // 2003: [],
-  // 2004: [],
+  2000: [
+    {
+      "id": "2000-1",
+      "title": "Margo Leavin Gallery, Los Angeles",
+      "description": "Rudolf Stingel, Margo Leavin Gallery, Los Angeles, April 8 - April 29, 2000",
+      "images": [
+        {
+          "path": "assets/images/shows/2000/2000_MargoLeavin_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2000/2000_MargoLeavin_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2000/2000_MargoLeavin1984.jpg",
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 panels"
+        }
+      ],
+      "externalLink": null
+    },
+    {
+      "id": "2000-2",
+      "title": "Paula Cooper Gallery, New York",
+      "description": "Rudolf Stingel, Paula Cooper Gallery, New York, April 22 - June 9, 2000",
+      "images": [
+        {
+          "path": "assets/images/shows/2000/2000_PaulaCoopere1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2000/2000_PaulaCoopere2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2000/2000PaulaCooper057.jpg",
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 panels"
+        },
+        {
+          "path": "assets/images/shows/2000/2000PaulaCooper058.jpg",
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 487.7 x 10 cm); 4 elements"
+        },
+        {
+          "path": "assets/images/shows/2000/2000PaulaCooper059.jpg",
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 elements"
+        },
+        {
+          "path": "assets/images/shows/2000/2000PaulaCooper110.jpg",
+          "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels"
+        }
+      ],
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel6"
+    }    
+  ],
+  2001: [
+    {
+      "id": "2001-1",
+      "title": "Stephen Friedman Gallery, London",
+      "description": "Rudolf Stingel, Stephen Friedman Gallery, London, January 24 - February 28, 2001",
+      "images": [
+        {
+          "path": "assets/images/shows/2001/2001StephenFriedman_e_1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001StephenFriedman_e_2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001StephenFriedman453.jpg",
+          "text": "Untitled, 2000, Silkscreen on styrofoam, 94 7/8 x 94 7/8 x 2 in (241 x 241 x 5 cm); 2 panels"
+        },
+        {
+          "path": "assets/images/shows/2001/2001StephenFriedman454_RI_JL.jpg",
+          "text": "Untitled, 2000, Silkscreen on styrofoam, 96 x 192 x 4 in (243.8 x 487.7 x 10 cm); 4 panels"
+        },
+        {
+          "path": "assets/images/shows/2001/2001StephenFriedman475_RI_JL.jpg",
+          "text": "Untitled, 2000, Silkscreen on styrofoam, 95 x 95 1/8 x 2 in (241.3 x 241.6 x 5 cm); 2 panels"
+        },
+        {
+          "path": "assets/images/shows/2001/2001StephenFriedman477TD_JL.jpg",
+          "text": "Untitled, 2000, Silkscreen on styrofoam, 95 x 190 1/2 x 2 in (241.3 x 484 x 5 cm); 4 panels"
+        }
+      ],
+      "externalLink": null
+    },
+    {
+      "id": "2001-2",
+      "title": "Museo di Arte Moderna e Contemporanea, Trento, Italy",
+      "description": "Rudolf Stingel, Museo di Arte Moderna e Contemporanea di Trento e Rovereto, Palazzo delle Albere, Trento, Italy, March 23 - June 5, 2001",
+      "images": [
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_01.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_02.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_03_SC.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_03.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_06.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_07.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_8.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento_9.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento023.jpg",
+          "text": "Untitled, 1991, Cast polycarbonate and acrylic, 19 x 42 x 9 in (48.3 x 106.7 x 22.9 cm); 25 elements"
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento029.jpg",
+          "text": "Untitled, 2001, Wall carpet Installation, Dimensions variable"
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento056.jpg",
+          "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels"
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento067ekt.jpg",
+          "text": "Untitled, 2001, Celotex insulation board, wood, aluminum, Dimensions variable"
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento114.jpg",
+          "text": "Untitled, 2000, Styrofoam, 120 x 96 x 2 in (304 x 243.8 x 5.1 cm); 5 panels"
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento286.jpg",
+          "text": "Untitled, 1999, Styrofoam, 118 x 98 3/8 x 2 3/8 in (300 x 250 x 6 cm)"
+        },
+        {
+          "path": "assets/images/shows/2001/2001MARTTrento455.jpg",
+          "text": "Untitled, 2001, Laminated polyurethane, 94 1/2 x 283 1/2 in (240 x 720 cm)"
+        }
+      ],
+      "externalLink": null
+    }    
+  ],
+  2002: [
+    {
+      "id": "2002-1",
+      "title": "Paula Cooper Gallery, New York",
+      "description": "Rudolf Stingel, Paula Cooper Gallery, New York, February 2 - March 2, 2002",
+      "images": [
+        {
+          "path": "assets/images/shows/2002/2002PaulaCooper_1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2002/2002PaulaCooper_3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2002/2002PaulaCooper_4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2002/2002PaulaCooper67.jpg",
+          "text": "Untitled, 2001, Celotex insulation board, wood, aluminum, Dimensions variable"
+        },
+        {
+          "path": "assets/images/shows/2002/2002PaulaCooper739.jpg",
+          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 107 1/2 x 90 7/8 in (273.5 x 230.8 cm); 3 panels"
+        },
+        {
+          "path": "assets/images/shows/2002/2002PaulaCooper740.jpg",
+          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 95 x 93 in (241.3 x 236.22 cm); 2 panels"
+        },
+        {
+          "path": "assets/images/shows/2002/2002PaulaCooper741.jpg",
+          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 95 x 186 in (241.30 x 472.44 cm); 4 panels"
+        }
+      ],
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel5"
+    },
+    {
+      "id": "2002-2",
+      "title": "Galerie Georg Kargl, Vienna",
+      "description": "Rudolf Stingel, Galerie Georg Kargl, Vienna, May 15 - June 22, 2002",
+      "images": [
+        {
+          "path": "assets/images/shows/2002/2002GeorgKargl_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2002/2002GeorgKargl_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2002/2002GeorgKargl_e10.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2002/2002GeorgKargl_e11.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2002/2002GeorgKargl_069.jpg",
+          "text": "Untitled, 2002, Celotex insulation board, wood, aluminum, Dimensions variable"
+        }
+      ],
+      "externalLink": "https://www.georgkargl.com/en/fine-arts/exhibition/rudolf-stingel"
+    }    
+  ],
+  2003: [
+    {
+      "id": "2003-1",
+      "title": "Galerie Schmela, Düsseldorf",
+      "description": "Rudolf Stingel, Galerie Schmela. Düsseldorf, Germany, March 21 - May 10, 2003",
+      "images": [
+        {
+          "path": "assets/images/shows/2003/2003GalerieSchmela_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003GalerieSchmela_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003GalerieSchmela_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003GalerieSchmela_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003GalerieSchmela_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003GalerieSchmela971.jpg",
+          "text": "Untitled, 2003, Wood, celotex insulation board, aluminum tape, 46 x 44 5/8 x 50 3/8 in (117.2 x 113.5 x 128 cm)"
+        },
+        {
+          "path": "assets/images/shows/2003/2003GalerieSchmela1250Sothebys_AZ.jpg",
+          "text": "Untitled, 2003, Celotex insulation board mounted on canvas, 95 1/2 x 95 1/2 in (242.6 x 242.6 cm); 2 panels"
+        },
+        {
+          "path": "assets/images/shows/2003/2003GalerieSchmela1886_AZ.jpg",
+          "text": "Untitled, 2003, Celotex insulation board mounted on canvas, 95 1/2 x 95 1/2 in (242.6 x 242.6 cm); 2 panels"
+        }
+      ],
+      "externalLink": null
+    }    
+  ],
+  2004: [
+    {
+      "id": "2004-1",
+      "title": "Museum Für Moderne Kunst, Frankfurt",
+      "description": "Rudolf Stingel, 'Home Depot', Museum Für Moderne Kunst, Frankfurt. February 28 - August 15, 2004",
+      "images": [
+        {
+          "path": "assets/images/shows/2004/2004MMKFrankfurt_HomeDepot_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/2004MMKFrankfurt_HomeDepot_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/2004MMKFrankfurt072ekt_JL2004_MMK.jpg",
+          "text": "Untitled (Home Depot), 2004, Celotex insulation board, Dimensions variable"
+        },
+        {
+          "path": "assets/images/shows/2004/2004MMKFrankfurt863_RI_JL2004_MMK.jpg",
+          "text": "Untitled, 2003, Oil and enamel on canvas, 94 1/2 x 76 3/8 in (240 x 194 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/2004MMKFrankfurt864_RI_JL2004_MMK.jpg",
+          "text": "Untitled, 2003, Oil and enamel on canvas, 94 1/2 x 76 3/8 in (240 x 194 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/2004MMKFrankfurt865_RI_JL2004_MMK.jpg",
+          "text": "Untitled, 2003, Oil and enamel on canvas, 94 1/2 x 76 3/8 in (240 x 194 cm)"
+        }
+      ],
+      "externalLink": "https://www.maxhetzler.com/exhibitions/rudolf-stingel-home-depot-2004"
+    },
+    {
+      "id": "2004-2",
+      "title": "Massimo De Carlo, Milan",
+      "description": "Rudolf Stingel at Massimo De Carlo, Milan. April 6 - July 31, 2004",
+      "images": [
+        {
+          "path": "assets/images/shows/2004/MDC_2004e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/MDC_2004e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/MDC_2004e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/MDC_2004e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/2004_MDeCarlo078_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/2004_MDeCarlo120_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/2004_MDeCarlo121_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/2004_MDeCarlo290_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 194 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/2004_MDeCarlo1875_JL.jpg",
+          "text": "Untitled, 2004, Floor mirror Installation, Dimensions variable"
+        }
+      ],
+      "externalLink": "https://massimodecarlo.com/exhibitions/rudolf-stingel"
+    },
+    {
+      "id": "2004-3",
+      "title": "Plan B, New York, Minneapolis",
+      "description": "Rudolf Stingel, 'Plan B' produced by Art Production Fund, Walker Art Center, Minneapolis, MN June 11 - August 8, 2004 and Grand Central Terminal, New York, July 1 - July 29, 2004.",
+      "images": [
+        {
+          "path": "assets/images/shows/2004/2004_PlanB_Angle1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/2004_PlanB_Angle3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/2004_PlanB_Angle6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/2004_PlanB_Angle7.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/2004PlanB_eAngle4.jpg",
+          "text": "Plan B, 2004, Floor carpet installation, Dimensions variable"
+        }
+      ],
+      "externalLink": "https://www.artproductionfund.org/projects/rudolf-stingel-plan-b"
+    },
+    {
+      "id": "2004-4",
+      "title": "Sadie Coles HQ, London",
+      "description": "Rudolf Stingel at Sadie Coles HQ, London. September 8 - October 9, 2004",
+      "images": [
+        {
+          "path": "assets/images/shows/2004/SadieColes_2004_1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes_2004_JL.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes2004_081_RI_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes2004_082_RI_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes2004_335_RI_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 83 x 67 in (210.8 x 170.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes2004_492_RI_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 83 x 67 in (210.8 x 170.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes2004_495_RI_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 83 x 67 in (210.8 x 170.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes2004_498_RI_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 83 x 67 in (210.8 x 170.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes2004_584_RI_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        },
+        {
+          "path": "assets/images/shows/2004/SadieColes2004_2221_JL.jpg",
+          "text": "Untitled, 2004, Floor carpet Installation, Dimensions variable"
+          }
+      ],
+    "externalLink": "https://www.sadiecoles.com/exhibitions/71-rudolf-stingel/installation_shots/"
+    }
+  ],
   2005: [
     {
       "id": "2005-1",
-      "title": "Paula Cooper NY",
+      "title": "Paula Cooper Gallery, New York",
       "description": "Rudolf Stingel at Paula Cooper Gallery. February 12 - March 12, 2005",
       "images": [
         {
@@ -21,6 +442,22 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel4"
+    },
+    {
+      "id": "2005-2",
+      "title": "EURAC, Bolzano",
+      "description": "Rudolf Stingel at EURAC, Bolzano. April 1 - June 11, 2005",
+      "images": [
+        {
+          "path": "assets/images/shows/2005/EURAC_2005_2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2005/EURAC_2005_1.jpg",
+          "text": "Untitled, 2005, Plastecine, Dimensions variable"
+        }
+      ],
+      "externalLink": "https://www.lupoburtscher.it/en/progetti/eurac-intersections-art-science/"
     }
   ],
   2006: [
@@ -78,7 +515,7 @@ export const exhibitions = {
     },
     {
       "id": "2006-2",
-      "title": "ConSens",
+      "title": "ConSens, Bolzano",
       "description": "Rudolf Stingel and Franz West at ConSens, Bolzano, Italy. May 26 - July 22, 2006",
       "images": [
         {
@@ -176,7 +613,7 @@ export const exhibitions = {
   2007: [
     {
       "id": "2007-1",
-      "title": "MCA Chicago",
+      "title": "MCA, Chicago",
       "description": "A Major retrospective at the Museum of Contemporary Art Chicago. January 27 - May 27, 2007",
       "images": [
         {
@@ -297,7 +734,7 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2007/2007MCA_Chicagoa01.jpg",
-          "text": "Untitled (Alpino 1976), 2006, Oil on canvas, 132 1/4 x 128 1/2 in (335.9 x 326.4 cm)"
+          "text": "Untitled, 2007, Celotex insulation board, chandelier, Dimensions variable"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoB107.jpg",
@@ -305,31 +742,31 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoC012.jpg",
-          "text": "Untitled (Bolego), 2006, Oil on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+          "text": "Untitled, 1994, Oil and enamel on canvas, 144 x 144 in (365.8 x 365.8 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoD011.jpg",
-          "text": "Untitled, 2004, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
+          "text": "Untitled, 2004, Oil and enamel on canvas, 144 x 120 in (365.8 x 304.8 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoE014.jpg",
-          "text": "Untitled, 2007, Wood, MDF, lacquer, 124 x 89 x 22 in (315 x 226 x 55.9 cm)"
+          "text": "Untitled, 1994, Oil and enamel on canvas, 144 x 112 in (365.8 x 284.5 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoF005.jpg",
-          "text": "Untitled (Sarouk), 2006, Floor printed carpet installation, Dimensions variable - Edition unique + 2 AP"
+          "text": "Untitled, 1994, Oil and enamel on canvas, 78 x 186 in (198.1 x 472.44 cm); 3 panels"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoG058.jpg",
-          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 487.7 x 10 cm); 4 elements, each 48 x 96 x 4 in (122 x 244 x 10 cm)"
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 487.7 x 10 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoH11.jpg",
-          "text": "Untitled, 1997, Wall Work - Styrofoam - Milled, overall 112 1/2 x 189 x 2 in (285.75 x 480 x 5 cm); 10 panels, each 22 1/2 x 94 1/2 x 2 in (56.25 x 240 x 5 cm)"
+          "text": "Untitled, 2007, Wall carpet installation, Dimensions variable"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoI110.jpg",
-          "text": "Untitled, 2000, Styrofoam, 120 x 96 x 2 in (304 x 243.8 x 5.1 cm); 5 panels, each 24 x 96 x 2 in (61 x 243.8 x 5.1 cm)"
+          "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoJ111.jpg",
@@ -341,59 +778,55 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoL073.jpg",
-          "text": "Untitled (after Sam 5), 2006, Oil on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+          "text": "Untitled, 2002, Celotex insulation board, wood, aluminum, 95 x 92 3/4 in (241.3 x 235.6 cm); 2 panels"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoM077.jpg",
-          "text": "Untitled, 2004, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
+          "text": "Untitled, 2002, Celotex insulation board, wood, aluminum, 95 x 185 1/2 in (241.3 x 471.2 cm); 4 panels"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoN100.jpg",
-          "text": "Untitled, 2006, Oil on canvas, 83 x 67 in (210.8 x 170.2 cm)"
-        },
-        {
-          "path": "assets/images/shows/2007/2007MCA_ChicagoO052_OLD.jpg",
-          "text": "Untitled, 2000, Styrofoam, 120 1/2 x 191 3/4 x 2 in (306 x 487 x 5 cm); 10 panels, each 24 x 95 7/8 x 2 in (61.2 x 97.8 x 5 cm)"
+          "text": "Untitled (Alpino 1976), 2006, Oil on canvas, 132 1/4 x 128 1/2 in (335.9 x 326.4 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoO052.jpg",
-          "text": "Untitled, 2000, Styrofoam, 120 1/2 x 191 3/4 x 2 in (306 x 487 x 5 cm); 10 panels, each 24 x 95 7/8 x 2 in (61.2 x 97.8 x 5 cm)"
+          "text": "Untitled, 2000, Styrofoam, 120 1/2 x 191 3/4 x 2 in (306 x 487 x 5 cm); 10 panels"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoP050.jpg",
-          "text": "Untitled, 1994-96, Cast bronze, 18 x 19 x 9 in (46.4 x 50.2 x 22.8 cm) - Edition of 3"
+          "text": "Untitled, 2000, Styrofoam, 112 1/2 x 189 x 2 in (285.75 x 480 x 5 cm); 10 panels"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoQ114.jpg",
-          "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels, each 48 x 96 x 4 in (122 x 244 x 10 cm)"
+          "text": "Untitled, 2000, Styrofoam, 120 x 96 x 2 in (304 x 243.8 x 5.1 cm); 5 panels"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoR22.jpg",
-          "text": "Untitled, 1994, Oil and enamel on canvas, 144 x 144 in (365.8 x 365.8 cm)"
+          "text": "Untitled, 1991, Floor carpet installation, Dimensions variable"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoS089.jpg",
-          "text": "Untitled, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
-        },
-        {
-          "path": "assets/images/shows/2007/2007MCA_ChicagoS092.jpg",
-          "text": "Untitled, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
-        },
-        {
-          "path": "assets/images/shows/2007/2007MCA_ChicagoT096.jpg",
           "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
         },
         {
+          "path": "assets/images/shows/2007/2007MCA_ChicagoS092.jpg",
+          "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007MCA_ChicagoT096.jpg",
+          "text": "Untitled (after Sam), 2006, Oil on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
           "path": "assets/images/shows/2007/2007MCA_ChicagoU095.jpg",
-          "text": "Untitled, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoV105.jpg",
-          "text": "Untitled, 1994, Oil and enamel on canvas, 144 x 112 in (365.8 x 284.5 cm)"
+          "text": "Untitled (Bolego), 2006, Oil on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoW121.jpg",
-          "text": "Untitled, 1994, Oil and enamel on canvas, 144 x 120 in (365.8 x 304.8 cm)"
+          "text": "Untitled, 1994, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoX122.jpg",
@@ -401,23 +834,23 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoY123.jpg",
-          "text": "Untitled, 1993, Oil and enamel on canvas, 96 x 96 in (243.8 x 243.8 cm)"
+          "text": "Untitled, 1993, Oil and enamel on canvas, 94 1/2 x 76 1/4 in (240 x 193.7 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoZ119.jpg",
-          "text": "Untitled, 2007, Celotex insulation board, chandelier, Dimensions variable"
-        },
-        {
-          "path": "assets/images/shows/2007/2007MCA_ChicagoZA116.jpg",
           "text": "Untitled, 2007, Wood, MDF, lacquer, 124 x 89 x 22 in (315 x 226 x 55.9 cm)"
         },
         {
+          "path": "assets/images/shows/2007/2007MCA_ChicagoZA116.jpg",
+          "text": "Untitled, 1994-96, Cast bronze, 18 x 19 x 9 in (45.7 x 48.3 x 22.9 cm)"
+        },
+        {
           "path": "assets/images/shows/2007/2007MCA_ChicagoZB117.jpg",
-          "text": "Untitled, 1994, Oil and enamel on canvas, 144 x 112 in (365.8 x 284.5 cm)"
+          "text": "Untitled, 2006, Oil and enamel on canvas, 83 x 67 in (210.8 X 170.2 cm)"
         },
         {
           "path": "assets/images/shows/2007/2007MCA_ChicagoZC118.jpg",
-          "text": "Untitled, 2002, Celotex insulation board, wood, aluminum, 95 x 185 1/2 in (241.3 x 471.2 cm); 4 panels, each 47 1/2 x 95 in (120.7 x 241.3 cm)"
+          "text": "Untitled, 2006, Oil and enamel on canvas, 83 x 67 in (210.8 X 170.2 cm)"
         }
       ],
       "externalLink": "https://mcachicago.org/exhibitions/2007/rudolf-stingel"
@@ -728,7 +1161,7 @@ export const exhibitions = {
     },
     {
       "id": "2009-2",
-      "title": "Sadie Coles Gallery, London",
+      "title": "Sadie Coles HQ, London",
       "description": "Sadie Coles HQ, London, September 9 - October 10, 2009",
       "images": [
         {
@@ -1098,7 +1531,7 @@ export const exhibitions = {
     },
     {
       "id": "2012-2",
-      "title": "Sadie Coles, London",
+      "title": "Sadie Coles HQ, London",
       "description": "Rudolf Stingel at Sadie Coles, Offsite, 9 Grosvenor Place SW1, London. June 21 - July 4, 2012.",
       "images": [
         {
@@ -1498,7 +1931,7 @@ export const exhibitions = {
     },
     {
       "id": "2014-3",
-      "title": "Paula Cooper NY",
+      "title": "Paula Cooper Gallery, New York",
       "description": "A captivating exhibition held at Paula Cooper Gallery, highlighting abstract works.",
       "images": [
         {
@@ -1592,7 +2025,7 @@ export const exhibitions = {
     },
     {
       "id": "2015-4",
-      "title": "Sadie Coles, Kingly St",
+      "title": "Sadie Coles Kingly St, London",
       "description": "An exhibition at Sadie Coles HQ in London, that ran concurrently with the Davies Street location. November 4 - December 18, 2015",
       "images": [
         {
@@ -1640,7 +2073,7 @@ export const exhibitions = {
     },
     {
       "id": "2015-4",
-      "title": "Sadie Coles London Davies St",
+      "title": "Sadie Coles Davies St, London",
       "description": "An exhibition at Sadie Coles HQ in London that ran concurrently with the Kingly Street location",
       "images": [
         {
@@ -1676,7 +2109,7 @@ export const exhibitions = {
     },
     {
       "id": "2015-2",
-      "title": "Gagosian NY Park & 75th - Part I",
+      "title": "Gagosian NY, Park & 75th - Part I",
       "description": "The first part of a full year of exhibitions at Gagosian's Park and 75th location. Part I was open from October 27 - December 23.",
       "images": [
         {
@@ -2141,7 +2574,7 @@ export const exhibitions = {
     ,
     {
       "id": "2017-2",
-      "title": "Gagosian, New York",
+      "title": "Gagosian Gallery, New York",
       "description": "An exhibition at Gagosian's 980 Madison Avenue location from November 10 - December 16th in 2017.",
       "images": [
         {
@@ -2417,7 +2850,7 @@ export const exhibitions = {
     },
     {
       "id": "2021-3",
-      "title": "Gagosian, New York",
+      "title": "Gagosian Gallery, New York",
       "description": "Rudolf Stingel at Gagosian Gallery, 980 Madison Avenue, New York. April 20 - May 22, 2021.",
       "images": [
         {
@@ -2491,7 +2924,7 @@ export const exhibitions = {
     },
     {
       "id": "2022-2",
-      "title": "Paula Cooper, New York",
+      "title": "Paula Cooper Gallery, New York",
       "description": "Rudolf Stingel at Paula Cooper Gallery, New York. November 5 - December 22, 2022.",
       "images": [
         {
@@ -2545,7 +2978,7 @@ export const exhibitions = {
   2023: [
     {
       "id": "2023-1",
-      "title": "Gagosian, Paris",
+      "title": "Gagosian Gallery, Paris",
       "description": "Rudolf Stingel at Gagosian, rue de Ponthieu, Paris. March 17 - May 27, 2023.",
       "images": [
         {
@@ -2655,7 +3088,7 @@ export const exhibitions = {
   2024: [
     {
       "id": "2024-1",
-      "title": "Gagosian, New York",
+      "title": "Gagosian Gallery, New York",
       "description": "Rudolf Stingel at Gagosian, Madison Avenue, New York. March 14 - April 30, 2024.",
       "images": [
         {
