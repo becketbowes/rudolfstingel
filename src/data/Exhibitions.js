@@ -16,7 +16,7 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2000/2000_MargoLeavin1984.jpg",
-          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 panels, each 48 x 96 x 4 in (122 x 244 x 10 cm)"
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 panels"
         }
       ],
       "externalLink": null
@@ -36,22 +36,22 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2000/2000PaulaCooper057.jpg",
-          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 panels, each 48 x 96 x 4 in (122 x 244 x 10 cm)"
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 panels"
         },
         {
           "path": "assets/images/shows/2000/2000PaulaCooper058.jpg",
-          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 487.7 x 10 cm); 4 elements, each 48 x 96 x 4 in (122 x 244 x 10 cm)"
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 487.7 x 10 cm); 4 elements"
         },
         {
           "path": "assets/images/shows/2000/2000PaulaCooper059.jpg",
-          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 elements, each 48 x 96 x 4 in (122 x 244 x 10 cm)"
+          "text": "Untitled, 2000, Styrofoam, 96 x 192 x 4 in (244 x 488 x 10 cm); 4 elements"
         },
         {
           "path": "assets/images/shows/2000/2000PaulaCooper110.jpg",
-          "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels, each 48 x 96 x 4 in (122 x 244 x 10 cm)"
+          "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels"
         }
       ],
-      "externalLink": null
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel6"
     }    
   ],
   2001: [
@@ -70,19 +70,19 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2001/2001StephenFriedman453.jpg",
-          "text": "Untitled, 2000, Silkscreen on styrofoam, 94 7/8 x 94 7/8 x 2 in (241 x 241 x 5 cm); 2 panels, each 47 1/2 x 94 7/8 x 2 in (120.5 x 241 x 5 cm)"
+          "text": "Untitled, 2000, Silkscreen on styrofoam, 94 7/8 x 94 7/8 x 2 in (241 x 241 x 5 cm); 2 panels"
         },
         {
           "path": "assets/images/shows/2001/2001StephenFriedman454_RI_JL.jpg",
-          "text": "Untitled, 2000, Silkscreen on styrofoam, 96 x 192 x 4 in (243.8 x 487.7 x 10 cm); 4 panels, each 48 x 96 in (120 x 240 x 10 cm)"
+          "text": "Untitled, 2000, Silkscreen on styrofoam, 96 x 192 x 4 in (243.8 x 487.7 x 10 cm); 4 panels"
         },
         {
           "path": "assets/images/shows/2001/2001StephenFriedman475_RI_JL.jpg",
-          "text": "Untitled, 2000, Silkscreen on styrofoam, 95 x 95 1/8 x 2 in (241.3 x 241.6 x 5 cm); 2 panels, each 48 x 96 x 2 in (120 x 240 x 5 cm)"
+          "text": "Untitled, 2000, Silkscreen on styrofoam, 95 x 95 1/8 x 2 in (241.3 x 241.6 x 5 cm); 2 panels"
         },
         {
           "path": "assets/images/shows/2001/2001StephenFriedman477TD_JL.jpg",
-          "text": "Untitled, 2000, Silkscreen on styrofoam, 95 x 190 1/2 x 2 in (241.3 x 484 x 5 cm); 4 panels, each 47 1/2 x 95 1/8 x 2 in (120.6 x 242 x 5 cm)"
+          "text": "Untitled, 2000, Silkscreen on styrofoam, 95 x 190 1/2 x 2 in (241.3 x 484 x 5 cm); 4 panels"
         }
       ],
       "externalLink": null
@@ -142,7 +142,7 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2001/2001MARTTrento056.jpg",
-          "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels, each 48 x 96 x 4 in (122 x 244 x 10 cm)"
+          "text": "Untitled, 2000, Styrofoam, 96 x 96 x 4 in (244 x 244 x 10 cm); 2 panels"
         },
         {
           "path": "assets/images/shows/2001/2001MARTTrento067ekt.jpg",
@@ -150,7 +150,7 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2001/2001MARTTrento114.jpg",
-          "text": "Untitled, 2000, Styrofoam, 120 x 96 x 2 in (304 x 243.8 x 5.1 cm); 5 panels, each 24 x 96 x 2 in (61 x 243.8 x 5.1 cm)"
+          "text": "Untitled, 2000, Styrofoam, 120 x 96 x 2 in (304 x 243.8 x 5.1 cm); 5 panels"
         },
         {
           "path": "assets/images/shows/2001/2001MARTTrento286.jpg",
@@ -188,18 +188,18 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2002/2002PaulaCooper739.jpg",
-          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 107 1/2 x 90 7/8 in (273.5 x 230.8 cm); 3 panels, bottom and center 41 1/2 x 90 7/8 in (105.4 x 230.8 cm), top 24 1/4 x 90 7/8 in (61.6 x 230.8 cm)"
+          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 107 1/2 x 90 7/8 in (273.5 x 230.8 cm); 3 panels"
         },
         {
           "path": "assets/images/shows/2002/2002PaulaCooper740.jpg",
-          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 95 x 93 in (241.3 x 236.22 cm); 2 panels, each 47 1/2 x 93 in (120.6 x 236.22cm)"
+          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 95 x 93 in (241.3 x 236.22 cm); 2 panels"
         },
         {
           "path": "assets/images/shows/2002/2002PaulaCooper741.jpg",
-          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 95 x 186 in (241.30 x 472.44 cm); 4 panels, each 47 1/2 x 93 in (120.65 x 232.22 cm)"
+          "text": "Untitled, 2001-02, Celotex insulation board, wood, aluminum, 95 x 186 in (241.30 x 472.44 cm); 4 panels"
         }
       ],
-      "externalLink": null
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel5"
     },
     {
       "id": "2002-2",
@@ -227,7 +227,7 @@ export const exhibitions = {
           "text": "Untitled, 2002, Celotex insulation board, wood, aluminum, Dimensions variable"
         }
       ],
-      "externalLink": null
+      "externalLink": "https://www.georgkargl.com/en/fine-arts/exhibition/rudolf-stingel"
     }    
   ],
   2003: [
