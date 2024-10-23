@@ -38,29 +38,33 @@
   font-size: 3rem;
   margin: 0;
   padding: 10px;
-  top: 0;
+  position: fixed;
   left: 0;
   right: 0;
   text-align: center;
-  transition: transform 0.3s ease-out, font-size 0.3s ease-out, color 0.3s ease-out;
-  transform: translateY(calc(50 * var(--vh, 1vh) - 100%));
+  transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1), 
+              font-size 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), 
+              color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1),
+              top 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+  will-change: transform, font-size, color, top;
   z-index: 1001;
 }
 
-.title.start {
-  transform: translateY(calc(50 * var(--vh, 1vh) - 100%));
+.title.initial {
+  top: 50vh;
+  transform: translateY(-50%) translateZ(0);
 }
 
 .title.animated {
-  transform: translateY(3 * var(--vh, 1vh));
+  top: 3vh;
+  transform: translateY(0) translateZ(0);
 }
 
 .title.horizontal-menu {
   color: black;
   font-size: 2rem;
-  position: sticky;
   top: 1vh;
-  transform: none;
+  transform: translateY(0) translateZ(0);
 }
 
 body {
