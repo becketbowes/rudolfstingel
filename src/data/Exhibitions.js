@@ -1,5 +1,665 @@
 export const exhibitions = {
-  // 1999: [],
+  1989: [
+    {
+      "id": "1989-1",
+      "title": "Tanja Grunert, Cologne",
+      "description": "Rudolf Stingel, Tanja Grunert, Cologne, 1989",
+      "images": [
+        {
+          "path": "assets/images/shows/1989/1989TanjaGrunert006_RI.jpg",
+          "text": "Untitled, 1989, Oil and enamel on linen, 110 1/4 x 70 7/8 in (280 x 180 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989TanjaGrunert1185_RI.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 110 1/4 x 70 7/8 in (280 x 180 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989TanjaGrunert1253_RI.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 70 7/8 x 110 1/4 in (180 x 280 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989TanjaGrunert1254_RI.jpg",
+          "text": "Untitled (Silver Mesh), 1989, Oil and enamel on canvas, 98 1/2 x 71 in (250 x 180.3 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989TanjaGrunert2373.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 110 x 71 in (280 x 180 cm)"
+        }
+      ],
+      "externalLink": null
+    },
+    {
+      "id": "1989-2",
+      "title": "Massimo De Carlo, Milan",
+      "description": "Rudolf Stingel, Massimo De Carlo, Milan, 1989",
+      "images": [
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo1121_RI_JL.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 70 7/8 x 98 1/2 in (180 x 250 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo1123Christies_JL.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 44 1/8 x 65 3/4 in (112 x 167 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo1125_Floor.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 43 3/8 x 65 in (110 x 165 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo1184_RI_JL.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 65 5/8 x 44 in (166.7 x 112 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo1249Phillips.jpg",
+          "text": "Untitled (Instructions), 1990, Gelatin silver print mounted on aluminum, 50 x 72 in (127 x 182.9 cm)"
+        },
+        {
+          "path": "assets/images/shows/1989/1989MDeCarlo1985_alt_JL.jpg",
+          "text": "Untitled (Instructions), 1990, Black and white photograph, 59 x 78 7/8 in (150 x 200 cm)"
+        }
+      ],
+      "externalLink": null
+    }
+  ],
+  1990: [
+    {
+      "id": "1990-1",
+      "title": "Interim Art, London",
+      "description": "Rudolf Stingel, Interim Art, London, 1990",
+      "images": [
+        {
+          "path": "assets/images/shows/1990/1990InterimArt_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1990/1990InterimArt_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1990/1990InterimArt132.jpg",
+          "text": "Instructions, 1989, Silkscreen on paper, Overall: 85 x 61 in (215.9 x 154.9 cm) / 4 panels, each: 42 1/2 x 30 5/8 in (107.8 x 77.7 cm), Edition of 5 + 2AP"
+        },
+        {
+          "path": "assets/images/shows/1990/1990InterimArt1186_RI_JL.jpg",
+          "text": "Untitled, 1990, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        },
+        {
+          "path": "assets/images/shows/1990/1990InterimArt2005_Phillips_MB.jpg",
+          "text": "Untitled, 1990, Oil and enamel on canvas, 65 3/4 x 43 3/4 in (167 x 111 cm)"
+        }
+      ],
+      "externalLink": null
+    }
+  ],
+  1991: [
+    {
+      "id": "1991-1",
+      "title": "Claire Burrus, Paris",
+      "description": "Claire Burrus, Paris, 1991",
+      "images": [
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus023_RI.jpg",
+          "text": "Untitled, 1991\nCast polycarbonate and acrylic\n19 x 42 x 9 in (48.3 x 106.7 x 22.9 cm); 25 elements\n23"
+        },
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus181_RI_JL.jpg",
+          "text": "Untitled, 1991\nOil and enamel on canvas\n98 1/2 x 70 7/8 in (250.4 x 180 cm)\n181"
+        },
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus261_RI.jpg",
+          "text": "Untitled, 1991\nCast polycarbonate and acrylic\n19 x 42 x 9 in (48.3 x 106.7 x 22.9 cm); 25 elements\n261"
+        },
+        {
+          "path": "assets/images/shows/1991/1991ClaireBurrus622OLD_RI_JL.jpg",
+          "text": "Untitled, 1991\nAlkyd on canvas\n103 1/8 x 157 1/8 in (262 x 399 cm)\n622"
+        }
+      ],
+      "externalLink": null
+    },
+    {
+      "id": "1991-2",
+      "title": "Daniel Newburg Gallery",
+      "description": "Rudolf Stingel, Floor Carpet Installation, Daniel Newburg Gallery, New York, 1991",
+      "images": [
+        {
+          "path": "assets/images/shows/1991/1991Stingel_DanielNewburg_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1991/1991Stingel_DanielNewburg_e1.jpg",
+          "text": "Untitled, 1991, Floor Carpet Installation, Dimensions variable"
+        },
+      ],
+      "externalLink": null
+    } 
+  ],
+  1992: [
+    {
+      "id": "1992-1",
+      "title": "Metropol, Vienna",
+      "description": "Rudolf Stingel, Metropol, Vienna, 1992",
+      "images": [
+        {
+          "path": "assets/images/shows/1992/1992Metropol_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992Metropol_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992Metropol1354.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 63 x 86 5/8 in (160 x 220 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992Metropol2222_JL.jpg",
+          "text": "Untitled, 1992, Floor carpet Installation, Dimensions variable"
+        }
+      ],
+      "externalLink": null
+    },
+    {
+      "id": "1992-2",
+      "title": "Massimo De Carlo, Milan",
+      "description": "Massimo De Carlo, Milan, 1992",
+      "images": [
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo_e6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo008_RI_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 98 3/8 x 70 7/8 in (250 x 180 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo020_RI.jpg",
+          "text": "Untitled, 1992, Cast polycarbonate and acrylic, 38 1/2 x 38 1/2 x 3/4 in (98 x 98 x 2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo021_RI.jpg",
+          "text": "Untitled, 1992, Cast polycarbonate and acrylic, 38 1/2 x 38 1/2 x 3/4 in (98 x 98 x 2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo022_RI.jpg",
+          "text": "Untitled, 1992, Cast polycarbonate and acrylic, 38 1/2 x 38 1/2 x 3/4 in (98 x 98 x 2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1067_RI_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1094_RI.jpg",
+          "text": "Untitled, 1992, Cast polycarbonate and acrylic, 10 1/4 x 10 1/4 x 4 in (26 x 26 x 10 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1097_RI.jpg",
+          "text": "Untitled, 1992, Cast polycarbonate and acrylic, 11 x 11 x 4 in (28 x 28 x 10 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1126_JL.jpg",
+          "text": "Untitled, 1991, Cast polycarbonate and acrylic, 16 1/2 x 35 1/4 x 8 1/2 in (41.9 x 89.5 x 21.6 cm); 15 elements"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1127_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 59 x 51 1/8 in (150 x 130 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1128_RI_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 67 x 67 in (170 x 170 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1129_RI_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 98 3/8 x 67 in (250 x 170 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1130_RI_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 39 3/8 x 39 3/8 in (100 x 100 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1131_RI_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992MDeCarlo1132_RI.jpg",
+          "text": "Untitled, 1992, Cast polycarbonate and acrylic, 38 1/2 x 38 1/2 x 3/4 in (98 x 98 x 2 cm)"
+        }
+      ],
+      "externalLink": "https://massimodecarlo.com/exhibitions/rudolf-stingel-1992"
+    }    
+  ],
+  1994: [
+    {
+      "id": "1994-1",
+      "title": "Neue Galerie, Graz",
+      "description": "Rudolf Stingel and Felix Gonzalez-Torres, Neue Galerie am Landesmuseum Joanneum, Graz, January 27 - March 6, 1994",
+      "images": [
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz_e6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz_e7.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz_FGT.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1994/1994NeueMuseumGraz__26.jpg",
+          "text": "Untitled (Capri), 1994, Wall to wall carpet installation, Dimensions variable (287 square yards, 240 sqm)"
+        }
+      ],
+      "externalLink": null
+    }
+    
+  ],
+  1995: [
+    {
+      "id": "1995-1",
+      "title": "Galerie Metropol, Vienna",
+      "description": "Rudolf Stingel, Metropol, Vienna, March 31 - May 6, 1995",
+      "images": [
+        {
+          "path": "assets/images/shows/1995/1995Metropol_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1995/1995Metropol_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1995/1995Metropol_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1995/1995Metropol_1365_RI_JL.jpg",
+          "text": "Untitled, 1995, Oil and enamel on canvas, 40 x 36 in (101.5 x 91.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995Metropol_1368_RI_JL.jpg",
+          "text": "Untitled, 1995, Oil and enamel on canvas, 60 x 60 in (152.4 x 152.4 cm)"
+        }
+      ],
+      "externalLink": null
+    },
+    {
+      "id": "1995-2",
+      "title": "Art & Public, Geneva",
+      "description": "Rudolf Stingel at Art & Public, Geneva, Jun 10, - July 15, 1995",
+      "images": [
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic030_RI_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic031_JL.jpg",
+          "text": "Untitled, 1994, Cast aluminum, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic035_RI_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic396_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic398_RI_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic399_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic854_RI_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic855bis_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic856_RI_2_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ArtPublic1960_JL.jpg",
+          "text": "Untitled, 1994, Pigmented cast polyurethane rubber compound, 13 x 9 x 1 in (33 x 22.9 x 2.5 cm)"
+        }
+      ],
+      "externalLink": null
+    },
+    {
+      "id": "1995-3",
+      "title": "Kunsthalle Zürich, Zurich",
+      "description": "Rudolf Stingel, Kunsthalle Zürich, Zurich, August 19 - October 15, 1995",
+      "images": [
+        {
+          "path": "assets/images/shows/1995/1995ZurichKunsthalle_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1995/1995ZurichKunsthalle_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1995/1995ZurichKunsthalle_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1995/1995ZurichKunsthalle015_RI_JL.jpg",
+          "text": "Untitled, 1995, Oil and enamel on canvas, 122 x 102 3/8 in (310 x 260 cm)"
+        },
+        {
+          "path": "assets/images/shows/1995/1995ZurichKunsthalle155_JL.jpg",
+          "text": "Untitled, 1995, Wall carpet Installation, Dimensions variable"
+        }
+      ],
+      "externalLink": null
+    }    
+  ],
+  1996: [
+    {
+      "id": "1996-1",
+      "title": "Margo Leavin Gallery, Los Angeles",
+      "description": "Rudolf Stingel, Margo Leavin Gallery, Los Angeles, 1996",
+      "images": [
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin028ekt_alt_vers_JL.jpg",
+          "text": "Untitled, 1996, Floor carpet Installation, Dimensions variable"
+        },
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin040_RI_JL.jpg",
+          "text": "Untitled, 1996, Oil on canvas, 96 x 78 in (243.8 x 198.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin803Christies_JL.jpg",
+          "text": "Untitled, 1996, Oil on canvas, 96 1/8 x 78 1/8 in (244.1 x 198.4 cm)"
+        },
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin804_JL.jpg",
+          "text": "Untitled, 1996, Oil on canvas, 68 x 53 in (172.7 x 134.6 cm)"
+        },
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin805_RI_JL.jpg",
+          "text": "Untitled, 1996, Oil on canvas, 72 x 60 in (182.9 x 152.4 cm)"
+        },
+        {
+          "path": "assets/images/shows/1996/1996MargoLeavin807_RI_JL.jpg",
+          "text": "Untitled, 1996, Oil and enamel on canvas, 48 x 48 in (121.9 x 121.9 cm)"
+        }
+      ],
+      "externalLink": null
+    }    
+  ],
+  1997: [
+    {
+      "id": "1997-1",
+      "title": "Paula Cooper Gallery, New York",
+      "description": "Rudolf Stingel, Paula Cooper Gallery, New York, January 15 - February 22, 1997",
+      "images": [
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper041_RI_JL.jpg",
+          "text": "Untitled, 1997, Oil on canvas, 98 1/2 x 67 in (250 x 170.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper046_RI_JL.jpg",
+          "text": "Untitled, 1996-97, Oil on canvas, 96 x 78 in (243.84 x 198.12 cm)"
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper373_RI_JL.jpg",
+          "text": "Untitled, 1997, Oil on canvas, 98 x 67 in (248.9 x 170.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper789_RI_JL.jpg",
+          "text": "Untitled, 1997, Oil on canvas, 46 x 43 in (116.8 x 109.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper792_RI_JL.jpg",
+          "text": "Untitled, 1996-97, Oil on canvas, 78 x 78 in (198.1 x 198.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper941_JL.jpg",
+          "text": "Untitled, 1997, Floor carpet Installation, Dimensions variable"
+        },
+        {
+          "path": "assets/images/shows/1997/1997PaulaCooper942_JL.jpg",
+          "text": "Untitled, 1997, Styrofoam and acrylic, 20' x 16' 5/8\" x 4\" (609.6 x 489.27 x 10.16 cm)"
+        }
+      ],
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel8"
+    },
+    {
+      "id": "1997-2",
+      "title": "Galerie Georg Kargl, Vienna",
+      "description": "Rudolf Stingel, Galerie Georg Kargl, Vienna, December 13, 1997 - January 10, 1998",
+      "images": [
+        {
+          "path": "assets/images/shows/1997/1997GeorgKargl_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1997/1997GeorgKargl_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1997/1997GeorgKargl_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1997/1997GeorgKargl1762_RI.jpg",
+          "text": "Untitled, 1998, Cast aluminum, 23 5/8 x 23 5/8 x 4 in (60 x 60 x 10 cm)"
+        },
+        {
+          "path": "assets/images/shows/1997/1997GeorgKargl1763_RI.jpg",
+          "text": "Untitled, 1998, Cast aluminum, 24 x 23 5/8 x 4 in (60.9 x 60 x 10 cm)"
+        }
+      ],
+      "externalLink": null
+    }    
+  ],
+  1998: [
+    {
+      "id": "1998-1",
+      "title": "Margo Leavin Gallery, Los Angeles, July 11 - August 27, 1998",
+      "description": "Rudolf Stingel, Margo Leavin Gallery, Los Angeles, 1998",
+      "images": [
+        {
+          "path": "assets/images/shows/1998/1998MargoLeavin_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1998/1998MargoLeavin998_JL.jpg",
+          "text": "Untitled, 1998, Oil and enamel on Rives BFK paper, 41 7/8 x 29 5/8 in (106.3 x 75.3 cm)"
+        },
+        {
+          "path": "assets/images/shows/1998/1998MargoLeavin1006_RI_JL.jpg",
+          "text": "Untitled, 1998, Oil and enamel on Rives BFK paper, 41 7/8 x 29 5/8 in (106.3 x 75.3 cm)"
+        }
+      ],
+      "externalLink": null
+    }    
+  ],
+  1999: [
+    {
+      "id": "1999-1",
+      "title": "Paula Cooper Gallery, New York",
+      "description": "Rudolf Stingel at Paula Cooper Gallery, New York, January 9 - February 2, 1999",
+      "images": [
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooper_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooper_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooper945.jpg",
+          "text": "Untitled, 1998, Cast aluminum, 21 3/8 x 20 x 4 in (54.3 x 50.8 x 10.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooper954_RI.jpg",
+          "text": "Untitled, 1998, Cast aluminum, 23 1/2 x 23 1/2 x 4 in (59.7 x 59.7 x 10.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooper956.jpg",
+          "text": "Untitled, 1998, Cast aluminum, 23 3/4 x 23 1/2 x 4 in (59.37 x 58.75 x 10.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooper957.jpg",
+          "text": "Untitled, 1998, Cast aluminum, 23 1/2 x 23 1/2 x 4 in (59.7 x 59.7 x 10.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooper961_B.jpg",
+          "text": "Untitled, 1998, Cast aluminum, 23 1/2 x 23 1/2 x 4 in (59.7 x 59.7 x 10.2 cm)"
+        }
+      ],
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel7"
+    },
+    {
+      "id": "1999-2",
+      "title": "Massimo De Carlo, Milan",
+      "description": "Rudolf Stingel at Massimo De Carlo, Milan, 1999",
+      "images": [
+        {
+          "path": "assets/images/shows/1999/1999MDeCarlo_e_1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1999/1999MDeCarlo_e_3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1999/1999MDeCarlo_e_5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1999/1999MDeCarlo_e_8.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1999/1999MDeCarlo_e_9.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1999/1999MDeCarlo055_JL.jpg",
+          "text": "Untitled, 1999, Styrofoam, 118 x 187 3/8 x 4 in (300 x 476 x 10 cm); 10 panels, each: 24 x 94 x 4 in (61 x 238.8 x 10 cm)"
+        },
+        {
+          "path": "assets/images/shows/1999/1999MDeCarlo286destroyed.jpg",
+          "text": "Untitled, 1999, Styrofoam, 118 x 98 3/8 x 2 3/8 in (300 x 250 x 6 cm)"
+        },
+        {
+          "path": "assets/images/shows/1999/1999MDeCarlo1113.jpg",
+          "text": "Untitled, 1999, Styrofoam, 93 3/4 x 94 1/2 x 4 in (238 x 240 x 10 cm); 4 panels, each 23 1/2 x 94 1/2 x 4 in (59.5 x 240 x 10 cm)"
+        }
+      ],
+      "externalLink": null
+    }        
+  ],
   2000: [
     {
       "id": "2000-1",
@@ -1038,6 +1698,50 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://whitney.org/exhibitions/rudolf-stingel"
+    },
+    {
+      "id": "2007-3",
+      "title": "Sadie Coles HQ, London",
+      "description": "Sadie Coles HQ, South Audley Street, London, October 13 - November 24, 2007",
+      "images": [
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley_e01.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley_e02.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley_e03.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley157.jpg",
+          "text": "Untitled, 2007, Oil on canvas, 132 1/4 x 312 1/4 (336 x 793.1 cm); 3 parts"
+        },
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley185.jpg",
+          "text": "Untitled, 2007, Oil and enamel on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley189.jpg",
+          "text": "Untitled, 2007, Oil and enamel on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley190.jpg",
+          "text": "Untitled, 2007, Oil and enamel on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley191.jpg",
+          "text": "Untitled, 2007, Oil on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007_SadieColes_SouthAdley192.jpg",
+          "text": "Untitled (Bolego), 2007, Oil on canvas, 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+      ],
+      "externalLink": "https://www.sadiecoles.com/artists/42-rudolf-stingel/exhibitions/2007/"
     }
   ],
   2008: [
@@ -1165,31 +1869,31 @@ export const exhibitions = {
       "description": "Sadie Coles HQ, London, September 9 - October 10, 2009",
       "images": [
         {
-          "path": "assets/images/shows/2009/2009SadieColesLOe1.jpg",
+          "path": "assets/images/shows/2009/2009_SadieColes_SouthAdley_e009.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2009/2009SadieColesLOe2.jpg",
+          "path": "assets/images/shows/2009/2009_SadieColes_SouthAdley_e011.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2009/2009SadieColesLOe3.jpg",
+          "path": "assets/images/shows/2009/2009_SadieColes_SouthAdley_e012.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2009/2009SadieColesLOe4.jpg",
+          "path": "assets/images/shows/2009/2009_SadieColes_SouthAdley_e014.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2009/2009SadieColesLOe5.jpg",
+          "path": "assets/images/shows/2009/2009_SadieColes_SouthAdley_e015.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2009/2009SadieColesLOe6.jpg",
+          "path": "assets/images/shows/2009/2009_SadieColes_SouthAdley_e017.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2009/2009SadieColesLOe7.jpg",
+          "path": "assets/images/shows/2009/2009_SadieColes_SouthAdley_e022.jpg",
           "text": null
         },
         {
