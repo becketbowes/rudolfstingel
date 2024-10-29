@@ -43,23 +43,12 @@
   overflow-x: auto;
   padding: 10px 10px;
   box-sizing: border-box;
-  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-@media (min-width: 1200px) {
-  .year-menu.horizontal .years-container {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
-.year-menu::-webkit-scrollbar {
-  display: none;
-}
-
-.year-menu {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.year-menu.horizontal .years-container::-webkit-scrollbar {
+  display: none;
 }
 
 .year-section {
