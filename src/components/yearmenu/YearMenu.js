@@ -66,7 +66,6 @@ const YearMenu = () => {
 
   const handleExhibitionClick = (exhibition) => {
     if (!isHorizontal) {
-      setSelectedYear(exhibition.year);
       setTimeout(() => {
         setIsHorizontal(true);
         setTimeout(() => {
