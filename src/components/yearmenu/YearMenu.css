@@ -26,6 +26,7 @@
   left: 0;
   right: 0;
   transform: none;
+  position: relative;
   padding-top: 0;
   padding-bottom: 0;
   max-height: none;
