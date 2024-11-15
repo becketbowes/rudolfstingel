@@ -23,10 +23,10 @@
 .year-menu.horizontal {
   flex-direction: column;
   top: 6vh;
-  left: 0;
-  right: 0;
-  transform: none;
-  position: relative;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  position: fixed;
   padding-top: 0;
   padding-bottom: 0;
   max-height: none;
