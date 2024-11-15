@@ -7,7 +7,10 @@ function Header() {
   const { setSelectedYear, setSelectedExhibition, isHorizontal, setIsHorizontal } = useAppContext();
 
   useEffect(() => {
-    setTitleState('start')
+    // Start with 'initial' state
+    setTitleState('initial');
+    
+    // Move to 'animated' state after a short delay
     const timer = setTimeout(() => {
       setTitleState('animated');
     }, 100);
@@ -31,14 +34,25 @@ function Header() {
   };
 
   return (
-    <>
-      <button className="reset-button" onClick={handleReset} aria-label="Reset">
+    <header role="banner" className="fixed-header">
+      <button 
+        className="reset-button" 
+        onClick={handleReset} 
+        aria-label="Reset to home page"
+      >
         <span className="sr-only">Reset</span>
       </button>
-      <h1 className={`title ${titleState}`}>
+      <h1 
+        className={`title ${titleState}`}
+        aria-live="polite"
+        aria-atomic="true"
+      >
         Rudolf Stingel
       </h1>
-    </>
+      <nav aria-label="Main navigation" className={isHorizontal ? 'visible' : 'hidden'}>
+        {/* Add your navigation items here when in horizontal mode */}
+      </nav>
+    </header>
   );
 }
 

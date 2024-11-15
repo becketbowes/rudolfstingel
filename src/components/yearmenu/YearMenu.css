@@ -5,7 +5,7 @@
   max-width: calc(100vw);
   overflow: auto;
   padding-top: 100px;
-  transition: all 1s ease-out, opacity 1s ease-in-out;
+  transition: all 1s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 1s ease-in-out;
   opacity: 0;
   position: fixed;
   top: 50%;
@@ -13,6 +13,7 @@
   transform: translate(-50%, -50%);
   color: white;
   z-index: 1000;
+  will-change: transform, opacity, top, left;
 }
 
 .year-menu.visible {
@@ -21,16 +22,18 @@
 
 .year-menu.horizontal {
   flex-direction: column;
-  top: 8vh;
+  top: 6vh;
   left: 0;
   right: 0;
   transform: none;
+  position: relative;
   padding-top: 0;
   padding-bottom: 0;
   max-height: none;
   overflow-x: visible;
   overflow-y: visible;
   align-items: center;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .year-menu.horizontal .years-container {
@@ -39,35 +42,26 @@
   justify-content: flex-start;
   width: 100%;
   overflow-x: auto;
-  padding: 10 10;
+  padding: 10px 10px;
   box-sizing: border-box;
-}
-
-@media (min-width: 1200px) {
-  .year-menu.horizontal .years-container {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-}
-
-.year-menu::-webkit-scrollbar {
-  display: none;
-}
-
-.year-menu {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
+.year-menu.horizontal .years-container::-webkit-scrollbar {
+  display: none;
+}
+
 .year-section {
-  margin-bottom: 0pxpx;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .horizontal .year-section {
-  margin:  5 5px;
+  margin: 5px;
   flex-shrink: 0;
 }
 
@@ -80,7 +74,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
   color: white;
 }
 
@@ -92,11 +86,20 @@
 .exhibition-button {
   font-size: 16px;
   font-weight: normal;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .exhibition-button.selected {
   transform: translateY(-30px);
   font-weight: bold;
+  text-align: center;
 }
 
 .horizontal .year-button,
@@ -116,7 +119,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .horizontal .exhibitions-container {
@@ -124,6 +127,7 @@
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 50px;
 }
 
 .selected-exhibition {
@@ -153,8 +157,8 @@ body.exhibition-selected::before {
   bottom: 0;
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0.8) 0%,
-    rgba(255, 255, 255, 0.8) 130px,
+    rgba(225, 225, 255, 0.8) 0%,
+    rgba(225, 225, 255, 0.8) 130px,
     rgba(255, 255, 255, 1) 140px,
     rgba(255, 255, 255, 1) 100%
   );
@@ -172,22 +176,114 @@ body.exhibition-selected::before {
   z-index: 1000;
 }
 
-@media only screen and (orientation: landscape) and (max-width: 1200px) {
-  .year-menu.horizontal {
-    top: 9vh;
-  }
-  
+@media (max-width: 1200px) {
   .horizontal .selected-exhibition {
     margin-top: 10px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1200px) {
+  .horizontal .selected-exhibition {
+    margin-top: 5px;
+  }
+
+  .year-menu.horizontal {
+    top: 6.5vh;
   }
 
   body.exhibition-selected::before {
     background: linear-gradient(
       to bottom,
-      rgba(255, 255, 255, 0.8) 0%,
-      rgba(255, 255, 255, 0.8) 80px,
+      rgba(230, 230, 255, 0.8) 0%,
+      rgba(230, 230, 255, 0.8) 80px,
       rgba(255, 255, 255, 1) 90px,
       rgba(255, 255, 255, 1) 100%
     )
   }
 }
+
+.exhibition-preview {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  border-radius: 5px;
+}
+
+.horizontal .exhibition-preview {
+  width: 180px;
+  height: 100px;
+}
+
+.exhibition-button.selected .exhibition-preview {
+  width: 0;
+  height: 0;
+  margin-right: 0;
+  opacity: 0;
+}
+
+@media (max-width: 1200px) {
+  .exhibition-preview {
+    width: 150px;
+    height: 90px;
+  }
+
+  .horizontal .exhibition-preview {
+    width: 70px;
+    height: 45px;
+  }
+
+  .exhibition-button {
+    font-size: 12px;
+  }
+}
+
+.selected-exhibition-container {
+  width: fit-content;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  padding-top: 15px;
+}
+
+.selected-exhibition {
+  pointer-events: auto;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.exhibition-button.selected {
+  font-weight: bold;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px 20px;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90vw;
+}
+
+.exhibition-button.selected:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1000px) {
+  .exhibition-button.selected {
+    padding: 0px 0px;
+    font-size: 16px;
+  }
+
+  .selected-exhibition-container {
+    padding-top: 0px;
+  }
+}
+

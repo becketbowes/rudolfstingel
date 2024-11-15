@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import './YearMenu.css'
@@ -30,7 +28,7 @@ const YearMenu = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 1000);
+    }, 100);
 
     return () => clearTimeout(timer);
   }, []);
@@ -45,7 +43,7 @@ const YearMenu = () => {
     if (isHorizontal && selectedYear) {
       setTimeout(() => { 
         centerSelectedYear();
-      }, 1000);
+      }, 100);
     }
   }, [isHorizontal, selectedYear, centerSelectedYear]);
 
@@ -68,37 +66,58 @@ const YearMenu = () => {
 
   const handleExhibitionClick = (exhibition) => {
     if (!isHorizontal) {
-      centerSelectedYear()
       setTimeout(() => {
         setIsHorizontal(true);
-        setSelectedExhibition(exhibition);
-      }, 500);
+        setTimeout(() => {
+          setSelectedExhibition(exhibition);
+        }, 100);
+      }, 50);
     } else {
-      setIsHorizontal(true);
-      setSelectedExhibition(exhibition)
+      setSelectedExhibition(exhibition);
     }
   };
 
   return (
-    <div className={`year-menu ${isHorizontal ? 'horizontal' : 'vertical'} ${isVisible ? 'visible' : ''}`}>
-      <div className="years-container" ref={yearsContainerRef}>
+    <nav 
+      className={`year-menu ${isHorizontal ? 'horizontal' : 'vertical'} ${isVisible ? 'visible' : ''}`}
+      aria-label="Exhibition years and titles"
+    >
+      <div 
+        className="years-container" 
+        ref={yearsContainerRef}
+        role="list"
+      >
         {years.map(year => (
-          <div key={year} className="year-section">
+          <div key={year} className="year-section" role="listitem">
             <button
               className={`year-button ${year === selectedYear ? 'selected' : ''}`}
               onClick={() => handleYearClick(year)}
+              aria-expanded={year === selectedYear && !selectedExhibition}
+              aria-haspopup="true"
+              aria-label={`Year ${year}${year === selectedYear ? ', selected' : ''}`}
             >
               {year}
             </button>
             {year === selectedYear && !selectedExhibition && (
-              <div className="exhibitions-container">
+              <div 
+                className="exhibitions-container"
+                role="list"
+                aria-label={`Exhibitions for ${year}`}
+              >
                 {exhibitions[year].map(exhibition => (
                   <button 
                     key={exhibition.id} 
                     className="exhibition-button"
                     onClick={() => handleExhibitionClick(exhibition)}
+                    role="listitem"
+                    aria-label={`Exhibition: ${exhibition.title}`}
                   >
-                    {exhibition.title}
+                    <img 
+                      src={require(`../../${exhibition.images[0].path}`)} 
+                      alt={`Exhibition view ${ 1}`} 
+                      className="exhibition-preview"
+                    />
+                    <span>{exhibition.title}</span>
                   </button>
                 ))}
               </div>
@@ -106,17 +125,26 @@ const YearMenu = () => {
           </div>
         ))}
       </div>
-      {selectedExhibition && (
-        <div className="selected-exhibition">
-          <button 
-            className="exhibition-button selected"
-            onClick={() => setSelectedExhibition(null)}
-          >
-            {selectedExhibition.title}
-          </button>
-        </div>
-      )}
-    </div>
+      <div className="selected-exhibition-container">
+        {selectedExhibition && (
+          <div className="selected-exhibition" aria-live="polite">
+            <button 
+              className="exhibition-button selected"
+              onClick={() => setSelectedExhibition(null)}
+              aria-label={`Selected exhibition: ${selectedExhibition.title}. Click to deselect.`}
+            >
+              <img 
+                src={selectedExhibition.images[0].src} 
+                alt="" 
+                className="exhibition-preview"
+              />
+              <span>{selectedExhibition.title}</span>
+            </button>
+          </div>
+        )}
+      </div>
+
+    </nav>
   );
 };
 
