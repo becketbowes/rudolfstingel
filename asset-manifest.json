@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rudolfstingel/static/css/main.be35da70.css",
+    "main.css": "/rudolfstingel/static/css/main.09bc3030.css",
     "main.js": "/rudolfstingel/static/js/main.551b4b66.js",
     "static/js/453.a2b98bda.chunk.js": "/rudolfstingel/static/js/453.a2b98bda.chunk.js",
     "static/media/2013PalazzoGrassie13.jpg": "/rudolfstingel/static/media/2013PalazzoGrassie13.ab82356290a9f3fcd9d9.jpg",
@@ -843,12 +843,12 @@
     "static/media/index.cjs": "/rudolfstingel/static/media/index.1282334337c6cac7deca.cjs",
     "static/media/logo.svg": "/rudolfstingel/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/rudolfstingel/index.html",
-    "main.be35da70.css.map": "/rudolfstingel/static/css/main.be35da70.css.map",
+    "main.09bc3030.css.map": "/rudolfstingel/static/css/main.09bc3030.css.map",
     "main.551b4b66.js.map": "/rudolfstingel/static/js/main.551b4b66.js.map",
     "453.a2b98bda.chunk.js.map": "/rudolfstingel/static/js/453.a2b98bda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be35da70.css",
+    "static/css/main.09bc3030.css",
     "static/js/main.551b4b66.js"
   ]
 }
