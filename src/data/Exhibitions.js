@@ -203,11 +203,7 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/1991/1991HOMENewYork_e2.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/1991/1991HOMENewYork024_JL.jpg",
-          "text": "Untitled, 1991, Cast polycarbonate and acrylic, 16 1/2 x 35 1/4 x 8 1/2 in (41.9 x 89.5 x 21.6 cm); 15 elements"
+          "text": "Untitled, 1991, Floor Carpet Installation, Dimensions variable"
         }
       ],
       "externalLink": null
@@ -378,10 +374,6 @@ export const exhibitions = {
           "text": null
         },
         {
-          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz023_RI.jpg",
-          "text": "Untitled, 1991, Cast polycarbonate and acrylic, 19 x 42 x 9 in (48.3 x 106.7 x 22.9 cm); 25 elements"
-        },
-        {
           "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz132.jpg",
           "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
         },
@@ -391,6 +383,10 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz1363_RI_JL.jpg",
+          "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        },
+        {
+          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz0023_RI.jpg",
           "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
         }
       ],
@@ -822,10 +818,6 @@ export const exhibitions = {
       "title": "Paula Cooper Gallery, New York (group)",
       "description": "'Wall Works' at Paula Cooper Gallery, New York. Feburary 20 - March 20, 1999.",
       "images": [
-        {
-          "path": "assets/images/shows/1999/1999PaulaCooperNewYork_e1.jpg", 
-          "text": null
-        },
         {
           "path": "assets/images/shows/1999/1999PaulaCooperNewYork1997.jpg",
           "text": "Untitled, 1997, Edition - Wall carpet installation, Dimensions variable"
@@ -1562,10 +1554,6 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2006/2006MaryBooneNewYork_e2.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2006/2006MaryBooneNewYork1875_JL.jpg",
           "text": "Untitled, 2006, Floor carpet Installation, Dimensions variable"
         }
       ],
@@ -1598,10 +1586,6 @@ export const exhibitions = {
       "images": [
         {
           "path": "assets/images/shows/2006/2006PalazzoGrassiVenice_e1.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2006/2006PalazzoGrassiVenice067ekt_JL.jpg",
           "text": "Untitled, 2006, Celotex insulation board, wood, aluminum, 208 5/8 x 236 1/4 x 236 1/4 in (530 x 600 x 600 cm)"
         }
       ],
@@ -2111,16 +2095,8 @@ export const exhibitions = {
           "text": null
         },
         {
-          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice071_JL.jpg",
-          "text": "Untitled, 2006, Celotex insulation board, wood, aluminum, chandelier, 208 5/8 x 236 1/4 x 236 1/4 in (530 x 600 x 600 cm)"
-        },
-        {
           "path": "assets/images/shows/2007/2007PalazzoGrassiVenice213_JL.jpg",
           "text": "Untitled (1631), 2007, Glass reinforced polyester resin, polyurethane paint, 114 5/8 x 254 3/8 x 6 in (291 x 646 x 15.3 cm) (18 panels)"
-        },
-        {
-          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice214_JL.jpg",
-          "text": "Untitled (Sarouk), 2006, Floor printed carpet installation, Dimensions variable - Edition unique + 2 AP"
         },
         {
           "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_JL.jpg",
@@ -2129,23 +2105,7 @@ export const exhibitions = {
         {
           "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_1_JL.jpg",
           "text": "Louvre (after Sam) 1/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
-        },
-        {
-          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_2_JL.jpg",
-          "text": "Louvre (after Sam) 2/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
-        },
-        {
-          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_3_JL.jpg",
-          "text": "Louvre (after Sam) 3/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
-        },
-        {
-          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_4_JL.jpg",
-          "text": "Louvre (after Sam) 4/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
-        },
-        {
-          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_5_JL.jpg",
-          "text": "Louvre (after Sam) 5/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
-        },
+        }
       ],
       "externalLink": "https://www.palazzograssi.it/en/exhibitions/past/sequence-1/"
     }
@@ -2387,20 +2347,8 @@ export const exhibitions = {
           "text": null
         },
         {
-          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice057_RI_JL.jpg",
-          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
-        },
-        {
           "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice100_RI_JL.jpg",
           "text": "Untitled (Alpino 1976), 2006, Oil on canvas, 132 1/4 x 128 1/2 in (335.9 x 326.4 cm)"
-        },
-        {
-          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice213_JL.jpg",
-          "text": "Untitled, 2007, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
-        },
-        {
-          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice486_JL.jpg",
-          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
         },
         {
           "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice517_JL.jpg",
@@ -2518,11 +2466,7 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2010/2010PalaisDeTokyoParis_e2.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2010/2010PalaisDeTokyoParis106_JL.jpg",
-          "text": "Untitled, 1989, Oil and enamel on canvas, 70 7/8 x 98 1/2 in (180 x 250 cm)"
+          "text": "Untitled, 2007, Celotex insulation board, chandelier, dimensions variable"
         }
       ],
       "externalLink": null
@@ -2684,11 +2628,7 @@ export const exhibitions = {
         },
         {
           "path": "assets/images/shows/2011/2011SerralvesPorto_e2.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2011/2011SerralvesPorto106_JL.jpg",
-          "text": "Untitled, 1989, Oil and enamel on canvas, 70 7/8 x 98 1/2 in (180 x 250 cm)"
+          "text": "Untitled, 2007, Celotex insulation board, chandelier, dimensions variable"
         }
       ],
       "externalLink": "https://www.serralves.pt/en/arquivo-evento/off-the-wall-fora-da-parede/"
@@ -2923,10 +2863,6 @@ export const exhibitions = {
         {
           "path": "assets/images/shows/2012/2012MoCALosAngeles1287_RI_JL.jpg",
           "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 105 in (335.3 x 266.7 cm)"
-        },
-        {
-          "path": "assets/images/shows/2012/2012MoCALosAngeles1874_JL.jpg",
-          "text": "Untitled, 2008, Floor carpet Installation, Dimensions variable"
         }
       ],
       "externalLink": "https://www.moca.org/exhibition/the-painting-factory-abstraction-after-warhol"
@@ -3136,10 +3072,6 @@ export const exhibitions = {
       "images": [
         {
           "path": "assets/images/shows/2013/2013NewMuseumNewYork_e1.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2013/2013NewMuseumNewYork024_JL.jpg",
           "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
         }
       ],
@@ -4098,18 +4030,6 @@ export const exhibitions = {
           "text": null
         },
         {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e2.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e4.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e5.jpg",
-          "text": null
-        },
-        {
           "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e6.jpg",
           "text": null
         },
@@ -4126,40 +4046,20 @@ export const exhibitions = {
           "text": null
         },
         {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e10.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice100_RI_JL.jpg",
-          "text": "Untitled (Alpino 1976), 2006, Oil on canvas, 132 1/4 x 128 1/2 in (335.9 x 326.4 cm)"
-        },
-        {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice1484_RI_JL.jpg",
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e2.jpg",
           "text": "Untitled, 2012, Oil on canvas, 120 x 100 1/2 in (304.8 x 255.3 cm)"
         },
         {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_JL.jpg",
-          "text": "Louvre (after Sam), 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
-        },
-        {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_1_JL.jpg",
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e4.jpg",
           "text": "Untitled (after Sam) 1/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
         },
         {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_2_JL.jpg",
-          "text": "Untitled (after Sam) 2/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e5.jpg",
+          "text": "Untitled (Alpino 1976), 2006, Oil on canvas, 132 1/4 x 128 1/2 in (335.9 x 326.4 cm)"
         },
         {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_3_JL.jpg",
-          "text": "Untitled (after Sam) 3/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
-        },
-        {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_4_JL.jpg",
-          "text": "Untitled (after Sam) 4/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
-        },
-        {
-          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_5_JL.jpg",
-          "text": "Untitled (after Sam) 5/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e10.jpg",
+          "text": "Louvre (after Sam), 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
         }
       ],
       "externalLink": "https://www.pinaultcollection.com/palazzograssi/en/dancing-myself"
@@ -4494,18 +4394,6 @@ export const exhibitions = {
       "description": "'Ouverture' at Bourse de Commerce, Paris. May 22, 2021 - January 30, 2022.",
       "images": [
         {
-          "path": "assets/images/shows/2021/2021BourseParis_e1.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2021/2021BourseParis_e2.jpg",
-          "text": null
-        },
-        {
-          "path": "assets/images/shows/2021/2021BourseParis_e3.jpg",
-          "text": null
-        },
-        {
           "path": "assets/images/shows/2021/2021BourseParis_e4.jpg",
           "text": null
         },
@@ -4518,16 +4406,16 @@ export const exhibitions = {
           "text": null
         },
         {
-          "path": "assets/images/shows/2021/2021BourseParis623_JL.jpg",
-          "text": "Untitled (Ernst Ludwig Kirchner), 2010, Oil on canvas, 132 1/8 x 91 1/8 x 2 in (335.6 x 231.6 x 5.2 cm)"
+          "path": "assets/images/shows/2021/2021BourseParis_e1.jpg",
+          "text": "Untitled (Paula), 2012, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
         },
         {
-          "path": "assets/images/shows/2021/2021BourseParis.jpg",
+          "path": "assets/images/shows/2021/2021BourseParis_e2.jpg",
           "text": "Untitled (Franz West, after Friedl Kubelka), 2011, Oil on canvas, 131 5/8 x 122 1/4 in (334.3 x 310.5 cm)"
         },
         {
-          "path": "assets/images/shows/2021/2021BourseParis1487_RI_JL.jpg",
-          "text": "Untitled (Paula), 2012, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+          "path": "assets/images/shows/2021/2021BourseParis_e3.jpg",
+          "text": "Untitled (Ernst Ludwig Kirchner), 2010, Oil on canvas, 132 1/8 x 91 1/8 x 2 in (335.6 x 231.6 x 5.2 cm)"
         }
       ],
       "externalLink": "https://lesoeuvres.pinaultcollection.com/en/node/3079"
