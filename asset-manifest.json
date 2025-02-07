@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rudolfstingel/static/css/main.6a6272b3.css",
-    "main.js": "/rudolfstingel/static/js/main.ad8a1016.js",
+    "main.js": "/rudolfstingel/static/js/main.2fab96cc.js",
     "static/js/453.a2b98bda.chunk.js": "/rudolfstingel/static/js/453.a2b98bda.chunk.js",
     "static/media/2013PalazzoGrassie13.jpg": "/rudolfstingel/static/media/2013PalazzoGrassie13.ab82356290a9f3fcd9d9.jpg",
     "static/media/2013PalazzoGrassie7.jpg": "/rudolfstingel/static/media/2013PalazzoGrassie7.ebbfb84b3f25d0cc5fd2.jpg",
@@ -600,6 +600,7 @@
     "static/media/1999PaulaCooper957.jpg": "/rudolfstingel/static/media/1999PaulaCooper957.705bafd9be1123d16972.jpg",
     "static/media/2015GagosianHKe6.jpg": "/rudolfstingel/static/media/2015GagosianHKe6.53c8122afecb9ec94ddd.jpg",
     "static/media/2008PaulaCooperNY315_JL.jpg": "/rudolfstingel/static/media/2008PaulaCooperNY315_JL.76dfadc9208e773018cf.jpg",
+    "static/media/1993NeueGalerieUndKünstlerhausGraz0023_RI.jpg": "/rudolfstingel/static/media/1993NeueGalerieUndKünstlerhausGraz0023_RI.99a49ead3f2027e6f368.jpg",
     "static/media/1996RooseumMalmo_e1.jpg": "/rudolfstingel/static/media/1996RooseumMalmo_e1.581119e66eac204c8329.jpg",
     "static/media/2009PaulaCooperNY504_RI_JL.jpg": "/rudolfstingel/static/media/2009PaulaCooperNY504_RI_JL.68efb073c45c4d156704.jpg",
     "static/media/1991HOMENewYork_e2.jpg": "/rudolfstingel/static/media/1991HOMENewYork_e2.e7d087f2419c9a6b9d63.jpg",
@@ -682,7 +683,6 @@
     "static/media/2003GalerieSchmela_e5.jpg": "/rudolfstingel/static/media/2003GalerieSchmela_e5.76242f25613182d501e1.jpg",
     "static/media/2001MARTTrento023.jpg": "/rudolfstingel/static/media/2001MARTTrento023.4d2ed5991cb4e6f7f162.jpg",
     "static/media/1991ClaireBurrus023_RI.jpg": "/rudolfstingel/static/media/1991ClaireBurrus023_RI.b93992acbef63126a706.jpg",
-    "static/media/1993NeueGalerieUndKünstlerhausGraz023_RI.jpg": "/rudolfstingel/static/media/1993NeueGalerieUndKünstlerhausGraz023_RI.943488fe4b8d82dd0640.jpg",
     "static/media/1992MDeCarlo_e5.jpg": "/rudolfstingel/static/media/1992MDeCarlo_e5.d806a1d5fa473d634c33.jpg",
     "static/media/1989MDeCarlo_e3.jpg": "/rudolfstingel/static/media/1989MDeCarlo_e3.4c2a6bc23826cf9b37f5.jpg",
     "static/media/2000PaulaCooper057.jpg": "/rudolfstingel/static/media/2000PaulaCooper057.ca6c71960cfe091252bb.jpg",
@@ -841,7 +841,6 @@
     "static/media/2011GagosianNYe6.jpg": "/rudolfstingel/static/media/2011GagosianNYe6.9c51406a4e9bb91493e1.jpg",
     "static/media/2007WhitneyNY005_Alt_JL.jpg": "/rudolfstingel/static/media/2007WhitneyNY005_Alt_JL.1fdef75945b0410737bd.jpg",
     "static/media/2007MCA_ChicagoF005.jpg": "/rudolfstingel/static/media/2007MCA_ChicagoF005.d4bd307d7dfd19aad371.jpg",
-    "static/media/2012MoCALosAngeles005_Alt_JL.jpg": "/rudolfstingel/static/media/2012MoCALosAngeles005_Alt_JL.80117578d90b62d29bbf.jpg",
     "static/media/2014MDeCarloMLe6.jpg": "/rudolfstingel/static/media/2014MDeCarloMLe6.2af1d2c42b985afc930b.jpg",
     "static/media/2022_02PaulaCooper2385.jpg": "/rudolfstingel/static/media/2022_02PaulaCooper2385.1652dee596a004761fd2.jpg",
     "static/media/1999PaulaCooper_e2.jpg": "/rudolfstingel/static/media/1999PaulaCooper_e2.07c5df8673467534748b.jpg",
@@ -909,6 +908,7 @@
     "static/media/2009PaulaCooperNYe3.jpg": "/rudolfstingel/static/media/2009PaulaCooperNYe3.278d01b7a6b2bed4880a.jpg",
     "static/media/2021BourseParis_e1.jpg": "/rudolfstingel/static/media/2021BourseParis_e1.8a753370fd2bba3d98e1.jpg",
     "static/media/2012GagosianParise13.jpg": "/rudolfstingel/static/media/2012GagosianParise13.24c330844cf69766d997.jpg",
+    "static/media/2012MoCALosAngeles005_Alt_JL.jpg": "/rudolfstingel/static/media/2012MoCALosAngeles005_Alt_JL.33b72ff128f224a23649.jpg",
     "static/media/2022_02PaulaCoopere6.jpg": "/rudolfstingel/static/media/2022_02PaulaCoopere6.2ad649dd9a3307d6074f.jpg",
     "static/media/1989MDeCarlo1125_Floor.jpg": "/rudolfstingel/static/media/1989MDeCarlo1125_Floor.58a9d7c707216186d6fb.jpg",
     "static/media/1989MDeCarlo_e1.jpg": "/rudolfstingel/static/media/1989MDeCarlo_e1.7a5b85535ca0c7938b00.jpg",
@@ -1024,11 +1024,11 @@
     "static/media/logo.svg": "/rudolfstingel/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/rudolfstingel/index.html",
     "main.6a6272b3.css.map": "/rudolfstingel/static/css/main.6a6272b3.css.map",
-    "main.ad8a1016.js.map": "/rudolfstingel/static/js/main.ad8a1016.js.map",
+    "main.2fab96cc.js.map": "/rudolfstingel/static/js/main.2fab96cc.js.map",
     "453.a2b98bda.chunk.js.map": "/rudolfstingel/static/js/453.a2b98bda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a6272b3.css",
-    "static/js/main.ad8a1016.js"
+    "static/js/main.2fab96cc.js"
   ]
 }
