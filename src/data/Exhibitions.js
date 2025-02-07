@@ -105,7 +105,31 @@ export const exhibitions = {
         }
       ],
       "externalLink": null
-    }
+    },
+    {
+      "id": "1990-2",
+      "title": "Andrea Rosen Gallery, New York (group)",
+      "description": "'Stendhal Syndrome: The Cure' at Andrea Rosen Gallery, New York. June 29 - August 4, 1990.",
+      "images": [
+        {
+          "path": "assets/images/shows/1990/1990AndreaRosenNewYork_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1990/1990AndreaRosenNewYork_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1990/1990AndreaRosenNewYork132.jpg",
+          "text": "Untitled, 1991, Cast polycarbonate and acrylic, 16 1/2 x 35 1/4 x 8 1/2 in (41.9 x 89.5 x 21.6 cm); 15 elements"
+        },
+        {
+          "path": "assets/images/shows/1990/1990AndreaRosenNewYork1069_JL.jpg",
+          "text": "Untitled, 1991, Cast polycarbonate and acrylic, 16 1/2 x 35 1/4 x 8 1/2 in (41.9 x 89.5 x 21.6 cm); 15 elements"
+        }
+      ],
+      "externalLink": "https://m.andrearosengallery.com/exhibitions/stendhal-syndrome-the-cure_1990-06-29"
+    } 
   ],
   1991: [
     {
@@ -167,7 +191,27 @@ export const exhibitions = {
         },
       ],
       "externalLink": null
-    } 
+    },
+    {
+      "id": "1991-3",
+      "title": "HOME, New York (group)",
+      "description": "'Daniel Buren, Ken Lum, Stephen Prina, Rudolf Stingel' at HOME, New York. 1991",
+      "images": [
+        {
+          "path": "assets/images/shows/1991/1991HOMENewYork_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1991/1991HOMENewYork_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1991/1991HOMENewYork024_JL.jpg",
+          "text": "Untitled, 1991, Cast polycarbonate and acrylic, 16 1/2 x 35 1/4 x 8 1/2 in (41.9 x 89.5 x 21.6 cm); 15 elements"
+        }
+      ],
+      "externalLink": null
+    }
   ],
   1992: [
     {
@@ -277,7 +321,97 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://massimodecarlo.com/exhibitions/rudolf-stingel-1992"
+    },
+    {
+      "id": "1992-3",
+      "title": "Paula Cooper Gallery, New York (group)",
+      "description": "'Robert Gober, Donald Judd, Cady Noland, Rudolf Stingel' at Paula Cooper Gallery, New York. 1992.",
+      "images": [
+        {
+          "path": "assets/images/shows/1992/1992PaulaCooperNewYork_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992PaulaCooperNewYork_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992PaulaCooperNewYork_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992PaulaCooperNewYork_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992PaulaCooperNewYork_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1992/1992PaulaCooperNewYork025_JL.jpg",
+          "text": "Untitled, 1992, Cast polycarbonate and acrylic, 38 1/2 x 38 1/2 x 3/4 in (98 x 98 x 2 cm)"
+        },
+        {
+          "path": "assets/images/shows/1992/1992PaulaCooperNewYork261_RI.jpg",
+          "text": "Untitled, 1992, Cast polycarbonate and acrylic, 38 1/2 x 38 1/2 x 3/4 in (98 x 98 x 2 cm)"
+        }
+      ],
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/robert-gober-donald-judd-cady-noland-rudolf-stingel#tab:slideshow"
     }    
+  ],
+  1993: [
+    {
+      "id": "1993-1",
+      "title": "Neue Galerie und Künstlerhaus, Graz (group)",
+      "description": "'Kontext Kunst' at Neue Galerie und Künstlerhaus, Graz. October 2 - October 31, 1993.",
+      "images": [
+        {
+          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz023_RI.jpg",
+          "text": "Untitled, 1991, Cast polycarbonate and acrylic, 19 x 42 x 9 in (48.3 x 106.7 x 22.9 cm); 25 elements"
+        },
+        {
+          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz132.jpg",
+          "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        },
+        {
+          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz1359_MB.jpg",
+          "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        },
+        {
+          "path": "assets/images/shows/1993/1993NeueGalerieUndKünstlerhausGraz1363_RI_JL.jpg",
+          "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        }
+      ],
+      "externalLink": null
+    },
+    {
+      "id": "1993-2",
+      "title": "Venice Biennale, Venice (group)",
+      "description": "'Aperto '93: Emergency/Emergenza' at XLV Venice Biennale, Venice. June 14 - October 10, 1993.",
+      "images": [
+        {
+          "path": "assets/images/shows/1993/1993BienalleVenice_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1993/1993BienalleVenice27.jpg",
+          "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        }
+      ],
+      "externalLink": null
+    }
   ],
   1994: [
     {
@@ -480,7 +614,31 @@ export const exhibitions = {
         }
       ],
       "externalLink": null
-    }    
+    },
+    {
+      "id": "1996-2",
+      "title": "Rooseum Center for Contemporary Art, Malmö (group)", 
+      "description": "'Extended Field Painting' at Rooseum Center for Contemporary Art, Malmö. 1996.",
+      "images": [
+        {
+          "path": "assets/images/shows/1996/1996RooseumMalmo_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1996/1996RooseumMalmo_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1996/1996RooseumMalmo_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1996/1996RooseumMalmo10-96.jpg",
+          "text": "Untitled, 1996, Floor carpet Installation, Dimensions variable"
+        }
+      ],
+      "externalLink": null
+    }  
   ],
   1997: [
     {
@@ -658,6 +816,22 @@ export const exhibitions = {
         }
       ],
       "externalLink": null
+    },
+    {
+      "id": "1999-3",
+      "title": "Paula Cooper Gallery, New York (group)",
+      "description": "'Wall Works' at Paula Cooper Gallery, New York. Feburary 20 - March 20, 1999.",
+      "images": [
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooperNewYork_e1.jpg", 
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/1999/1999PaulaCooperNewYork1997.jpg",
+          "text": "Untitled, 1997, Edition - Wall carpet installation, Dimensions variable"
+        }
+      ],
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/wall-works#tab:slideshows"
     }        
   ],
   2000: [
@@ -712,6 +886,22 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel6"
+    },
+    {
+      "id": "2000-3",
+      "title": "MCA, Chicago (group)",
+      "description": "'Age of Influence: Reflections in the Mirror of American Culture' at Museum of Contemporary Art, Chicago. November 18, 2000 - April 22, 2001.",
+      "images": [
+        {
+          "path": "assets/images/shows/2000/2000MCAChicago_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2000/2000MCAChicago0017.jpg",
+          "text": "Untitled, 1999, Celotex insulation board, wood, aluminum, Dimensions variable"
+        }
+      ],
+      "externalLink": "https://mcachicago.org/exhibitions/2000/age-of-influence"
     }    
   ],
   2001: [
@@ -822,7 +1012,27 @@ export const exhibitions = {
         }
       ],
       "externalLink": null
-    }    
+    },
+    {
+      "id": "2001-3",
+      "title": "Walker Art Center, Minneapolis (group)",
+      "description": "'Painting at the Edge of the World' at Walker Art Center, Minneapolis. February 10 - May 6, 2001.",
+      "images": [
+        {
+          "path": "assets/images/shows/2001/2001WalkerArtCenterMinneapolis_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2001/2001WalkerArtCenterMinneapolis132.jpg",
+          "text": "Untitled, 2001, Celotex insulation board, wood, aluminum, Dimensions variable"
+        },
+        {
+          "path": "assets/images/shows/2001/2001WalkerArtCenterMinneapolis785_JL.jpg",
+          "text": "Untitled, 2001, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        }
+      ],
+      "externalLink": null
+    }   
   ],
   2002: [
     {
@@ -888,6 +1098,22 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.georgkargl.com/en/fine-arts/exhibition/rudolf-stingel"
+    },
+    {
+      "id": "2002-3",
+      "title": "Museum der Moderne, Salzburg (group)",
+      "description": "'Franz West, Rudolf Stingel, Lemurenheim' at Museum der Moderne, Salzburg. 2002.",
+      "images": [
+        {
+          "path": "assets/images/shows/2002/2002MuseumDerModerneSalzburg_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2002/2002MuseumDerModerneSalzburgPlaceholder.jpg",
+          "text": "Untitled, 2002, Celotex insulation board, wood, aluminum, Dimensions variable"
+        }
+      ],
+      "externalLink": null
     }    
   ],
   2003: [
@@ -930,6 +1156,62 @@ export const exhibitions = {
         }
       ],
       "externalLink": null
+    },
+    {
+      "id": "2003-2",
+      "title": "Venice Biennale, Venice (group)",
+      "description": "'Dreams and Conflicts: The Dictatorship of the Viewer, 50th International Art Exhibition' at La Biennale di Venezia, Venice. June 15 - November 2, 2003.",
+      "images": [
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice_e6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice_e7.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice_e8.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice068ekt_JL.jpg",
+          "text": "Untitled, 2003, Celotex insulation board, wood, aluminum, Dimensions variable"
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice066_JL.jpg",
+          "text": "Untitled, 2003, Styrofoam and silicone on canvas, 102 3/8 x 157 1/2 in (260 x 400 cm)"
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice1916.jpg",
+          "text": "Untitled, 2003, Styrofoam and silicone on canvas, 78 x 102 3/8 in (198 x 260 cm)"
+        },
+        {
+          "path": "assets/images/shows/2003/2003BiennaleVenice1917.jpg",
+          "text": "Untitled, 2003, Styrofoam and silicone on canvas, 78 x 102 3/8 in (198 x 260 cm)"
+        }
+      ],
+      "externalLink": "https://universes.art/en/venice-biennale/2003"
     }    
   ],
   2004: [
@@ -1268,6 +1550,62 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://massimodecarlo.com/exhibitions/urs-fischer-rudolf-stingel"
+    },
+    {
+      "id": "2006-4",
+      "title": "Mary Boone Gallery, New York (group)",
+      "description": "'Hiding in the Light' at Mary Boone Gallery, New York. January 12 - February 25, 2006.",
+      "images": [
+        {
+          "path": "assets/images/shows/2006/2006MaryBooneNewYork_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2006/2006MaryBooneNewYork_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2006/2006MaryBooneNewYork1875_JL.jpg",
+          "text": "Untitled, 2006, Floor carpet Installation, Dimensions variable"
+        }
+      ],
+      "externalLink": "https://www.maryboonegallery.com/exhibition/359/work"
+    },
+    {
+      "id": "2006-5",
+      "title": "Whitney Museum of American Art, New York (group)",
+      "description": "'2006 Whitney Biennial: Day for Night' at Whitney Museum of American Art, New York. March 2 - May 28, 2006.",
+      "images": [
+        {
+          "path": "assets/images/shows/2006/2006WhitneyNewYork_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2006/2006WhitneyNewYork_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2006/2006WhitneyNewYork089_RI_JL.jpg",
+          "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        }
+      ],
+      "externalLink": "https://whitney.org/exhibitions/2006-biennial"
+    },
+    {
+      "id": "2006-6",
+      "title": "Palazzo Grassi, Venice (group)",
+      "description": "'Where Are We Going? Works from the François Pinault Collection' at Palazzo Grassi, Venice. April 30 - October 1, 2006.",
+      "images": [
+        {
+          "path": "assets/images/shows/2006/2006PalazzoGrassiVenice_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2006/2006PalazzoGrassiVenice067ekt_JL.jpg",
+          "text": "Untitled, 2006, Celotex insulation board, wood, aluminum, 208 5/8 x 236 1/4 x 236 1/4 in (530 x 600 x 600 cm)"
+        }
+      ],
+      "externalLink": "https://lesoeuvres.pinaultcollection.com/en/node/3076"
     }
   ],
   2007: [
@@ -1742,6 +2080,74 @@ export const exhibitions = {
         },
       ],
       "externalLink": "https://www.sadiecoles.com/artists/42-rudolf-stingel/exhibitions/2007/"
+    },
+    {
+      "id": "2007-4",
+      "title": "Palazzo Grassi, Venice (group)",
+      "description": "'Sequence 1' at Palazzo Grassi, Venice. May 5 - November 11, 2007.",
+      "images": [
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice_e6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice071_JL.jpg",
+          "text": "Untitled, 2006, Celotex insulation board, wood, aluminum, chandelier, 208 5/8 x 236 1/4 x 236 1/4 in (530 x 600 x 600 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice213_JL.jpg",
+          "text": "Untitled (1631), 2007, Glass reinforced polyester resin, polyurethane paint, 114 5/8 x 254 3/8 x 6 in (291 x 646 x 15.3 cm) (18 panels)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice214_JL.jpg",
+          "text": "Untitled (Sarouk), 2006, Floor printed carpet installation, Dimensions variable - Edition unique + 2 AP"
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_JL.jpg",
+          "text": "Louvre (after Sam), 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_1_JL.jpg",
+          "text": "Louvre (after Sam) 1/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_2_JL.jpg",
+          "text": "Louvre (after Sam) 2/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_3_JL.jpg",
+          "text": "Louvre (after Sam) 3/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_4_JL.jpg",
+          "text": "Louvre (after Sam) 4/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2007/2007PalazzoGrassiVenice93_Detail_5_JL.jpg",
+          "text": "Louvre (after Sam) 5/5, 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+      ],
+      "externalLink": "https://www.palazzograssi.it/en/exhibitions/past/sequence-1/"
     }
   ],
   2008: [
@@ -1820,6 +2226,26 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel3"
+    },
+    {
+      "id": "2008-2",
+      "title": "Carnegie Museum of Art, Pittsburgh (group)",
+      "description": "'Life on Mars: 55th Carnegie International' at Carnegie Museum of Art, Pittsburgh. May 3 - January 11, 2009.",
+      "images": [
+        {
+          "path": "assets/images/shows/2008/2008CarnegiePittsburgh_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2008/2008CarnegiePittsburgh277_InProgressEPW_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2008/2008CarnegiePittsburgh278_EPW_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        }
+      ],
+      "externalLink": "https://carnegieart.org/resource/life-on-mars-55th-carnegie-international/"
     }
   ],
   2009: [
@@ -1922,6 +2348,74 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.sadiecoles.com/artists/42-rudolf-stingel/exhibitions/2009/"
+    },
+    {
+      "id": "2009-3",
+      "title": "Paula Cooper Gallery, New York (group)",
+      "description": "'After Image' at Paula Cooper Gallery, New York. May 2 - June 26,2009.",
+      "images": [
+        {
+          "path": "assets/images/shows/2009/2009PaulaCooperNewYork_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2009/2009PaulaCooperNewYork_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2009/2009PaulaCooperNewYork053_RI_JL.jpg",
+          "text": "Untitled, 1999, Styrofoam, 120 x 192 x 4 in (304.8 x 487.6 x 10.1 cm); 10 panels, each: 24 x 96 x 4 in (61 x 244 x 10.1 cm)"
+        }
+      ],
+      "externalLink": "https://www.paulacoopergallery.com/exhibitions/after-image#tab:slideshow;slide:0"
+    },
+    {
+      "id": "2009-4",
+      "title": "Punta Della Dogana, Venice (group)",
+      "description": "'Mapping the Studio: Artists from the François Pinault Collection' at Punta Della Dogana and Palazzo Grassi, Venice. June 6, 2009 - April 10, 2011.",
+      "images": [
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice057_RI_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice100_RI_JL.jpg",
+          "text": "Untitled (Alpino 1976), 2006, Oil on canvas, 132 1/4 x 128 1/2 in (335.9 x 326.4 cm)"
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice213_JL.jpg",
+          "text": "Untitled, 2007, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice486_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice517_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice518_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2009/2009PuntoDellaDoganaVenice519_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        }
+      ],
+      "externalLink": "https://www.pinaultcollection.com/palazzograssi/en/mapping-studio"
     }
   ],
   2010: [
@@ -1996,6 +2490,42 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://freunde-der-nationalgalerie.de/en/exhibition-archive/rudolf-stingel/"
+    },
+    {
+      "id": "2010-2",
+      "title": "Massimo De Carlo, Milan",
+      "description": "'Sol LeWitt presented by Rudolf Stingel' at Massimo De Carlo, Milan. January 27 - March 11, 2010.",
+      "images": [
+        {
+          "path": "assets/images/shows/2010/2010MassimoDeCarloMilan_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2010/2010MassimoDeCarloMilan590_JL.jpg",
+          "text": "Untitled, 2010, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        }
+      ],
+      "externalLink": "https://massimodecarlo.com/exhibitions/sol-lewitt-presented-by-rudolf-stingel"
+    },
+    {
+      "id": "2010-3",
+      "title": "Palais de Tokyo, Paris (group)",
+      "description": "'Fresh Hell' at Palais de Tokyo, Paris. October 20, 2010 - January 16, 2011.",
+      "images": [
+        {
+          "path": "assets/images/shows/2010/2010PalaisDeTokyoParis_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2010/2010PalaisDeTokyoParis_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2010/2010PalaisDeTokyoParis106_JL.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 70 7/8 x 98 1/2 in (180 x 250 cm)"
+        }
+      ],
+      "externalLink": null
     }
   ],
   2011: [
@@ -2110,6 +2640,58 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://gagosian.com/exhibitions/2011/rudolf-stingel/"
+    },
+    {
+      "id": "2011-2",
+      "title": "Palazzo Grassi, Venice (group)",
+      "description": "'The World Belongs to You' at Palazzo Grassi, Venice. June 2, 2011 - February 21, 2012.",
+      "images": [
+        {
+          "path": "assets/images/shows/2011/2011PalazzoGrassiVenice_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2011/2011PalazzoGrassiVenice_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2011/2011PalazzoGrassiVenice_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2011/2011PalazzoGrassiVenice1201_JL.jpg",
+          "text": "Untitled, 2010, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        },
+        {
+          "path": "assets/images/shows/2011/2011PalazzoGrassiVenice1227_RI.jpg",
+          "text": "Untitled, 2010, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        },
+        {
+          "path": "assets/images/shows/2011/2011PalazzoGrassiVenice1228_RI_JL.jpg",
+          "text": "Untitled, 2010, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        }
+      ],
+      "externalLink": "https://www.pinaultcollection.com/palazzograssi/en/world-belongs-you"
+    },
+    {
+      "id": "2011-3",
+      "title": "Serralves Museum, Porto (group)",
+      "description": "'Off the Wall' at Serralves Museum, Porto. May 21 - October 2, 2011.",
+      "images": [
+        {
+          "path": "assets/images/shows/2011/2011SerralvesPorto_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2011/2011SerralvesPorto_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2011/2011SerralvesPorto106_JL.jpg",
+          "text": "Untitled, 1989, Oil and enamel on canvas, 70 7/8 x 98 1/2 in (180 x 250 cm)"
+        }
+      ],
+      "externalLink": "https://www.serralves.pt/en/arquivo-evento/off-the-wall-fora-da-parede/"
     }
   ],
   2012: [
@@ -2308,6 +2890,46 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://secession.at/ausstellung_rudolf_stingel_en"
+    },
+    {
+      "id": "2012-4",
+      "title": "MOCA, Los Angeles (group)",
+      "description": "'The Painting Factory: Abstraction After Warhol' at MOCA, Los Angeles. April 29 - August 20, 2012.",
+      "images": [
+        {
+          "path": "assets/images/shows/2012/2012MoCALosAngeles_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2012/2012MoCALosAngeles_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2012/2012MoCALosAngeles_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2012/2012MoCALosAngeles005_Alt_JL.jpg",
+          "text": "Untitled, 1987, Oil and enamel on canvas, 78 x 186 in (198.1 x 472.44 cm); 3 panels, each: 78 x 62 in (198.1 x 157.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/2012/2012MoCALosAngeles520_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2012/2012MoCALosAngeles521_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 192 in (335.3 x 487.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2012/2012MoCALosAngeles1287_RI_JL.jpg",
+          "text": "Untitled, 2008, Oil and enamel on canvas, 132 x 105 in (335.3 x 266.7 cm)"
+        },
+        {
+          "path": "assets/images/shows/2012/2012MoCALosAngeles1874_JL.jpg",
+          "text": "Untitled, 2008, Floor carpet Installation, Dimensions variable"
+        }
+      ],
+      "externalLink": "https://www.moca.org/exhibition/the-painting-factory-abstraction-after-warhol"
     }
   ],
   2013: [
@@ -2375,6 +2997,10 @@ export const exhibitions = {
         {
           "path": "assets/images/shows/2013/2013PalazzoGrassie16.jpg",
           "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013PalazzoGrassi624.jpg",
+          "text": "Untitled (Franz West, after Friedl Kubelka), 2011, Oil on canvas, 131 x 122 in (333 x 310 cm)"
         },
         {
           "path": "assets/images/shows/2013/2013PalazzoGrassi451.jpg",
@@ -2502,6 +3128,38 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.pinaultcollection.com/palazzograssi/en/rudolf-stingel"
+    },
+    {
+      "id": "2013-2",
+      "title": "New Museum, New York (group)",
+      "description": "'NYC 1993: Experimental Jet Set, Trash and No Star' at New Museum, New York. February 13 - May 26, 2013.",
+      "images": [
+        {
+          "path": "assets/images/shows/2013/2013NewMuseumNewYork_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013NewMuseumNewYork024_JL.jpg",
+          "text": "Untitled, 1993, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        }
+      ],
+      "externalLink": "https://archive.newmuseum.org/exhibitions/1703"
+    },
+    {
+      "id": "2013-3",
+      "title": "Gagosian Gallery, London (group)",
+      "description": "'The Show is Over' at Gagosian Gallery, London. October 15 - November 30, 2013.",
+      "images": [
+        {
+          "path": "assets/images/shows/2013/2013GagosianLondon_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2013/2013GagosianLondon1286_RI_JL.jpg",
+          "text": "Untitled, 2013, Oil and enamel on canvas, 132 x 98 in (335.3 x 249 cm)"
+        }
+      ],
+      "externalLink": "https://gagosian.com/exhibitions/2013/the-show-is-over/"
     }
   ],
   2014: [
@@ -2652,6 +3310,34 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel"
+    },
+    {
+      "id": "2014-4",
+      "title": "Belvedere, Vienna (group)",
+      "description": "'Love Story: Anne & Wolfgang Titze Collection' at The Belvedere, Vienna. June 15 - October 5, 2014.",
+      "images": [
+        {
+          "path": "assets/images/shows/2014/2014BelvedereVienna_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2014/2014BelvedereVienna076_RI_cropped_AZ.jpg",
+          "text": "Untitled, 2002, Celotex insulation board, wood, aluminum, 95 x 92 3/4 in (241.3 x 235.6 cm); 2 panels, each 47 1/2 x 92 3/4 in (120.7 x 235.6 cm)"
+        },
+        {
+          "path": "assets/images/shows/2014/2014BelvedereVienna498_RI_JL.jpg",
+          "text": "Untitled, 2004, Oil and enamel on canvas, 83 x 67 in (210.8 x 170.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2014/2014BelvedereVienna757_plusfloor_JL.jpg",
+          "text": "Untitled, 2010, Oil and enamel on canvas, 83 x 67 in (210.8 x 170.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2014/2014BelvedereVienna1448_0002.jpg",
+          "text": "Untitled, 2012, Electroformed copper, plated nickel and gold, stainless steel frame 47 1/4 x 47 1/4 x 1 1/2 in (120 x 120 x 4 cm)"
+        }
+      ],
+      "externalLink": "https://www.belvedere.at/en/love-story-0"
     }
   ],
   2015: [
@@ -3196,6 +3882,86 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://massimodecarlo.com/exhibitions/rudolf-stingel-3"
+    },
+    {
+      "id": "2016-9",
+      "title": "Whitney Museum of American Art, New York (group)",
+      "description": "'Human Interest: Portraits from the Whitney's Collection', Whitney Museum of American Art, New York. April 2, 2016 - April 2, 2017.",
+      "images": [
+        {
+          "path": "assets/images/shows/2016/2016WhitneyNewYork_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2016/2016WhitneyNewYork089_RI_JL.jpg",
+          "text": "Untitled (after Sam), 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        }
+      ],
+      "externalLink": "https://whitney.org/exhibitions/human-interest"
+    },
+    {
+      "id": "2016-10",
+      "title": "Karma, Amagansett (group)",
+      "description": "'Before Midnight' at Karma, Amagansett. August 13 - August 29,2016.",
+      "images": [
+        {
+          "path": "assets/images/shows/2016/2016KarmaAmaganset_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2016/2016KarmaAmaganset2013_JL.jpg",
+          "text": "Untitled, 2015, Oil and enamel on canvas, 70 x 48 in (177.8 x 122 cm)"
+        },
+        {
+          "path": "assets/images/shows/2016/2016KarmaAmaganset2014_JL.jpg",
+          "text": "Untitled, 2015, Oil and enamel on canvas, 60 x 48 in (152.4 x 122 cm)"
+        }
+      ],
+      "externalLink": "https://karmakarma.org/exhibitions/before-midnight/works/"
+    },
+    {
+      "id": "2016-11",
+      "title": "Hamburger Bahnhof, Berlin (group)",
+      "description": "'Ernst Ludwig Kirchner: Hieroglyphics', Hamburger Bahnhof, Berlin. September 23, 2016 - February 26, 2017.",
+      "images": [
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin663_JL.jpg",
+          "text": "Untitled, 2010, Oil and enamel on canvas, 130 x 185 in (330.2 x 470 cm)"
+        },
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin1351_RI_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        },
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin1352_RI_JL.jpg",
+          "text": "Untitled, 1992, Oil and enamel on canvas, 86 5/8 x 63 in (220 x 160 cm)"
+        },
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin1515_JL.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        },
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin1516_JL.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        },
+        {
+          "path": "assets/images/shows/2016/2016HamburgerBahnhofBerlin1517_JL.jpg",
+          "text": "Untitled, 2012, Oil and enamel on canvas, 95 x 76 in (241.3 x 193 cm)"
+        }
+      ],
+      "externalLink": "https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/exhibitions/detail/ernst-ludwig-kirchner-hieroglyphics/"
     }
   ],
   2017: [
@@ -3319,6 +4085,84 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://gagosian.com/exhibitions/2017/rudolf-stingel/"
+    }
+  ],
+  2018: [
+    {
+      "id": "2018-1",
+      "title": "Punta Della Dogana, Venice (group)",
+      "description": "'Dancing with Myself' at Punta Della Dogana, Venice. April 8 - December 16, 2018.",
+      "images": [
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e7.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e8.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e9.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice_e10.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice100_RI_JL.jpg",
+          "text": "Untitled (Alpino 1976), 2006, Oil on canvas, 132 1/4 x 128 1/2 in (335.9 x 326.4 cm)"
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice1484_RI_JL.jpg",
+          "text": "Untitled, 2012, Oil on canvas, 120 x 100 1/2 in (304.8 x 255.3 cm)"
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_JL.jpg",
+          "text": "Louvre (after Sam), 2006, Oil on canvas, 15 1/8 x 122.5 in (38.4 x 311.154 cm); 5 parts, each: 15 1/8 x 20 1/2 in (38.4 x 52.1 cm)"
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_1_JL.jpg",
+          "text": "Untitled (after Sam) 1/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_2_JL.jpg",
+          "text": "Untitled (after Sam) 2/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_3_JL.jpg",
+          "text": "Untitled (after Sam) 3/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_4_JL.jpg",
+          "text": "Untitled (after Sam) 4/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2018/2018PuntaDellaDoganaVenice93_Detail_5_JL.jpg",
+          "text": "Untitled (after Sam) 5/5, 2006, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        }
+      ],
+      "externalLink": "https://www.pinaultcollection.com/palazzograssi/en/dancing-myself"
     }
   ],
   2019: [
@@ -3501,6 +4345,38 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.fondationbeyeler.ch/en/exhibitions/past-exhibitions/rudolf-stingel"
+    },
+    {
+      "id": "2019-2",
+      "title": "Massimo De Carlo, Milan (group)",
+      "description": "'MCMXXXIV', Massimo De Carlo, Milan. March 8 - July 13, 2019.",
+      "images": [
+        {
+          "path": "assets/images/shows/2019/2019MassimoDeCarloMilan_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2019/2019MassimoDeCarloMilan622.jpg",
+          "text": "Untitled, 1991, Alkyd on canvas, 103 1/8 x 157 1/8 in (262 x 399 cm)"
+        }
+      ],
+      "externalLink": "https://massimodecarlo.com/exhibitions/mcmxxxiv"
+    },
+    {
+      "id": "2019-3",
+      "title": "Gagosian Gallery, London (group)",
+      "description": "'Visions of the Self: Rembrandt and Now', Gagosian Gallery, London. April 12 - May 18, 2019.",
+      "images": [
+        {
+          "path": "assets/images/shows/2019/2019GagosianLondon_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2019/2019GagosianLondon1597_RI_JL.jpg",
+          "text": "Untitled, 2012, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        }
+      ],
+      "externalLink": "https://gagosian.com/exhibitions/2019/visions-of-the-self-rembrandt-and-now-english-heritage/"
     }
   ],
   2021: [
@@ -3595,6 +4471,66 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.maxhetzler.com/exhibitions/rudolf-stingel-schonheitssalon-omm-2021"
+    },
+    {
+      "id": "2021-5",
+      "title": "Palazzo del Quirinale, Rome (group)",
+      "description": "'Quirinale Contemporaneo', Palazzo del Quirinale, Rome. 2021.",
+      "images": [
+        {
+          "path": "assets/images/shows/2021/2021QuirinaleRome_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2021/2021QuirinaleRome1788b_RI_JL.jpg",
+          "text": "Untitled, 2013, Oil and enamel on canvas, 131 7/8 x 192 1/8 x 2 in (335 x 488 x 5 cm)"
+        }
+      ],
+      "externalLink": "https://palazzo.quirinale.it/mostre/2021_quirinale-contemporaneo/contemporaneo2021_home.html"
+    },
+    {
+      "id": "2021-6",
+      "title": "Bourse de Commerce, Paris (group)",
+      "description": "'Ouverture' at Bourse de Commerce, Paris. May 22, 2021 - January 30, 2022.",
+      "images": [
+        {
+          "path": "assets/images/shows/2021/2021BourseParis_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2021/2021BourseParis_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2021/2021BourseParis_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2021/2021BourseParis_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2021/2021BourseParis_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2021/2021BourseParis_e6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2021/2021BourseParis623_JL.jpg",
+          "text": "Untitled (Ernst Ludwig Kirchner), 2010, Oil on canvas, 132 1/8 x 91 1/8 x 2 in (335.6 x 231.6 x 5.2 cm)"
+        },
+        {
+          "path": "assets/images/shows/2021/2021BourseParis.jpg",
+          "text": "Untitled (Franz West, after Friedl Kubelka), 2011, Oil on canvas, 131 5/8 x 122 1/4 in (334.3 x 310.5 cm)"
+        },
+        {
+          "path": "assets/images/shows/2021/2021BourseParis1487_RI_JL.jpg",
+          "text": "Untitled (Paula), 2012, Oil on canvas, 132 x 180 in (335.3 x 457.2 cm)"
+        }
+      ],
+      "externalLink": "https://lesoeuvres.pinaultcollection.com/en/node/3079"
     }
   ],
   2022: [
@@ -3677,6 +4613,70 @@ export const exhibitions = {
         }
       ],
       "externalLink": "https://www.paulacoopergallery.com/exhibitions/rudolf-stingel10"
+    },
+    {
+      "id": "2022-3",
+      "title": "Bourse de Commerce, Paris (group)",
+      "description": "'Un Seconde d'Eternite' at Bourse de Commerce, Paris. June 22 - September 1, 2022.",
+      "images": [
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e1.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e2.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e3.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e4.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e5.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e6.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e7.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e8.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e9.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e10.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis_e11.jpg",
+          "text": null
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis2079_MB.jpg",
+          "text": "Untitled, 2016, Oil and enamel on canvas, 95 x 232 in (241.3 x 589.3 cm); 3 panels, each 95 x 76 in (241.3 x 193 cm)"
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis2080_MB.jpg",
+          "text": "Untitled, 2016, Oil and enamel on canvas, 95 x 232 in (241.3 x 589.3 cm); 3 panels, each 95 x 76 in (241.3 x 193 cm)"
+        },
+        {
+          "path": "assets/images/shows/2022/2022BourseParis2081_MB.jpg",
+          "text": "Untitled, 2016, Oil and enamel on canvas, 95 x 232 in (241.3 x 589.3 cm); 3 panels, each 95 x 76 in (241.3 x 193 cm)"
+        }
+      ],
+      "externalLink": "https://www.pinaultcollection.com/fr/boursedecommerce/une-seconde-deternite"
     }
   ],
   2023: [
@@ -3690,47 +4690,47 @@ export const exhibitions = {
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise1.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise1.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise2.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise2.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise3.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise3.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise4.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise4.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise5.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise5.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise6.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise6.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise7.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise7.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise8.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise8.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise9.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise9.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise10.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise10.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/2023_GagosianParise11.jpg",
+          "path": "assets/images/shows/2023/_GagosianParise11.jpg",
           "text": null
         },
         {
