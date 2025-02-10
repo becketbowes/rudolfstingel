@@ -4578,47 +4578,47 @@ export const exhibitions = {
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise1.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise1.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise2.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise2.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise3.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise3.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise4.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise4.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise5.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise5.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise6.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise6.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise7.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise7.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise8.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise8.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise9.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise9.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise10.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise10.jpg",
           "text": null
         },
         {
-          "path": "assets/images/shows/2023/_GagosianParise11.jpg",
+          "path": "assets/images/shows/2023/2023_GagosianParise11.jpg",
           "text": null
         },
         {
