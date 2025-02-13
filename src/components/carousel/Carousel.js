@@ -49,6 +49,10 @@ const Carousel = () => {
   if (!selectedExhibition) return null;
 
   const handleTouchStart = (e) => {
+    if (e.touches.length > 1) {
+      e.stopPropagation();
+      return;
+    }
     setTouchStart(e.targetTouches[0].clientX);
   };
 
@@ -84,6 +88,11 @@ const Carousel = () => {
     );
   };
 
+  // Add CSS to prevent unwanted touch behaviors
+  const carouselStyles = {
+    touchAction: 'pan-y pinch-zoom', // Allow vertical scrolling and pinch zoom
+  };
+
   return (
     <div 
       className="carousel-outer-container"
@@ -97,6 +106,7 @@ const Carousel = () => {
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
+        style={carouselStyles}
       >
         <div className="carousel-slide-container">
           {selectedExhibition.images.map((image, index) => (
